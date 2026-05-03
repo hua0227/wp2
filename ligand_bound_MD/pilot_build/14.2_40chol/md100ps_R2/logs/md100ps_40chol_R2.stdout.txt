@@ -1,0 +1,138 @@
+100 ps R2 restrained MD pilot continuation for 14.2 / L002 / 40chol
+This is not production MD. No CUDA will be used.
+Input PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\outputs\TRKB_40chol_L002_14.2_bound_cleaned.psf
+Input PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\md50ps_R2\outputs\TRKB_40chol_L002_14.2_50ps_R2_final.pdb
+Checkpoint input: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\md50ps_R2\outputs\TRKB_40chol_L002_14.2_50ps_R2.chk
+State XML input: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\md50ps_R2\outputs\TRKB_40chol_L002_14.2_50ps_R2_state.xml
+GRO box: C:\TRKB_WP2\TRKB_40CHOL\gromacs\step5_input.gro
+Toppar dir: C:\TRKB_WP2\TRKB_40CHOL\toppar
+Ligand str: C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L002_14.2.str
+OpenMM version: 8.5.1.dev-f7fa0c2
+Available OpenMM platforms:
+- Reference
+- CPU
+- OpenCL
+Selected OpenMM platform: OpenCL
+R2 PBC-aware restraint expression: 0.5*k*periodicdistance(x,y,z,x0,y0,z0)^2
+R2 restraint counts:
+- protein_backbone: 362
+- ligand_heavy: 21
+- lipid_cholesterol_heavy: 6732
+- total: 7115
+continued_from_checkpoint: True
+fallback_used: False
+step 0 time 0 ps temp 311.039 K PE -446508 TYR/VAL/SER 3.828/7.756/6.510 A chains 2 RMSD100 0.000 A RMSDmin 3.023 A severe/close 0/0 status ok
+step 2000 time 1 ps temp 310.100 K PE -445098 TYR/VAL/SER 3.392/7.420/6.997 A chains 2 RMSD100 0.852 A RMSDmin 3.322 A severe/close 0/0 status ok
+step 4000 time 2 ps temp 308.877 K PE -446208 TYR/VAL/SER 4.058/7.867/6.844 A chains 2 RMSD100 0.601 A RMSDmin 3.329 A severe/close 0/0 status ok
+step 6000 time 3 ps temp 309.201 K PE -446176 TYR/VAL/SER 3.431/7.852/7.354 A chains 2 RMSD100 0.690 A RMSDmin 3.392 A severe/close 0/0 status ok
+step 8000 time 4 ps temp 313.342 K PE -445663 TYR/VAL/SER 3.581/7.706/7.224 A chains 2 RMSD100 0.870 A RMSDmin 3.119 A severe/close 0/0 status ok
+step 10000 time 5 ps temp 312.364 K PE -444842 TYR/VAL/SER 3.574/8.146/8.226 A chains 2 RMSD100 0.964 A RMSDmin 3.048 A severe/close 0/0 status ok
+step 12000 time 6 ps temp 312.194 K PE -444500 TYR/VAL/SER 3.237/8.764/8.387 A chains 2 RMSD100 1.333 A RMSDmin 3.431 A severe/close 0/0 status ok
+step 14000 time 7 ps temp 309.972 K PE -445541 TYR/VAL/SER 3.458/7.679/7.938 A chains 2 RMSD100 1.205 A RMSDmin 3.219 A severe/close 0/0 status ok
+step 16000 time 8 ps temp 311.192 K PE -446322 TYR/VAL/SER 3.955/7.916/7.728 A chains 2 RMSD100 0.915 A RMSDmin 3.219 A severe/close 0/0 status ok
+step 18000 time 9 ps temp 311.406 K PE -444839 TYR/VAL/SER 3.432/8.284/8.033 A chains 2 RMSD100 1.283 A RMSDmin 3.342 A severe/close 0/0 status ok
+step 20000 time 10 ps temp 310.904 K PE -446545 TYR/VAL/SER 4.633/8.144/8.435 A chains 2 RMSD100 1.731 A RMSDmin 4.082 A severe/close 0/0 status ok
+step 22000 time 11 ps temp 310.260 K PE -444682 TYR/VAL/SER 3.721/7.621/8.364 A chains 2 RMSD100 1.703 A RMSDmin 4.071 A severe/close 0/0 status ok
+step 24000 time 12 ps temp 309.266 K PE -447280 TYR/VAL/SER 4.711/8.262/8.126 A chains 2 RMSD100 1.696 A RMSDmin 4.169 A severe/close 0/0 status ok
+step 26000 time 13 ps temp 310.690 K PE -446473 TYR/VAL/SER 3.609/8.554/8.015 A chains 2 RMSD100 1.620 A RMSDmin 3.991 A severe/close 0/0 status ok
+step 28000 time 14 ps temp 312.142 K PE -447551 TYR/VAL/SER 3.491/7.866/8.233 A chains 2 RMSD100 1.515 A RMSDmin 3.998 A severe/close 0/0 status ok
+step 30000 time 15 ps temp 309.868 K PE -445203 TYR/VAL/SER 3.745/8.048/7.664 A chains 2 RMSD100 1.212 A RMSDmin 3.769 A severe/close 0/0 status ok
+step 32000 time 16 ps temp 309.758 K PE -445420 TYR/VAL/SER 4.262/8.284/7.814 A chains 2 RMSD100 1.392 A RMSDmin 3.918 A severe/close 0/0 status ok
+step 34000 time 17 ps temp 311.511 K PE -446865 TYR/VAL/SER 3.710/8.056/7.850 A chains 2 RMSD100 1.363 A RMSDmin 4.110 A severe/close 0/0 status ok
+step 36000 time 18 ps temp 308.077 K PE -446146 TYR/VAL/SER 3.324/7.993/6.976 A chains 2 RMSD100 0.827 A RMSDmin 3.418 A severe/close 0/0 status ok
+step 38000 time 19 ps temp 308.955 K PE -445768 TYR/VAL/SER 3.716/7.830/7.037 A chains 2 RMSD100 1.390 A RMSDmin 3.953 A severe/close 0/0 status ok
+step 40000 time 20 ps temp 311.442 K PE -445903 TYR/VAL/SER 3.940/8.065/6.925 A chains 2 RMSD100 1.327 A RMSDmin 3.797 A severe/close 0/0 status ok
+step 42000 time 21 ps temp 308.028 K PE -446874 TYR/VAL/SER 3.952/7.764/7.683 A chains 2 RMSD100 1.159 A RMSDmin 3.702 A severe/close 0/0 status ok
+step 44000 time 22 ps temp 309.509 K PE -445707 TYR/VAL/SER 4.390/8.360/7.766 A chains 2 RMSD100 1.040 A RMSDmin 3.588 A severe/close 0/0 status ok
+step 46000 time 23 ps temp 309.781 K PE -444284 TYR/VAL/SER 3.515/8.459/8.325 A chains 2 RMSD100 1.264 A RMSDmin 3.463 A severe/close 0/0 status ok
+step 48000 time 24 ps temp 312.433 K PE -445694 TYR/VAL/SER 3.709/8.118/8.013 A chains 2 RMSD100 1.415 A RMSDmin 3.817 A severe/close 0/0 status ok
+step 50000 time 25 ps temp 309.332 K PE -446280 TYR/VAL/SER 3.654/8.422/8.145 A chains 2 RMSD100 1.369 A RMSDmin 3.607 A severe/close 0/0 status ok
+step 52000 time 26 ps temp 307.626 K PE -445501 TYR/VAL/SER 3.285/8.756/7.780 A chains 2 RMSD100 1.358 A RMSDmin 3.781 A severe/close 0/0 status ok
+step 54000 time 27 ps temp 311.295 K PE -446234 TYR/VAL/SER 3.505/8.357/7.913 A chains 2 RMSD100 1.200 A RMSDmin 3.398 A severe/close 0/0 status ok
+step 56000 time 28 ps temp 311.461 K PE -445490 TYR/VAL/SER 3.900/8.616/7.496 A chains 2 RMSD100 0.887 A RMSDmin 3.498 A severe/close 0/0 status ok
+step 58000 time 29 ps temp 309.777 K PE -446725 TYR/VAL/SER 3.494/8.529/7.456 A chains 2 RMSD100 1.031 A RMSDmin 3.251 A severe/close 0/0 status ok
+step 60000 time 30 ps temp 310.448 K PE -445656 TYR/VAL/SER 3.445/8.846/8.068 A chains 2 RMSD100 1.383 A RMSDmin 3.832 A severe/close 0/0 status ok
+step 62000 time 31 ps temp 309.643 K PE -447527 TYR/VAL/SER 3.557/8.325/8.428 A chains 2 RMSD100 1.367 A RMSDmin 3.708 A severe/close 0/0 status ok
+step 64000 time 32 ps temp 312.183 K PE -447300 TYR/VAL/SER 3.355/8.344/7.196 A chains 2 RMSD100 1.492 A RMSDmin 3.154 A severe/close 0/0 status ok
+step 66000 time 33 ps temp 309.095 K PE -447336 TYR/VAL/SER 3.311/8.661/7.868 A chains 2 RMSD100 1.527 A RMSDmin 3.354 A severe/close 0/0 status ok
+step 68000 time 34 ps temp 308.956 K PE -445802 TYR/VAL/SER 3.767/8.451/8.050 A chains 2 RMSD100 1.569 A RMSDmin 3.585 A severe/close 0/0 status ok
+step 70000 time 35 ps temp 313.696 K PE -445910 TYR/VAL/SER 3.552/8.220/8.032 A chains 2 RMSD100 1.293 A RMSDmin 3.501 A severe/close 0/0 status ok
+step 72000 time 36 ps temp 309.813 K PE -446242 TYR/VAL/SER 3.883/7.912/7.648 A chains 2 RMSD100 0.948 A RMSDmin 3.141 A severe/close 0/0 status ok
+step 74000 time 37 ps temp 311.230 K PE -446209 TYR/VAL/SER 3.223/8.492/7.920 A chains 2 RMSD100 1.016 A RMSDmin 3.360 A severe/close 0/0 status ok
+step 76000 time 38 ps temp 312.683 K PE -444696 TYR/VAL/SER 3.566/7.939/7.421 A chains 2 RMSD100 0.826 A RMSDmin 3.026 A severe/close 0/0 status ok
+step 78000 time 39 ps temp 309.535 K PE -446471 TYR/VAL/SER 3.592/8.160/7.844 A chains 2 RMSD100 1.217 A RMSDmin 3.081 A severe/close 0/0 status ok
+step 80000 time 40 ps temp 311.643 K PE -446387 TYR/VAL/SER 3.531/8.579/7.804 A chains 2 RMSD100 1.033 A RMSDmin 3.703 A severe/close 0/0 status ok
+step 82000 time 41 ps temp 310.919 K PE -446643 TYR/VAL/SER 3.457/8.919/8.277 A chains 2 RMSD100 1.500 A RMSDmin 3.584 A severe/close 0/0 status ok
+step 84000 time 42 ps temp 309.362 K PE -444975 TYR/VAL/SER 3.659/9.058/8.330 A chains 2 RMSD100 1.450 A RMSDmin 3.878 A severe/close 0/0 status ok
+step 86000 time 43 ps temp 312.567 K PE -445132 TYR/VAL/SER 3.921/8.870/8.407 A chains 2 RMSD100 1.258 A RMSDmin 3.723 A severe/close 0/0 status ok
+step 88000 time 44 ps temp 310.191 K PE -445901 TYR/VAL/SER 3.726/8.558/7.482 A chains 2 RMSD100 1.161 A RMSDmin 3.384 A severe/close 0/0 status ok
+step 90000 time 45 ps temp 312.886 K PE -446199 TYR/VAL/SER 3.797/8.444/7.967 A chains 2 RMSD100 1.305 A RMSDmin 3.387 A severe/close 0/0 status ok
+step 92000 time 46 ps temp 311.196 K PE -445453 TYR/VAL/SER 3.618/8.537/7.524 A chains 2 RMSD100 0.983 A RMSDmin 3.432 A severe/close 0/0 status ok
+step 94000 time 47 ps temp 311.181 K PE -447233 TYR/VAL/SER 3.478/8.723/8.865 A chains 2 RMSD100 1.967 A RMSDmin 3.997 A severe/close 0/0 status ok
+step 96000 time 48 ps temp 311.231 K PE -446597 TYR/VAL/SER 3.068/8.727/8.132 A chains 2 RMSD100 1.481 A RMSDmin 3.582 A severe/close 0/0 status ok
+step 98000 time 49 ps temp 310.100 K PE -445577 TYR/VAL/SER 3.688/9.017/7.468 A chains 2 RMSD100 1.460 A RMSDmin 3.691 A severe/close 0/0 status ok
+step 100000 time 50 ps temp 310.813 K PE -447291 TYR/VAL/SER 3.454/7.777/7.261 A chains 2 RMSD100 1.584 A RMSDmin 3.982 A severe/close 0/0 status ok
+step 102000 time 51 ps temp 311.025 K PE -445754 TYR/VAL/SER 3.900/8.502/7.253 A chains 2 RMSD100 1.467 A RMSDmin 4.017 A severe/close 0/0 status ok
+step 104000 time 52 ps temp 309.470 K PE -447737 TYR/VAL/SER 3.435/8.718/8.007 A chains 2 RMSD100 1.924 A RMSDmin 4.504 A severe/close 0/0 status ok
+step 106000 time 53 ps temp 310.376 K PE -446892 TYR/VAL/SER 4.145/8.990/8.578 A chains 2 RMSD100 2.228 A RMSDmin 4.937 A severe/close 0/0 status ok
+step 108000 time 54 ps temp 310.648 K PE -446403 TYR/VAL/SER 4.086/8.871/8.853 A chains 2 RMSD100 2.498 A RMSDmin 5.030 A severe/close 0/0 status ok
+step 110000 time 55 ps temp 311.601 K PE -445393 TYR/VAL/SER 3.574/8.430/8.813 A chains 2 RMSD100 2.623 A RMSDmin 5.370 A severe/close 0/0 status ok
+step 112000 time 56 ps temp 311.432 K PE -445534 TYR/VAL/SER 3.442/8.781/8.672 A chains 2 RMSD100 2.640 A RMSDmin 5.332 A severe/close 0/0 status ok
+step 114000 time 57 ps temp 311.104 K PE -446910 TYR/VAL/SER 3.745/8.211/8.828 A chains 2 RMSD100 2.367 A RMSDmin 5.048 A severe/close 0/0 status ok
+step 116000 time 58 ps temp 309.077 K PE -447122 TYR/VAL/SER 3.290/8.348/8.759 A chains 2 RMSD100 2.247 A RMSDmin 4.983 A severe/close 0/0 status ok
+step 118000 time 59 ps temp 312.447 K PE -447702 TYR/VAL/SER 3.897/7.873/8.427 A chains 2 RMSD100 2.028 A RMSDmin 4.732 A severe/close 0/0 status ok
+step 120000 time 60 ps temp 309.263 K PE -446142 TYR/VAL/SER 3.646/8.911/8.925 A chains 2 RMSD100 2.269 A RMSDmin 4.859 A severe/close 0/0 status ok
+step 122000 time 61 ps temp 309.087 K PE -446645 TYR/VAL/SER 3.138/9.039/8.532 A chains 2 RMSD100 2.357 A RMSDmin 5.014 A severe/close 0/0 status ok
+step 124000 time 62 ps temp 310.148 K PE -446039 TYR/VAL/SER 3.487/8.902/8.605 A chains 2 RMSD100 2.145 A RMSDmin 4.898 A severe/close 0/0 status ok
+step 126000 time 63 ps temp 308.501 K PE -445088 TYR/VAL/SER 3.218/8.425/8.755 A chains 2 RMSD100 2.112 A RMSDmin 4.942 A severe/close 0/0 status ok
+step 128000 time 64 ps temp 309.606 K PE -445067 TYR/VAL/SER 3.145/9.064/8.854 A chains 2 RMSD100 2.615 A RMSDmin 5.419 A severe/close 0/0 status ok
+step 130000 time 65 ps temp 314.195 K PE -447323 TYR/VAL/SER 3.184/8.500/8.950 A chains 2 RMSD100 2.450 A RMSDmin 5.163 A severe/close 0/0 status ok
+step 132000 time 66 ps temp 311.009 K PE -446606 TYR/VAL/SER 3.564/8.540/8.781 A chains 2 RMSD100 2.126 A RMSDmin 4.810 A severe/close 0/0 status ok
+step 134000 time 67 ps temp 310.318 K PE -446249 TYR/VAL/SER 3.204/8.083/8.089 A chains 2 RMSD100 1.869 A RMSDmin 4.649 A severe/close 0/0 status ok
+step 136000 time 68 ps temp 310.364 K PE -446512 TYR/VAL/SER 3.727/8.290/8.607 A chains 2 RMSD100 2.316 A RMSDmin 5.121 A severe/close 0/0 status ok
+step 138000 time 69 ps temp 310.008 K PE -446581 TYR/VAL/SER 3.889/8.527/8.674 A chains 2 RMSD100 2.479 A RMSDmin 5.276 A severe/close 0/0 status ok
+step 140000 time 70 ps temp 310.683 K PE -446105 TYR/VAL/SER 3.321/8.542/9.121 A chains 2 RMSD100 2.584 A RMSDmin 5.356 A severe/close 0/0 status ok
+step 142000 time 71 ps temp 309.660 K PE -446431 TYR/VAL/SER 3.625/8.802/9.169 A chains 2 RMSD100 2.894 A RMSDmin 5.737 A severe/close 0/0 status ok
+step 144000 time 72 ps temp 310.714 K PE -446235 TYR/VAL/SER 3.368/8.720/9.017 A chains 2 RMSD100 2.862 A RMSDmin 5.669 A severe/close 0/0 status ok
+step 146000 time 73 ps temp 310.961 K PE -447551 TYR/VAL/SER 3.921/8.463/8.874 A chains 2 RMSD100 2.793 A RMSDmin 5.537 A severe/close 0/0 status ok
+step 148000 time 74 ps temp 312.348 K PE -447067 TYR/VAL/SER 5.527/7.541/7.837 A chains 2 RMSD100 3.000 A RMSDmin 5.726 A severe/close 0/0 status ok
+step 150000 time 75 ps temp 307.810 K PE -446698 TYR/VAL/SER 4.640/7.646/7.948 A chains 2 RMSD100 2.838 A RMSDmin 5.591 A severe/close 0/0 status ok
+step 152000 time 76 ps temp 308.440 K PE -446855 TYR/VAL/SER 3.971/8.060/8.749 A chains 2 RMSD100 2.275 A RMSDmin 4.976 A severe/close 0/0 status ok
+step 154000 time 77 ps temp 310.249 K PE -446249 TYR/VAL/SER 3.574/8.237/7.657 A chains 2 RMSD100 1.506 A RMSDmin 4.087 A severe/close 0/0 status ok
+step 156000 time 78 ps temp 310.932 K PE -447155 TYR/VAL/SER 3.311/7.602/7.658 A chains 2 RMSD100 1.250 A RMSDmin 4.045 A severe/close 0/0 status ok
+step 158000 time 79 ps temp 309.695 K PE -447066 TYR/VAL/SER 3.606/7.819/8.030 A chains 2 RMSD100 1.656 A RMSDmin 4.392 A severe/close 0/0 status ok
+step 160000 time 80 ps temp 311.498 K PE -447051 TYR/VAL/SER 3.590/7.834/8.960 A chains 2 RMSD100 2.392 A RMSDmin 5.091 A severe/close 0/0 status ok
+step 162000 time 81 ps temp 310.564 K PE -446364 TYR/VAL/SER 3.815/8.068/8.867 A chains 2 RMSD100 2.089 A RMSDmin 4.854 A severe/close 0/0 status ok
+step 164000 time 82 ps temp 311.020 K PE -447727 TYR/VAL/SER 3.646/7.834/8.825 A chains 2 RMSD100 2.100 A RMSDmin 4.787 A severe/close 0/0 status ok
+step 166000 time 83 ps temp 309.007 K PE -446850 TYR/VAL/SER 3.970/7.830/8.391 A chains 2 RMSD100 2.299 A RMSDmin 5.010 A severe/close 0/0 status ok
+step 168000 time 84 ps temp 310.797 K PE -446779 TYR/VAL/SER 5.248/7.988/8.426 A chains 2 RMSD100 2.369 A RMSDmin 5.137 A severe/close 0/0 status ok
+step 170000 time 85 ps temp 311.119 K PE -447447 TYR/VAL/SER 3.467/7.603/8.441 A chains 2 RMSD100 2.196 A RMSDmin 4.679 A severe/close 0/0 status ok
+step 172000 time 86 ps temp 310.053 K PE -445872 TYR/VAL/SER 4.469/7.414/8.614 A chains 2 RMSD100 2.269 A RMSDmin 4.858 A severe/close 0/0 status ok
+step 174000 time 87 ps temp 307.013 K PE -446621 TYR/VAL/SER 3.735/7.270/7.619 A chains 2 RMSD100 1.735 A RMSDmin 4.423 A severe/close 0/0 status ok
+step 176000 time 88 ps temp 309.942 K PE -447529 TYR/VAL/SER 4.101/7.547/7.664 A chains 2 RMSD100 1.489 A RMSDmin 4.137 A severe/close 0/0 status ok
+step 178000 time 89 ps temp 307.291 K PE -447459 TYR/VAL/SER 4.597/7.748/7.766 A chains 2 RMSD100 1.721 A RMSDmin 4.245 A severe/close 0/0 status ok
+step 180000 time 90 ps temp 310.448 K PE -448040 TYR/VAL/SER 4.167/7.772/7.919 A chains 2 RMSD100 1.620 A RMSDmin 4.171 A severe/close 0/0 status ok
+step 182000 time 91 ps temp 311.885 K PE -445998 TYR/VAL/SER 5.217/7.927/8.119 A chains 2 RMSD100 1.863 A RMSDmin 4.638 A severe/close 0/0 status ok
+step 184000 time 92 ps temp 310.761 K PE -446215 TYR/VAL/SER 4.757/7.770/8.699 A chains 2 RMSD100 2.309 A RMSDmin 5.104 A severe/close 0/0 status ok
+step 186000 time 93 ps temp 310.498 K PE -447685 TYR/VAL/SER 5.150/8.260/8.583 A chains 2 RMSD100 2.002 A RMSDmin 4.827 A severe/close 0/0 status ok
+step 188000 time 94 ps temp 308.860 K PE -448030 TYR/VAL/SER 4.854/8.859/8.512 A chains 2 RMSD100 1.631 A RMSDmin 4.352 A severe/close 0/0 status ok
+step 190000 time 95 ps temp 311.288 K PE -449041 TYR/VAL/SER 4.437/8.019/8.683 A chains 2 RMSD100 1.874 A RMSDmin 4.325 A severe/close 0/0 status ok
+step 192000 time 96 ps temp 310.473 K PE -447578 TYR/VAL/SER 4.128/8.151/8.378 A chains 2 RMSD100 1.714 A RMSDmin 4.371 A severe/close 0/0 status ok
+step 194000 time 97 ps temp 310.193 K PE -448248 TYR/VAL/SER 4.287/8.237/8.172 A chains 2 RMSD100 1.639 A RMSDmin 4.173 A severe/close 0/0 status ok
+step 196000 time 98 ps temp 310.435 K PE -446198 TYR/VAL/SER 4.392/7.854/8.597 A chains 2 RMSD100 1.713 A RMSDmin 4.363 A severe/close 0/0 status ok
+step 198000 time 99 ps temp 309.190 K PE -447296 TYR/VAL/SER 4.486/8.271/9.030 A chains 2 RMSD100 2.000 A RMSDmin 4.462 A severe/close 0/0 status ok
+step 200000 time 100 ps temp 311.505 K PE -447460 TYR/VAL/SER 4.471/8.742/7.981 A chains 2 RMSD100 1.553 A RMSDmin 4.212 A severe/close 0/0 status ok
+
+Terminal summary
+completed 100 ps: YES
+continued from checkpoint: YES
+final temperature: 311.505
+final potential energy: -447460.465845
+NaN: NO
+final distance to TYR13 / VAL17 / SER20: 4.47124 / 8.74193 / 7.98056
+ligand final near chains count: 2
+ligand final RMSD: 1.55302
+max ligand RMSD: 3.00028
+final severe/close contacts: 0/0
+recommend 20chol vs 40chol comparison analysis: YES
+summary report path: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\md100ps_R2\reports\md100ps_40chol_R2_summary.md

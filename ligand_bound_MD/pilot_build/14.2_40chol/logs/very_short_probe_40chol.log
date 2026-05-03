@@ -1,0 +1,52 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+40chol very-short 0.2 ps 50 K probe
+OpenCL only. This is not production MD.
+step 0 temp 49.897 PE -615276 maxF 2355.49 chains 2 status ok
+step 100 temp 35.032 PE -608109 maxF 2337.55 chains 2 status ok
+step 200 temp 29.563 PE -604794 maxF 2334.69 chains 2 status ok
+step 300 temp 29.886 PE -604006 maxF 2409.64 chains 2 status ok
+step 400 temp 29.418 PE -602852 maxF 2435.74 chains 2 status ok
+step 500 temp 32.525 PE -603412 maxF 2392.25 chains 2 status ok
+step 600 temp 32.077 PE -602396 maxF 2400.67 chains 2 status ok
+step 700 temp 33.423 PE -602220 maxF 2359.87 chains 2 status ok
+step 800 temp 32.701 PE -601115 maxF 2356.28 chains 2 status ok
+step 900 temp 34.160 PE -601018 maxF 2398.05 chains 2 status ok
+step 1000 temp 34.221 PE -600277 maxF 2474.5 chains 2 status ok
+step 1100 temp 34.934 PE -599935 maxF 2507.87 chains 2 status ok
+step 1200 temp 36.763 PE -600150 maxF 2519.3 chains 2 status ok
+step 1300 temp 36.741 PE -599537 maxF 2505.37 chains 2 status ok
+step 1400 temp 37.964 PE -599494 maxF 2486.36 chains 2 status ok
+step 1500 temp 37.464 PE -598736 maxF 2456.82 chains 2 status ok
+step 1600 temp 38.541 PE -598691 maxF 2471.91 chains 2 status ok
+step 1700 temp 38.213 PE -598010 maxF 2468.02 chains 2 status ok
+step 1800 temp 39.158 PE -597955 maxF 2455.69 chains 2 status ok
+step 1900 temp 39.864 PE -597802 maxF 2401.24 chains 2 status ok
+step 2000 temp 39.760 PE -597343 maxF 2457.66 chains 2 status ok
+step 2100 temp 40.913 PE -597387 maxF 2463.19 chains 2 status ok
+step 2200 temp 40.805 PE -596917 maxF 2409.71 chains 2 status ok
+step 2300 temp 41.929 PE -597007 maxF 2468.4 chains 2 status ok
+step 2400 temp 41.445 PE -596413 maxF 2560.87 chains 2 status ok
+step 2500 temp 42.078 PE -596253 maxF 2628.89 chains 2 status ok
+step 2600 temp 42.655 PE -596168 maxF 2616.19 chains 2 status ok
+step 2700 temp 42.856 PE -595930 maxF 2555.15 chains 2 status ok
+step 2800 temp 43.265 PE -595868 maxF 2496.91 chains 2 status ok
+step 2900 temp 43.347 PE -595593 maxF 2455.27 chains 2 status ok
+step 3000 temp 43.810 PE -595557 maxF 2422.66 chains 2 status ok
+step 3100 temp 44.238 PE -595386 maxF 2477.79 chains 2 status ok
+step 3200 temp 44.727 PE -595401 maxF 2497.21 chains 2 status ok
+step 3300 temp 44.957 PE -595278 maxF 2500.29 chains 2 status ok
+step 3400 temp 44.823 PE -595008 maxF 2459.3 chains 2 status ok
+step 3500 temp 45.182 PE -594959 maxF 2416.82 chains 2 status ok
+step 3600 temp 45.117 PE -594681 maxF 2480.08 chains 2 status ok
+step 3700 temp 45.569 PE -594665 maxF 2504.68 chains 2 status ok
+step 3800 temp 45.549 PE -594487 maxF 2482.5 chains 2 status ok
+step 3900 temp 45.981 PE -594438 maxF 2576.07 chains 2 status ok
+step 4000 temp 46.234 PE -594404 maxF 2653.64 chains 2 status ok
+very_short_probe_executed: True
+very_short_probe_passed: True
+last_step: 4000/4000
+stop_reason: none
+probe CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\reports\very_short_probe_40chol.csv

@@ -1,0 +1,16 @@
+﻿contact_type,distance_A,category,ligand_serial,ligand_atom_name,ligand_resname,ligand_segid,ligand_resid,other_serial,other_atom_name,other_resname,other_segid,other_resid,other_element
+severe_clash,0.585,lipid,50986,C7,L002,LIG,1,12677,C27,POPC,MEMB,113,C
+severe_clash,0.721,lipid,50999,C18,L002,LIG,1,12685,C210,POPC,MEMB,113,C
+severe_clash,0.806,lipid,50982,C3,L002,LIG,1,12687,C211,POPC,MEMB,113,C
+severe_clash,0.872,lipid,51000,C19,L002,LIG,1,12685,C210,POPC,MEMB,113,C
+severe_clash,0.893,lipid,51000,C19,L002,LIG,1,12687,C211,POPC,MEMB,113,C
+severe_clash,0.926,lipid,50998,O,L002,LIG,1,12671,C25,POPC,MEMB,113,C
+severe_clash,0.981,lipid,50997,C17,L002,LIG,1,12674,C26,POPC,MEMB,113,C
+severe_clash,0.990,lipid,50999,C18,L002,LIG,1,12683,C29,POPC,MEMB,113,C
+close_contact,1.158,lipid,50997,C17,L002,LIG,1,12677,C27,POPC,MEMB,113,C
+close_contact,1.285,lipid,50981,C2,L002,LIG,1,12693,C213,POPC,MEMB,113,C
+close_contact,1.299,lipid,50986,C7,L002,LIG,1,12680,C28,POPC,MEMB,113,C
+close_contact,1.309,lipid,50998,O,L002,LIG,1,12674,C26,POPC,MEMB,113,C
+close_contact,1.325,lipid,50985,C6,L002,LIG,1,12680,C28,POPC,MEMB,113,C
+close_contact,1.343,lipid,50982,C3,L002,LIG,1,12690,C212,POPC,MEMB,113,C
+close_contact,1.431,lipid,50981,C2,L002,LIG,1,12690,C212,POPC,MEMB,113,C

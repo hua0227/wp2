@@ -1,0 +1,21 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+1 warning generated.
+40chol R2 PBC-aware restrained minimization
+OpenCL only. No MD will be run by this script.
+Input cleaned PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\outputs\TRKB_40chol_L002_14.2_bound_cleaned.psf
+Input cleaned PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\outputs\TRKB_40chol_L002_14.2_bound_cleaned.pdb
+Selected OpenMM platform: OpenCL
+R2 restraint atoms: 7115
+Initial restrained energy (kJ/mol): 3.87725518402e+14
+Final restrained energy (kJ/mol): -615048.277368
+Max force (kJ/mol/nm): 2343.79254074
+Top force atom: OH2 TIP3 TIP3:7831 index=42408
+Ligand min distance TYR13/VAL17/SER20 (A): 3.6061/3.69268/5.12341
+Ligand near chains count: 2
+Severe/close after minimization: 0/0
+Very-short probe gate passed: True
+Summary CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\reports\R2_minimization_40chol_summary.csv
+Summary Markdown: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_40chol\reports\R2_minimization_40chol_summary.md

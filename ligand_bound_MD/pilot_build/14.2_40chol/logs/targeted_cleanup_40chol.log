@@ -1,0 +1,248 @@
+Failed to find registry key: 'Software\University of Illinois\VMD2'.
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 32 CPUs, ISA dispatch enabled.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 AVX512F AVX512CD HT 
+Info)   Detected VM or hypervisor execution environment
+Info) Free system memory: 13GB (43%)
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) No joysticks found.  Joystick interface disabled.
+Info) Dynamically loaded 76 plugins in directory:
+Info) D:/software/VMD2/plugins/WIN64/molfile
+ERROR) Duplicate resname "4YS"
+ERROR) Duplicate resname "YGA"
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound.pdb
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.pdb
+Info) Using plugin psf for structure file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound.psf
+Info) Analyzing structure ...
+Info)    Atoms: 51027
+Info)    Bonds: 51071
+Info)    Angles: 47999  Dihedrals: 54730  Impropers: 411  Cross-terms: 86
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 10936
+Info)    Waters: 10621
+Info)    Segments: 6
+Info)    Fragments: 10848   Protein: 2   Nucleic: 0
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "L002" not found in glycan file.
+ERROR) Residue name "L002" not found in glycan file.
+0
+Info) Using plugin pdb for coordinates from file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound.pdb
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound.pdb.
+0
+atomselect0
+Deleting selected whole molecules/residues:
+{MEMB 113 POPC N 12620} {MEMB 113 POPC C12 12621} {MEMB 113 POPC H12A 12622} {MEMB 113 POPC H12B 12623} {MEMB 113 POPC C13 12624} {MEMB 113 POPC H13A 12625} {MEMB 113 POPC H13B 12626} {MEMB 113 POPC H13C 12627} {MEMB 113 POPC C14 12628} {MEMB 113 POPC H14A 12629} {MEMB 113 POPC H14B 12630} {MEMB 113 POPC H14C 12631} {MEMB 113 POPC C15 12632} {MEMB 113 POPC H15A 12633} {MEMB 113 POPC H15B 12634} {MEMB 113 POPC H15C 12635} {MEMB 113 POPC C11 12636} {MEMB 113 POPC H11A 12637} {MEMB 113 POPC H11B 12638} {MEMB 113 POPC P 12639} {MEMB 113 POPC O13 12640} {MEMB 113 POPC O14 12641} {MEMB 113 POPC O12 12642} {MEMB 113 POPC O11 12643} {MEMB 113 POPC C1 12644} {MEMB 113 POPC HA 12645} {MEMB 113 POPC HB 12646} {MEMB 113 POPC C2 12647} {MEMB 113 POPC HS 12648} {MEMB 113 POPC O21 12649} {MEMB 113 POPC C21 12650} {MEMB 113 POPC O22 12651} {MEMB 113 POPC C22 12652} {MEMB 113 POPC H2R 12653} {MEMB 113 POPC H2S 12654} {MEMB 113 POPC C3 12655} {MEMB 113 POPC HX 12656} {MEMB 113 POPC HY 12657} {MEMB 113 POPC O31 12658} {MEMB 113 POPC C31 12659} {MEMB 113 POPC O32 12660} {MEMB 113 POPC C32 12661} {MEMB 113 POPC H2X 12662} {MEMB 113 POPC H2Y 12663} {MEMB 113 POPC C23 12664} {MEMB 113 POPC H3R 12665} {MEMB 113 POPC H3S 12666} {MEMB 113 POPC C24 12667} {MEMB 113 POPC H4R 12668} {MEMB 113 POPC H4S 12669} {MEMB 113 POPC C25 12670} {MEMB 113 POPC H5R 12671} {MEMB 113 POPC H5S 12672} {MEMB 113 POPC C26 12673} {MEMB 113 POPC H6R 12674} {MEMB 113 POPC H6S 12675} {MEMB 113 POPC C27 12676} {MEMB 113 POPC H7R 12677} {MEMB 113 POPC H7S 12678} {MEMB 113 POPC C28 12679} {MEMB 113 POPC H8R 12680} {MEMB 113 POPC H8S 12681} {MEMB 113 POPC C29 12682} {MEMB 113 POPC H91 12683} {MEMB 113 POPC C210 12684} {MEMB 113 POPC H101 12685} {MEMB 113 POPC C211 12686} {MEMB 113 POPC H11R 12687} {MEMB 113 POPC H11S 12688} {MEMB 113 POPC C212 12689} {MEMB 113 POPC H12R 12690} {MEMB 113 POPC H12S 12691} {MEMB 113 POPC C213 12692} {MEMB 113 POPC H13R 12693} {MEMB 113 POPC H13S 12694} {MEMB 113 POPC C214 12695} {MEMB 113 POPC H14R 12696} {MEMB 113 POPC H14S 12697} {MEMB 113 POPC C215 12698} {MEMB 113 POPC H15R 12699} {MEMB 113 POPC H15S 12700} {MEMB 113 POPC C216 12701} {MEMB 113 POPC H16R 12702} {MEMB 113 POPC H16S 12703} {MEMB 113 POPC C217 12704} {MEMB 113 POPC H17R 12705} {MEMB 113 POPC H17S 12706} {MEMB 113 POPC C218 12707} {MEMB 113 POPC H18R 12708} {MEMB 113 POPC H18S 12709} {MEMB 113 POPC H18T 12710} {MEMB 113 POPC C33 12711} {MEMB 113 POPC H3X 12712} {MEMB 113 POPC H3Y 12713} {MEMB 113 POPC C34 12714} {MEMB 113 POPC H4X 12715} {MEMB 113 POPC H4Y 12716} {MEMB 113 POPC C35 12717} {MEMB 113 POPC H5X 12718} {MEMB 113 POPC H5Y 12719} {MEMB 113 POPC C36 12720} {MEMB 113 POPC H6X 12721} {MEMB 113 POPC H6Y 12722} {MEMB 113 POPC C37 12723} {MEMB 113 POPC H7X 12724} {MEMB 113 POPC H7Y 12725} {MEMB 113 POPC C38 12726} {MEMB 113 POPC H8X 12727} {MEMB 113 POPC H8Y 12728} {MEMB 113 POPC C39 12729} {MEMB 113 POPC H9X 12730} {MEMB 113 POPC H9Y 12731} {MEMB 113 POPC C310 12732} {MEMB 113 POPC H10X 12733} {MEMB 113 POPC H10Y 12734} {MEMB 113 POPC C311 12735} {MEMB 113 POPC H11X 12736} {MEMB 113 POPC H11Y 12737} {MEMB 113 POPC C312 12738} {MEMB 113 POPC H12X 12739} {MEMB 113 POPC H12Y 12740} {MEMB 113 POPC C313 12741} {MEMB 113 POPC H13X 12742} {MEMB 113 POPC H13Y 12743} {MEMB 113 POPC C314 12744} {MEMB 113 POPC H14X 12745} {MEMB 113 POPC H14Y 12746} {MEMB 113 POPC C315 12747} {MEMB 113 POPC H15X 12748} {MEMB 113 POPC H15Y 12749} {MEMB 113 POPC C316 12750} {MEMB 113 POPC H16X 12751} {MEMB 113 POPC H16Y 12752} {MEMB 113 POPC H16Z 12753}
+atomselect1
+Info) Opened coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.psf for writing.
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.psf.
+Info) Opened coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.pdb for writing.
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.pdb.
+Wrote cleaned PSF: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.psf
+Wrote cleaned PDB: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_40chol/outputs/TRKB_40chol_L002_14.2_bound_cleaned.pdb
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) Exiting normally.
+vmd > psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+psfplugin) Structure requires EXTended PSF format
+psfplugin) Writing angles/dihedrals/impropers...
