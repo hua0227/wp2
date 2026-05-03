@@ -1,0 +1,2 @@
+﻿success,platform,initial_energy_kJ_mol,final_energy_kJ_mol,max_force_kJ_mol_nm,top_force_atom,coordinate_nan,force_nan,ligand_distance_TYR13_A,ligand_distance_VAL17_A,ligand_distance_SER20_A,ligand_key_min_distance_A,ligand_near_chains_count,ligand_rmsd_A,severe_lt_1A,close_lt_1p5A,probe_gate_passed
+True,OpenCL,3.87630563905e+14,-615576.818187,2376.09579951,OH2 TIP3 TIP3:7692,False,False,3.45531559858,3.72523562693,3.56905421732,3.45531559858,2,1.06651000402,0,0,True
