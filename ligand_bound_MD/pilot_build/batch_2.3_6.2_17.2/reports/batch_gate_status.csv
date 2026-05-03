@@ -1,0 +1,7 @@
+ligand_id,resname,system,preflight_ok,psf_pdb_generated,read_test_succeeded,cleanup_executed,minimization_succeeded,very_short_probe_passed,completed_10ps,recommend_50ps,completed_50ps,recommend_100ps,completed_100ps,recommend_comparison_analysis,final_stage,stop_reason,error
+2.3,L006,20chol,True,True,True,False,True,True,True,True,True,True,True,True,completed_100ps,none,
+2.3,L006,40chol,True,True,True,True,True,True,True,True,True,True,True,True,completed_100ps,none,
+6.2,L008,20chol,True,True,True,True,True,True,True,True,True,True,True,True,completed_100ps,none,
+6.2,L008,40chol,True,True,True,True,True,True,True,True,True,True,True,True,completed_100ps,none,
+17.2,L010,20chol,True,True,True,True,True,True,True,True,True,True,True,True,completed_100ps,none,
+17.2,L010,40chol,True,True,True,True,True,True,True,True,True,True,True,True,completed_100ps,none,
