@@ -1,0 +1,11 @@
+﻿contact_type,distance_A,category,ligand_atom_name,ligand_serial,other_atom_name,other_serial,other_resname,other_segid,other_resid
+severe_clash,0.452,lipid,C4,52362,C310,12227,POPC,MEMB,94
+severe_clash,0.729,lipid,C17,52375,C38,12221,POPC,MEMB,94
+severe_clash,0.913,lipid,C18,52377,C38,12221,POPC,MEMB,94
+close_contact,1.053,lipid,C18,52377,C39,12224,POPC,MEMB,94
+close_contact,1.101,cholesterol,C12,52370,C26,2481,CHL1,MEMB,14
+close_contact,1.106,lipid,N,52361,C310,12227,POPC,MEMB,94
+close_contact,1.160,lipid,C5,52363,C311,12230,POPC,MEMB,94
+close_contact,1.197,lipid,C4,52362,C39,12224,POPC,MEMB,94
+close_contact,1.209,lipid,C16,52374,C37,12218,POPC,MEMB,94
+close_contact,1.390,lipid,C6,52364,C312,12233,POPC,MEMB,94
