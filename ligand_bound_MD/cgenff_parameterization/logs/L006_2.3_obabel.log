@@ -1,0 +1,9 @@
+command: obabel C:\TRKB_WP2\ligand_bound_MD\selected_inputs\2.3\20chol\2.3.sdf -O C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L006_2.3.mol2 -h
+returncode: 0
+
+stdout:
+
+
+stderr:
+1 molecule converted
+

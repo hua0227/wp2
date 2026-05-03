@@ -1,0 +1,11 @@
+﻿rank,ligand_id,resname,source_sdf,output_mol2,mol2_found,mol2_has_atoms,mol2_has_bonds,notes
+1,8.1,L001,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\8.1\20chol\8.1.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L001_8.1.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+2,14.2,L002,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\14.2\20chol\14.2.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L002_14.2.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+3,19.1,L003,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\19.1\20chol\19.1.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L003_19.1.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+4,9.2,L004,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\9.2\20chol\9.2.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L004_9.2.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+5,12.2,L005,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\12.2\20chol\12.2.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L005_12.2.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+6,2.3,L006,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\2.3\20chol\2.3.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L006_2.3.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+7,4.3,L007,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\4.3\20chol\4.3.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L007_4.3.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+8,6.2,L008,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\6.2\20chol\6.2.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L008_6.2.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+9,8.3,L009,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\8.3\20chol\8.3.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L009_8.3.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties
+10,17.2,L010,C:\TRKB_WP2\ligand_bound_MD\selected_inputs\17.2\20chol\17.2.sdf,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\upload_mol2\L010_17.2.mol2,1,1,1,ready for CGenFF upload; inspect returned penalties

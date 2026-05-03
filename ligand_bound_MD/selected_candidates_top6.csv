@@ -1,0 +1,7 @@
+﻿rank,ligand_id,final_score_100,priority_class,robustness_points_15,avg_system_score_85,min_system_score_85,score_20chol,score_20chol_85,mode_20chol,affinity_20chol,contact4A_20chol,near6A_20chol,nearChains_20chol,score_40chol,score_40chol_85,mode_40chol,affinity_40chol,contact4A_40chol,near6A_40chol,nearChains_40chol,best_system,best_mode,best_affinity
+1,8.1,95.75,A_high_priority,15.00,80.75,80.50,81.00,81.00,4,-5.245,4,5,2,80.50,80.50,1,-5.857,3,5,2,20chol,4,-5.245
+2,14.2,95.00,A_high_priority,15.00,80.00,79.50,80.50,80.50,2,-5.224,3,5,2,79.50,79.50,3,-5.643,3,5,2,20chol,2,-5.224
+3,19.1,93.55,A_high_priority,15.00,78.55,75.09,82.00,82.00,5,-5.225,4,5,2,75.09,75.09,8,-5.461,3,5,2,20chol,5,-5.225
+4,9.2,93.54,A_high_priority,15.00,78.54,77.99,79.10,79.10,3,-5.166,3,5,2,77.99,77.99,2,-5.429,3,5,2,20chol,3,-5.166
+5,12.2,92.90,A_high_priority,15.00,77.90,74.29,81.50,81.50,1,-5.216,3,5,2,74.29,74.29,3,-5.321,3,5,2,20chol,1,-5.216
+6,2.3,92.69,A_high_priority,15.00,77.69,73.87,81.50,81.50,1,-5.577,3,5,2,73.87,73.87,2,-5.309,3,5,2,20chol,1,-5.577

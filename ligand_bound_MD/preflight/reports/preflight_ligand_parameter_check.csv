@@ -1,0 +1,21 @@
+﻿ligand_id,resname,system,str_found,str_load_status,str_load_error,sdf_found,pdbqt_found,best_pose_pdb_found,best_pose_pdbqt_found,mol2_found,mol2_atom_count,pose_pdb_atom_count,pose_pdbqt_atom_count,atom_count_match,named_pose_generated,complex_preview_generated,penalty_level,parameter_status,notes
+8.1,L001,20chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+8.1,L001,40chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+14.2,L002,20chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+14.2,L002,40chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+19.1,L003,20chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+19.1,L003,40chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+9.2,L004,20chol,1,ok,,1,1,1,1,1,44,20,20,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+9.2,L004,40chol,1,ok,,1,1,1,1,1,44,20,20,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+12.2,L005,20chol,1,ok,,1,1,1,1,1,43,21,21,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+12.2,L005,40chol,1,ok,,1,1,1,1,1,43,21,21,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+2.3,L006,20chol,1,ok,,1,1,1,1,1,47,21,21,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+2.3,L006,40chol,1,ok,,1,1,1,1,1,47,21,21,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+4.3,L007,20chol,1,ok,,1,1,1,1,1,45,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+4.3,L007,40chol,1,ok,,1,1,1,1,1,45,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+6.2,L008,20chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+6.2,L008,40chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+8.3,L009,20chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+8.3,L009,40chol,1,ok,,1,1,1,1,1,48,22,22,0,0,0,high,cgenff_needs_review,atom count mismatch; named pose not generated
+17.2,L010,20chol,1,ok,,1,1,1,1,1,47,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated
+17.2,L010,40chol,1,ok,,1,1,1,1,1,47,22,22,0,0,0,moderate,cgenff_ready_prelim,atom count mismatch; named pose not generated

@@ -1,0 +1,3 @@
+system,per_residue_frame_count,TYR13_occ_lt4A,TYR13_occ_lt5A,TYR13_occ_lt6A,TYR13_occ_lt8A,VAL17_occ_lt4A,VAL17_occ_lt5A,VAL17_occ_lt6A,VAL17_occ_lt8A,SER20_occ_lt4A,SER20_occ_lt5A,SER20_occ_lt6A,SER20_occ_lt8A,key_min_occ_lt4A,key_min_occ_lt5A,key_min_occ_lt6A,near_chains_eq2_fraction,ligand_rmsd_mean,ligand_rmsd_median,ligand_rmsd_max,ligand_rmsd_p95
+20chol,100,0.73,1,1,1,0.7,1,1,1,0.94,1,1,1,0.99,1,1,1,1.69193,1.74422,2.48709,2.20438
+40chol,100,0.55,0.97,1,1,0.58,0.99,1,1,0.91,1,1,1,0.97,1,1,1,1.41747,1.35043,2.44408,2.18061

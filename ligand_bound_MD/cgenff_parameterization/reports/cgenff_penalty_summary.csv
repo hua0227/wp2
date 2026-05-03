@@ -1,0 +1,11 @@
+﻿ligand_id,resname,str_file,str_found,param_penalty,charge_penalty,bond_penalty,angle_penalty,dihedral_penalty,improper_penalty,max_penalty,n_penalty_ge_10,n_penalty_ge_50,n_penalty_ge_100,penalty_level,needs_manual_review,notes
+8.1,L001,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L001_8.1.str,1,54.8,22.945,,8,54.8,,54.8,15,2,0,high,1,high CGenFF analogy penalty; inspect or optimize parameters before MD
+14.2,L002,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L002_14.2.str,1,19.5,22.916,,8,19.5,,22.916,13,0,0,moderate,0,basic validation recommended
+19.1,L003,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L003_19.1.str,1,19.5,23.991,,8,19.5,,23.991,13,0,0,moderate,0,basic validation recommended
+9.2,L004,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L004_9.2.str,1,11.6,21.149,,8,11.6,,21.149,10,0,0,moderate,0,basic validation recommended
+12.2,L005,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L005_12.2.str,1,54.8,24.018,,8,54.8,,54.8,15,2,0,high,1,high CGenFF analogy penalty; inspect or optimize parameters before MD
+2.3,L006,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L006_2.3.str,1,11,19.747,,8,11,,19.747,9,0,0,moderate,0,basic validation recommended
+4.3,L007,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L007_4.3.str,1,54.8,31.016,,8,54.8,1.3,54.8,29,2,0,high,1,high CGenFF analogy penalty; inspect or optimize parameters before MD
+6.2,L008,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L008_6.2.str,1,21,24.632,,8,21,,24.632,15,0,0,moderate,0,basic validation recommended
+8.3,L009,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L009_8.3.str,1,54.8,22.945,,8,54.8,,54.8,15,2,0,high,1,high CGenFF analogy penalty; inspect or optimize parameters before MD
+17.2,L010,C:\TRKB_WP2\ligand_bound_MD\cgenff_parameterization\returned_str\L010_17.2.str,1,20.6,28.851,,8,20.6,1.3,28.851,24,0,0,moderate,0,basic validation recommended
