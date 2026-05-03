@@ -1,0 +1,33 @@
+{
+  "completed_100ps": true,
+  "continued_from_checkpoint": true,
+  "fallback_used": false,
+  "fallback_reason": "",
+  "last_step": 200000,
+  "stop_reason": "none",
+  "has_nan": false,
+  "platform": "OpenCL",
+  "final_row": {
+    "step": 200000,
+    "time_ps": "100",
+    "temperature_K": "313.032",
+    "potential_energy_kJ_mol": "-449638.141732",
+    "kinetic_energy_kJ_mol": "142225.40625",
+    "total_energy_kJ_mol": "-307412.735482",
+    "ligand_distance_TYR13_A": "3.60753",
+    "ligand_distance_VAL17_A": "4.19607",
+    "ligand_distance_SER20_A": "5.63985",
+    "ligand_min_distance_to_key_residues_A": "3.60753",
+    "ligand_near_chains_count": 2,
+    "ligand_heavy_rmsd_vs_100ps_input_A": "1.59628",
+    "ligand_heavy_rmsd_vs_original_R2_minimized_input_A": "3.55301",
+    "severe_lt_1A": 0,
+    "close_lt_1p5A": 0,
+    "status": "ok"
+  },
+  "ligand_rmsd_final_A": 1.59628,
+  "ligand_rmsd_max_A": 2.27603,
+  "ligand_rmsd_vs_original_minimized_final_A": 3.55301,
+  "ligand_rmsd_vs_original_minimized_max_A": 4.46815,
+  "recommend_comparison_analysis": true
+}
