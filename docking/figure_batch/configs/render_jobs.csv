@@ -1,0 +1,11 @@
+label,system,receptor_pdb,ligand_pdb
+KET_R_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_KET_R_20chol_pose.pdb
+KET_S_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_KET_S_20chol_pose.pdb
+HNK_RR_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_HNK_RR_20chol_pose.pdb
+FLX_R_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_FLX_R_20chol_pose.pdb
+IMI_40chol,40chol,C:/TRKB_WP2/docking/receptors/40chol/TRKB_40chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_IMI_40chol_pose.pdb
+FLX_R_40chol,40chol,C:/TRKB_WP2/docking/receptors/40chol/TRKB_40chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/reference_FLX_R_40chol_pose.pdb
+candidate_6.1_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/candidate_6.1_20chol_pose.pdb
+candidate_2.3_20chol,20chol,C:/TRKB_WP2/docking/receptors/20chol/TRKB_20chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/candidate_2.3_20chol_pose.pdb
+candidate_10.4_40chol,40chol,C:/TRKB_WP2/docking/receptors/40chol/TRKB_40chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/candidate_10.4_40chol_pose.pdb
+candidate_8.1_40chol,40chol,C:/TRKB_WP2/docking/receptors/40chol/TRKB_40chol_protein.pdb,C:/TRKB_WP2/docking/top_pose_review/candidate_8.1_40chol_pose.pdb

@@ -1,0 +1,7 @@
+system,chain_index,target_label,index_in_chain,pdb_resSeq,residue_name,mdtraj_residue_index
+40chol,0,Y433_like,12,13,TYR,12
+40chol,0,V437_like,16,17,VAL,16
+40chol,0,S440_like,19,20,SER,19
+40chol,1,Y433_like,12,13,TYR,57
+40chol,1,V437_like,16,17,VAL,61
+40chol,1,S440_like,19,20,SER,64
