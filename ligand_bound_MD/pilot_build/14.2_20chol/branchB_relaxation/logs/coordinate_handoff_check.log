@@ -1,0 +1,13 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+coordinate_handoff_pass: True
+psf_atom_count: 52271
+cleaned_pdb_atom_count: 52271
+minimized_pdb_atom_count: 52271
+roundtrip_heavy_atom_rmsd_A: 0
+roundtrip_ligand_heavy_atom_rmsd_A: 0
+periodic_box_ok: True
+CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\coordinate_handoff_check.csv
+Markdown: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\coordinate_handoff_check.md

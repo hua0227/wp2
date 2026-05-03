@@ -1,0 +1,42 @@
+Short restrained MD pilot for 14.2 / L002 / 20chol
+This is not production MD. CUDA will not be used.
+Available OpenMM platforms:
+- Reference
+- CPU
+- OpenCL
+Selected OpenMM platform: OpenCL
+OpenMM version: 8.5.1.dev-f7fa0c2
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+Strong protein/lipid/cholesterol restraints: 7442
+Ligand heavy-atom restraints: 21
+Unrestrained atoms: 44942
+Timestep: 0.500 fs
+Heating schedule:
+- 50K_2ps: 50.0 K for 4000 steps
+- 100K_2ps: 100.0 K for 4000 steps
+- 200K_2ps: 200.0 K for 4000 steps
+- 310K_4ps: 310.0 K for 8000 steps
+step 0 stage initial_50K PE 4.05834e+08 KE 254122 Total 4.06088e+08 Temp 542.556 K key_min 2.551 A near_chains 2 ligand_RMSD 0.058 A status temperature_above_500K
+Initial sample warning before MD steps: temperature_above_500K
+Starting stage 50K_2ps
+step 1 stage 50K_2ps PE 4.16529e+08 KE 841904 Total 4.17371e+08 Temp 1797.485 K key_min 2.786 A near_chains 2 ligand_RMSD 0.137 A status temperature_above_500K
+Safety stop triggered at step 1: temperature_above_500K
+Short MD completed: False
+Final PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_pilot\outputs\TRKB_20chol_L002_14.2_shortMD_final.pdb
+DCD: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_pilot\outputs\TRKB_20chol_L002_14.2_shortMD.dcd
+Retention CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_pilot\reports\short_md_retention_summary.csv
+Summary Markdown: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_pilot\reports\short_md_pilot_summary.md
+
+Terminal summary
+short MD completed: False
+last potential energy (kJ/mol): 4.16529e+08
+last temperature (K): 1797.49
+ligand final min distance to key residues (A): 2.78641
+ligand final near chains count: 2
+ligand RMSD (A): 0.137304
+NaN/nonfinite detected: False
+recommend next longer restrained MD: False
+report path: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_pilot\reports\short_md_pilot_summary.md

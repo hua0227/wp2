@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "final_energy_kJ_mol": -604351.8669399163,
+      "energy_finite": true,
+      "force_nan": false,
+      "coordinate_nan": false,
+      "max_force_kJ_mol_nm": 2438.540487635352,
+      "top_force_atom": "OH2 TIP3 TIP3:7718 index=42769",
+      "MEMB49_max_force_kJ_mol_nm": 279.7903708818161,
+      "MEMB49_max_force_atom": "C12 POPC MEMB:49 index=6985",
+      "PROA437_438_max_force_kJ_mol_nm": 363.47305446927453,
+      "PROA437_438_max_force_atom": "HG12 VAL PROA:438 index=261",
+      "ligand_key_min_distance_A": 3.296662058340408,
+      "ligand_near_chains_count": 1,
+      "ligand_rmsd_vs_BranchB_start_A": 3.2401915660820317,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "branch": "R1",
+      "restraint_atom_count": 383,
+      "initial_energy_kJ_mol": -143520.54711569753,
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\restraint_strategy_fix\\outputs\\R1_pbcaware_minimized.pdb"
+    },
+    {
+      "final_energy_kJ_mol": -601401.1970180413,
+      "energy_finite": true,
+      "force_nan": false,
+      "coordinate_nan": false,
+      "max_force_kJ_mol_nm": 2438.893127806597,
+      "top_force_atom": "OH2 TIP3 TIP3:4391 index=32788",
+      "MEMB49_max_force_kJ_mol_nm": 368.7492014967703,
+      "MEMB49_max_force_atom": "C12 POPC MEMB:49 index=6985",
+      "PROA437_438_max_force_kJ_mol_nm": 237.20019217095071,
+      "PROA437_438_max_force_atom": "CG2 VAL PROA:438 index=263",
+      "ligand_key_min_distance_A": 3.6256917288109913,
+      "ligand_near_chains_count": 2,
+      "ligand_rmsd_vs_BranchB_start_A": 2.0138218648761406,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "branch": "R2",
+      "restraint_atom_count": 7411,
+      "initial_energy_kJ_mol": -143520.57641257253,
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\restraint_strategy_fix\\outputs\\R2_pbcaware_minimized.pdb"
+    }
+  ],
+  "max_iterations": 20000
+}

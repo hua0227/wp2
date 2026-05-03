@@ -1,0 +1,30 @@
+Failed to find registry key: 'Software\University of Illinois\VMD2'.
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 32 CPUs, ISA dispatch enabled.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 AVX512F AVX512CD HT 
+Info)   Detected VM or hypervisor execution environment
+Info) Free system memory: 11GB (34%)
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) No joysticks found.  Joystick interface disabled.
+Info) Dynamically loaded 76 plugins in directory:
+Info) D:/software/VMD2/plugins/WIN64/molfile
+ERROR) Duplicate resname "4YS"
+ERROR) Duplicate resname "YGA"
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.pdb
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/clash_resolution/outputs/TRKB_20chol_L002_14.2_bound_cleaned.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/clash_resolution/outputs/TRKB_20chol_L002_14.2_bound_cleaned.pdb
+No severe water/ion clashes found. Copying bound PSF/PDB to cleaned outputs.
+Wrote cleaned PSF: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/clash_resolution/outputs/TRKB_20chol_L002_14.2_bound_cleaned.psf
+Wrote cleaned PDB: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/clash_resolution/outputs/TRKB_20chol_L002_14.2_bound_cleaned.pdb
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) Exiting normally.
+vmd > 

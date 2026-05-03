@@ -1,0 +1,19 @@
+
+Terminal summary
+coordinate handoff passed: True
+initial Branch B energy (kJ/mol): -332119.090573
+initial max force atom: C36 POPC MEMB:49 index=7084 force=11003.2118392 kJ/mol/nm
+Stage 1 final energy (kJ/mol): -218465.80151
+Stage 2 final energy (kJ/mol): -143535.160885
+Stage 3 final energy (kJ/mol): -143534.455807
+Stage 4 final energy (kJ/mol): -143534.610104
+Stage 1 max force (kJ/mol/nm): 8497.43511634 at C25 POPC MEMB:36 index=5292
+Stage 2 max force (kJ/mol/nm): 9832.88889798 at C25 POPC MEMB:91 index=11762
+Stage 3 max force (kJ/mol/nm): 9832.85925369 at C25 POPC MEMB:91 index=11762
+Stage 4 max force (kJ/mol/nm): 9832.85543741 at C25 POPC MEMB:91 index=11762
+Stage 4 severe/close clash: 0/0
+ligand retention: key_min=2.93018 A, near_chains=2, RMSD=1.31672 A
+very-short probe executed: False
+very-short probe passed: False
+recommend next short restrained MD attempt: False
+summary report: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\branchB_relaxation_summary.md

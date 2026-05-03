@@ -1,0 +1,3 @@
+﻿step,temperature_K,potential_energy_kJ_mol,kinetic_energy_kJ_mol,total_energy_kJ_mol,ligand_key_min_distance_A,ligand_near_chains_count,ligand_rmsd_A,severe_lt_1A,close_lt_1p5A,h9_h11_popc_severe_lt_1A,h9_h11_popc_close_lt_1p5A,status
+0,66.7545,8006847844.01,31177.5605469,8006879021.58,3.24624,2,3.04229e-05,0,0,0,0,ok
+10,4969.41,8004196202.75,2320956.75,8006517159.5,3.24779,2,0.00503841,0,0,0,0,temperature_above_200K

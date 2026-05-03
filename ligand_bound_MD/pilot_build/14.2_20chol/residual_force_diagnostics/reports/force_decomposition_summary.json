@@ -1,0 +1,103 @@
+{
+  "platform": "OpenCL",
+  "total_energy_kJ_mol": 14377199394.168705,
+  "total_force_nan": false,
+  "total_max_force_atom": {
+    "rank": 1,
+    "index": 12323,
+    "serial": 12324,
+    "atom_name": "C214",
+    "resname": "POPC",
+    "segid": "MEMB",
+    "resid": "96",
+    "element": "C",
+    "category": "lipid",
+    "force_x_kJ_mol_nm": -40463.30859375,
+    "force_y_kJ_mol_nm": -47713.765625,
+    "force_z_kJ_mol_nm": -67256.671875,
+    "force_magnitude_kJ_mol_nm": 91855.00903147248,
+    "is_MEMB49": 0,
+    "is_ligand": 0,
+    "is_ligand_H": 0
+  },
+  "dominant_MEMB49_force_group": {
+    "force_group": 9,
+    "force_index": 9,
+    "force_class": "CustomExternalForce",
+    "force_label": "CustomExternalForce/restraints",
+    "energy_kJ_mol": "14377342848",
+    "force_nan": 0,
+    "global_max_force_atom": "C3 CHL1 MEMB:78 index=10750",
+    "global_max_force_kJ_mol_nm": "89592.9245619",
+    "MEMB49_max_force_atom": "N POPC MEMB:49 index=6984",
+    "MEMB49_max_force_kJ_mol_nm": "43018.2617188",
+    "ligand_max_force_atom": "C1 L002 LIG:1 index=52223",
+    "ligand_max_force_kJ_mol_nm": "10.9617395401",
+    "ligand_MEMB49_min_distance_A": "25.9557",
+    "restraint_atom_count": 7411
+  },
+  "ligand_MEMB49_min_distance_A": 25.955674827675,
+  "restraint_atom_count": 7411,
+  "force_metadata": [
+    {
+      "force_index": 0,
+      "force_group": 0,
+      "force_class": "HarmonicBondForce",
+      "force_label": "HarmonicBondForce"
+    },
+    {
+      "force_index": 1,
+      "force_group": 1,
+      "force_class": "HarmonicAngleForce",
+      "force_label": "HarmonicAngleForce"
+    },
+    {
+      "force_index": 2,
+      "force_group": 2,
+      "force_class": "HarmonicBondForce",
+      "force_label": "HarmonicBondForce"
+    },
+    {
+      "force_index": 3,
+      "force_group": 3,
+      "force_class": "PeriodicTorsionForce",
+      "force_label": "PeriodicTorsionForce"
+    },
+    {
+      "force_index": 4,
+      "force_group": 4,
+      "force_class": "CustomTorsionForce",
+      "force_label": "Other Force"
+    },
+    {
+      "force_index": 5,
+      "force_group": 5,
+      "force_class": "CMAPTorsionForce",
+      "force_label": "CMAPTorsionForce"
+    },
+    {
+      "force_index": 6,
+      "force_group": 6,
+      "force_class": "NonbondedForce",
+      "force_label": "NonbondedForce/CustomNonbondedForce"
+    },
+    {
+      "force_index": 7,
+      "force_group": 7,
+      "force_class": "CustomNonbondedForce",
+      "force_label": "NonbondedForce/CustomNonbondedForce"
+    },
+    {
+      "force_index": 8,
+      "force_group": 8,
+      "force_class": "CMMotionRemover",
+      "force_label": "Other Force"
+    },
+    {
+      "force_index": 9,
+      "force_group": 9,
+      "force_class": "CustomExternalForce",
+      "force_label": "CustomExternalForce/restraints"
+    }
+  ]
+}

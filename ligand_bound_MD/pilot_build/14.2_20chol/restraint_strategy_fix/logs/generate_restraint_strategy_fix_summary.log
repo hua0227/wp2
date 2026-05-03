@@ -1,0 +1,12 @@
+Terminal summary
+PROA437 dominant force group: torsion (CustomTorsionForce)
+R1 final energy/max force/top: -604351.86694 / 2438.54048764 / OH2 TIP3 TIP3:7718 index=42769
+R2 final energy/max force/top: -601401.197018 / 2438.89312781 / OH2 TIP3 TIP3:4391 index=32788
+MEMB49 max force R1/R2: 279.790370882 / 368.749201497
+PROA437 max force R1/R2: 363.473054469 / 237.200192171
+ligand retention R1: key_min=3.29666205834 chains=1 RMSD=3.24019156608
+ligand retention R2: key_min=3.62569172881 chains=2 RMSD=2.01382186488
+very-short probe executed: True
+very-short probe passed: True
+recommendation: reattempt 10 ps restrained MD with R2 PBC-aware restraints
+summary report: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\restraint_strategy_fix\reports\restraint_strategy_fix_summary.md

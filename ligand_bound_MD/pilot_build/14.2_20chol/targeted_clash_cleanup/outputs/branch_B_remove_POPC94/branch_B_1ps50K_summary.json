@@ -1,0 +1,90 @@
+{
+  "completed_1ps": false,
+  "last_finite_step": 10,
+  "total_steps": 10000,
+  "timestep_fs": 0.1,
+  "temperature_k": 50.0,
+  "temperature_abort_k": 200.0,
+  "max_temperature_k": 4969.414741509471,
+  "nonfinite_detected": false,
+  "stop_reason": "temperature_above_200K",
+  "last_row": {
+    "step": 10,
+    "temperature_K": "4969.41",
+    "potential_energy_kJ_mol": "8004196202.75",
+    "kinetic_energy_kJ_mol": "2320956.75",
+    "total_energy_kJ_mol": "8006517159.5",
+    "ligand_key_min_distance_A": "3.24779",
+    "ligand_near_chains_count": 2,
+    "ligand_rmsd_A": "0.00503841",
+    "severe_lt_1A": 0,
+    "close_lt_1p5A": 0,
+    "h9_h11_popc_severe_lt_1A": 0,
+    "h9_h11_popc_close_lt_1p5A": 0,
+    "status": "temperature_above_200K"
+  },
+  "final_retention": {
+    "key_min_distance_a": 3.247786867188136,
+    "near_chain_count": 2,
+    "ligand_rmsd_a": 0.005038410445027216,
+    "key_rows": [
+      {
+        "label": "TYR13",
+        "segid": "PROA",
+        "resid": "434",
+        "distance_a": 7.765796970402218,
+        "within_6A": false
+      },
+      {
+        "label": "VAL17",
+        "segid": "PROA",
+        "resid": "438",
+        "distance_a": 6.250738010395404,
+        "within_6A": false
+      },
+      {
+        "label": "SER20",
+        "segid": "PROA",
+        "resid": "441",
+        "distance_a": 3.7425881417970412,
+        "within_6A": true
+      },
+      {
+        "label": "TYR13",
+        "segid": "PROB",
+        "resid": "434",
+        "distance_a": 5.310046749284526,
+        "within_6A": true
+      },
+      {
+        "label": "VAL17",
+        "segid": "PROB",
+        "resid": "438",
+        "distance_a": 3.247786867188136,
+        "within_6A": true
+      },
+      {
+        "label": "SER20",
+        "segid": "PROB",
+        "resid": "441",
+        "distance_a": 5.884497149410907,
+        "within_6A": true
+      }
+    ],
+    "chain_distances": {
+      "PROA": 2.9647871412002655,
+      "PROB": 3.247786867188136
+    },
+    "key_retained": true,
+    "near_two_chains": true
+  },
+  "final_clashes": {
+    "severe_lt_1A": 0,
+    "close_lt_1p5A": 0,
+    "h9_h11_popc_severe_lt_1A": 0,
+    "h9_h11_popc_close_lt_1p5A": 0,
+    "h9_h11_popc_details": []
+  },
+  "final_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\targeted_clash_cleanup\\outputs\\branch_B_remove_POPC94\\branch_B_1ps50K_final.pdb",
+  "retention_csv": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\targeted_clash_cleanup\\reports\\branch_B_1ps50K_retention.csv"
+}

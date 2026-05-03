@@ -1,0 +1,152 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+100 ps restrained MD pilot continuation R2 for 14.2 / L002 / 20chol
+This is not production MD. No CUDA will be used. No longer-than-100-ps MD will be run.
+R2 PBC-aware restraint expression: 0.5*k*periodicdistance(x,y,z,x0,y0,z0)^2
+Input PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_cleaned.psf
+50 ps final PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md50ps_R2\outputs\TRKB_20chol_L002_14.2_50ps_R2_final.pdb
+50 ps checkpoint: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md50ps_R2\outputs\TRKB_20chol_L002_14.2_50ps_R2.chk
+50 ps state XML: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md50ps_R2\outputs\TRKB_20chol_L002_14.2_50ps_R2_state.xml
+Checkpoint-compatible restraint anchor PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\short_md_retry_R2\outputs\TRKB_20chol_L002_14.2_shortMD_R2_final.pdb
+Original R2 input PDB for RMSD reference: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\restraint_strategy_fix\outputs\R2_pbcaware_minimized.pdb
+OpenMM version: 8.5.1.dev-f7fa0c2
+Available OpenMM platforms:
+- Reference
+- CPU
+- OpenCL
+Selected OpenMM platform: OpenCL
+R2 restraint counts:
+- protein_backbone_medium: 362
+- ligand_heavy_weak: 21
+- lipid_cholesterol_heavy_extremely_weak: 7028
+- water_ion_unrestrained: 32605
+- other_unrestrained: 12255
+Loaded 50 ps checkpoint successfully; continuing from checkpoint state.
+step 0 stage initial_checkpoint target 310.0K temp 309.929K PE -453981 KE 144752 key_min 3.702A chains 2 RMSD 0.000A severe/close 0/0 status ok
+Starting stage 310K_100ps: 310.0 K for 200000 steps
+step 2000 stage 310K_100ps target 310.0K temp 309.217K PE -452579 KE 144419 key_min 4.211A chains 2 RMSD 0.504A severe/close 0/0 status ok
+step 4000 stage 310K_100ps target 310.0K temp 310.863K PE -451757 KE 145188 key_min 3.521A chains 2 RMSD 0.424A severe/close 0/0 status ok
+step 6000 stage 310K_100ps target 310.0K temp 310.722K PE -453492 KE 145122 key_min 4.532A chains 2 RMSD 0.992A severe/close 0/0 status ok
+step 8000 stage 310K_100ps target 310.0K temp 310.196K PE -452069 KE 144877 key_min 4.011A chains 2 RMSD 0.620A severe/close 0/0 status ok
+step 10000 stage 310K_100ps target 310.0K temp 309.714K PE -452617 KE 144652 key_min 4.073A chains 2 RMSD 0.588A severe/close 0/0 status ok
+step 12000 stage 310K_100ps target 310.0K temp 309.570K PE -452690 KE 144584 key_min 3.477A chains 2 RMSD 0.539A severe/close 0/0 status ok
+step 14000 stage 310K_100ps target 310.0K temp 313.268K PE -452087 KE 146311 key_min 3.504A chains 2 RMSD 0.647A severe/close 0/0 status ok
+step 16000 stage 310K_100ps target 310.0K temp 309.889K PE -451634 KE 144733 key_min 3.716A chains 2 RMSD 0.679A severe/close 0/0 status ok
+step 18000 stage 310K_100ps target 310.0K temp 311.399K PE -453122 KE 145439 key_min 3.524A chains 2 RMSD 0.871A severe/close 0/0 status ok
+step 20000 stage 310K_100ps target 310.0K temp 306.937K PE -451867 KE 143354 key_min 3.815A chains 2 RMSD 1.073A severe/close 0/0 status ok
+step 22000 stage 310K_100ps target 310.0K temp 310.320K PE -451286 KE 144935 key_min 3.391A chains 2 RMSD 1.149A severe/close 0/0 status ok
+step 24000 stage 310K_100ps target 310.0K temp 309.744K PE -452166 KE 144665 key_min 3.349A chains 2 RMSD 0.813A severe/close 0/0 status ok
+step 26000 stage 310K_100ps target 310.0K temp 311.562K PE -452571 KE 145515 key_min 3.884A chains 2 RMSD 1.051A severe/close 0/0 status ok
+step 28000 stage 310K_100ps target 310.0K temp 309.668K PE -453200 KE 144630 key_min 3.982A chains 2 RMSD 0.995A severe/close 0/0 status ok
+step 30000 stage 310K_100ps target 310.0K temp 311.231K PE -451237 KE 145360 key_min 3.631A chains 2 RMSD 0.858A severe/close 0/0 status ok
+step 32000 stage 310K_100ps target 310.0K temp 309.331K PE -452569 KE 144472 key_min 3.979A chains 2 RMSD 0.920A severe/close 0/0 status ok
+step 34000 stage 310K_100ps target 310.0K temp 309.552K PE -452711 KE 144576 key_min 3.711A chains 2 RMSD 0.765A severe/close 0/0 status ok
+step 36000 stage 310K_100ps target 310.0K temp 308.956K PE -451991 KE 144297 key_min 3.415A chains 2 RMSD 0.594A severe/close 0/0 status ok
+step 38000 stage 310K_100ps target 310.0K temp 310.237K PE -452400 KE 144895 key_min 3.587A chains 2 RMSD 0.740A severe/close 0/0 status ok
+step 40000 stage 310K_100ps target 310.0K temp 309.756K PE -450740 KE 144671 key_min 3.450A chains 2 RMSD 0.766A severe/close 0/0 status ok
+step 42000 stage 310K_100ps target 310.0K temp 308.625K PE -451958 KE 144143 key_min 3.651A chains 2 RMSD 0.722A severe/close 0/0 status ok
+step 44000 stage 310K_100ps target 310.0K temp 309.817K PE -452189 KE 144700 key_min 3.707A chains 2 RMSD 0.656A severe/close 0/0 status ok
+step 46000 stage 310K_100ps target 310.0K temp 312.010K PE -452016 KE 145724 key_min 3.406A chains 2 RMSD 0.833A severe/close 0/0 status ok
+step 48000 stage 310K_100ps target 310.0K temp 308.737K PE -452625 KE 144195 key_min 3.721A chains 2 RMSD 0.704A severe/close 0/0 status ok
+step 50000 stage 310K_100ps target 310.0K temp 311.726K PE -452078 KE 145591 key_min 3.546A chains 2 RMSD 0.571A severe/close 0/0 status ok
+step 52000 stage 310K_100ps target 310.0K temp 310.333K PE -451846 KE 144940 key_min 3.480A chains 2 RMSD 0.670A severe/close 0/0 status ok
+step 54000 stage 310K_100ps target 310.0K temp 308.960K PE -451798 KE 144299 key_min 3.434A chains 2 RMSD 0.873A severe/close 0/0 status ok
+step 56000 stage 310K_100ps target 310.0K temp 311.254K PE -453141 KE 145371 key_min 3.386A chains 2 RMSD 0.691A severe/close 0/0 status ok
+step 58000 stage 310K_100ps target 310.0K temp 310.773K PE -451966 KE 145146 key_min 3.816A chains 2 RMSD 0.766A severe/close 0/0 status ok
+step 60000 stage 310K_100ps target 310.0K temp 308.835K PE -451133 KE 144241 key_min 3.560A chains 2 RMSD 0.960A severe/close 0/0 status ok
+step 62000 stage 310K_100ps target 310.0K temp 309.547K PE -452407 KE 144574 key_min 3.748A chains 2 RMSD 0.764A severe/close 0/0 status ok
+step 64000 stage 310K_100ps target 310.0K temp 309.076K PE -453362 KE 144354 key_min 3.904A chains 2 RMSD 0.577A severe/close 0/0 status ok
+step 66000 stage 310K_100ps target 310.0K temp 311.697K PE -451488 KE 145577 key_min 4.083A chains 2 RMSD 0.763A severe/close 0/0 status ok
+step 68000 stage 310K_100ps target 310.0K temp 309.675K PE -451511 KE 144633 key_min 4.283A chains 2 RMSD 0.776A severe/close 0/0 status ok
+step 70000 stage 310K_100ps target 310.0K temp 311.321K PE -451700 KE 145402 key_min 4.207A chains 2 RMSD 0.882A severe/close 0/0 status ok
+step 72000 stage 310K_100ps target 310.0K temp 310.135K PE -451528 KE 144848 key_min 3.772A chains 2 RMSD 0.659A severe/close 0/0 status ok
+step 74000 stage 310K_100ps target 310.0K temp 311.433K PE -452193 KE 145454 key_min 4.172A chains 2 RMSD 0.692A severe/close 0/0 status ok
+step 76000 stage 310K_100ps target 310.0K temp 313.250K PE -452329 KE 146303 key_min 4.136A chains 2 RMSD 0.904A severe/close 0/0 status ok
+step 78000 stage 310K_100ps target 310.0K temp 309.443K PE -453067 KE 144525 key_min 4.148A chains 2 RMSD 0.809A severe/close 0/0 status ok
+step 80000 stage 310K_100ps target 310.0K temp 310.680K PE -452417 KE 145103 key_min 3.966A chains 2 RMSD 0.805A severe/close 0/0 status ok
+step 82000 stage 310K_100ps target 310.0K temp 310.221K PE -451805 KE 144888 key_min 3.848A chains 2 RMSD 0.662A severe/close 0/0 status ok
+step 84000 stage 310K_100ps target 310.0K temp 311.890K PE -453708 KE 145668 key_min 4.098A chains 2 RMSD 0.921A severe/close 0/0 status ok
+step 86000 stage 310K_100ps target 310.0K temp 311.296K PE -451778 KE 145390 key_min 3.445A chains 2 RMSD 0.937A severe/close 0/0 status ok
+step 88000 stage 310K_100ps target 310.0K temp 308.368K PE -451361 KE 144023 key_min 4.216A chains 2 RMSD 0.986A severe/close 0/0 status ok
+step 90000 stage 310K_100ps target 310.0K temp 311.405K PE -451608 KE 145441 key_min 4.004A chains 2 RMSD 0.675A severe/close 0/0 status ok
+step 92000 stage 310K_100ps target 310.0K temp 311.328K PE -451959 KE 145405 key_min 3.334A chains 2 RMSD 0.844A severe/close 0/0 status ok
+step 94000 stage 310K_100ps target 310.0K temp 310.858K PE -451862 KE 145186 key_min 3.312A chains 2 RMSD 0.822A severe/close 0/0 status ok
+step 96000 stage 310K_100ps target 310.0K temp 307.978K PE -452968 KE 143840 key_min 3.440A chains 2 RMSD 1.041A severe/close 0/0 status ok
+step 98000 stage 310K_100ps target 310.0K temp 311.116K PE -452699 KE 145306 key_min 3.464A chains 2 RMSD 1.218A severe/close 0/0 status ok
+step 100000 stage 310K_100ps target 310.0K temp 311.157K PE -452469 KE 145325 key_min 4.069A chains 2 RMSD 1.127A severe/close 0/0 status ok
+step 102000 stage 310K_100ps target 310.0K temp 309.776K PE -453344 KE 144680 key_min 3.520A chains 2 RMSD 1.013A severe/close 0/0 status ok
+step 104000 stage 310K_100ps target 310.0K temp 309.441K PE -452892 KE 144524 key_min 3.871A chains 2 RMSD 0.880A severe/close 0/0 status ok
+step 106000 stage 310K_100ps target 310.0K temp 308.217K PE -452412 KE 143952 key_min 4.047A chains 2 RMSD 1.165A severe/close 0/0 status ok
+step 108000 stage 310K_100ps target 310.0K temp 311.892K PE -451113 KE 145669 key_min 3.814A chains 2 RMSD 1.523A severe/close 0/0 status ok
+step 110000 stage 310K_100ps target 310.0K temp 309.289K PE -451425 KE 144453 key_min 3.794A chains 2 RMSD 1.080A severe/close 0/0 status ok
+step 112000 stage 310K_100ps target 310.0K temp 309.623K PE -452465 KE 144609 key_min 4.267A chains 2 RMSD 0.963A severe/close 0/0 status ok
+step 114000 stage 310K_100ps target 310.0K temp 312.238K PE -451478 KE 145830 key_min 3.715A chains 2 RMSD 1.060A severe/close 0/0 status ok
+step 116000 stage 310K_100ps target 310.0K temp 312.768K PE -451296 KE 146078 key_min 3.519A chains 2 RMSD 0.863A severe/close 0/0 status ok
+step 118000 stage 310K_100ps target 310.0K temp 311.207K PE -452298 KE 145349 key_min 3.247A chains 2 RMSD 0.914A severe/close 0/0 status ok
+step 120000 stage 310K_100ps target 310.0K temp 310.885K PE -452043 KE 145198 key_min 3.495A chains 2 RMSD 1.122A severe/close 0/0 status ok
+step 122000 stage 310K_100ps target 310.0K temp 307.547K PE -451322 KE 143639 key_min 3.651A chains 2 RMSD 1.083A severe/close 0/0 status ok
+step 124000 stage 310K_100ps target 310.0K temp 309.424K PE -452349 KE 144516 key_min 3.484A chains 2 RMSD 0.723A severe/close 0/0 status ok
+step 126000 stage 310K_100ps target 310.0K temp 312.976K PE -451197 KE 146175 key_min 3.488A chains 2 RMSD 0.842A severe/close 0/0 status ok
+step 128000 stage 310K_100ps target 310.0K temp 310.744K PE -451742 KE 145132 key_min 3.508A chains 2 RMSD 0.718A severe/close 0/0 status ok
+step 130000 stage 310K_100ps target 310.0K temp 309.917K PE -452057 KE 144746 key_min 3.571A chains 2 RMSD 0.764A severe/close 0/0 status ok
+step 132000 stage 310K_100ps target 310.0K temp 312.288K PE -452514 KE 145854 key_min 3.561A chains 2 RMSD 0.974A severe/close 0/0 status ok
+step 134000 stage 310K_100ps target 310.0K temp 309.138K PE -452872 KE 144382 key_min 3.329A chains 2 RMSD 0.999A severe/close 0/0 status ok
+step 136000 stage 310K_100ps target 310.0K temp 311.365K PE -453112 KE 145422 key_min 3.809A chains 2 RMSD 0.981A severe/close 0/0 status ok
+step 138000 stage 310K_100ps target 310.0K temp 310.713K PE -452626 KE 145118 key_min 3.480A chains 2 RMSD 1.082A severe/close 0/0 status ok
+step 140000 stage 310K_100ps target 310.0K temp 311.232K PE -453208 KE 145360 key_min 3.671A chains 2 RMSD 0.353A severe/close 0/0 status ok
+step 142000 stage 310K_100ps target 310.0K temp 311.839K PE -452122 KE 145644 key_min 3.744A chains 2 RMSD 0.602A severe/close 0/0 status ok
+step 144000 stage 310K_100ps target 310.0K temp 309.348K PE -452099 KE 144481 key_min 3.834A chains 2 RMSD 0.759A severe/close 0/0 status ok
+step 146000 stage 310K_100ps target 310.0K temp 308.681K PE -452700 KE 144169 key_min 4.269A chains 2 RMSD 0.798A severe/close 0/0 status ok
+step 148000 stage 310K_100ps target 310.0K temp 310.371K PE -452842 KE 144958 key_min 3.949A chains 2 RMSD 0.710A severe/close 0/0 status ok
+step 150000 stage 310K_100ps target 310.0K temp 312.057K PE -452599 KE 145746 key_min 4.268A chains 2 RMSD 0.760A severe/close 0/0 status ok
+step 152000 stage 310K_100ps target 310.0K temp 310.064K PE -452188 KE 144815 key_min 3.622A chains 2 RMSD 0.556A severe/close 0/0 status ok
+step 154000 stage 310K_100ps target 310.0K temp 308.778K PE -452213 KE 144214 key_min 3.863A chains 2 RMSD 0.657A severe/close 0/0 status ok
+step 156000 stage 310K_100ps target 310.0K temp 312.161K PE -452828 KE 145794 key_min 3.672A chains 2 RMSD 0.543A severe/close 0/0 status ok
+step 158000 stage 310K_100ps target 310.0K temp 311.752K PE -453271 KE 145603 key_min 3.629A chains 2 RMSD 0.871A severe/close 0/0 status ok
+step 160000 stage 310K_100ps target 310.0K temp 310.825K PE -453036 KE 145171 key_min 3.313A chains 2 RMSD 0.791A severe/close 0/0 status ok
+step 162000 stage 310K_100ps target 310.0K temp 310.242K PE -452483 KE 144898 key_min 3.952A chains 2 RMSD 1.074A severe/close 0/0 status ok
+step 164000 stage 310K_100ps target 310.0K temp 308.587K PE -454144 KE 144125 key_min 4.363A chains 2 RMSD 0.850A severe/close 0/0 status ok
+step 166000 stage 310K_100ps target 310.0K temp 308.811K PE -452725 KE 144230 key_min 3.411A chains 2 RMSD 0.610A severe/close 0/0 status ok
+step 168000 stage 310K_100ps target 310.0K temp 309.351K PE -452905 KE 144482 key_min 3.920A chains 2 RMSD 0.943A severe/close 0/0 status ok
+step 170000 stage 310K_100ps target 310.0K temp 311.695K PE -451908 KE 145577 key_min 4.023A chains 2 RMSD 1.299A severe/close 0/0 status ok
+step 172000 stage 310K_100ps target 310.0K temp 310.303K PE -452562 KE 144926 key_min 4.264A chains 2 RMSD 1.319A severe/close 0/0 status ok
+step 174000 stage 310K_100ps target 310.0K temp 311.219K PE -452429 KE 145354 key_min 4.164A chains 2 RMSD 0.981A severe/close 0/0 status ok
+step 176000 stage 310K_100ps target 310.0K temp 309.909K PE -453360 KE 144742 key_min 3.488A chains 2 RMSD 0.767A severe/close 0/0 status ok
+step 178000 stage 310K_100ps target 310.0K temp 308.801K PE -452884 KE 144225 key_min 3.530A chains 2 RMSD 0.709A severe/close 0/0 status ok
+step 180000 stage 310K_100ps target 310.0K temp 311.396K PE -452710 KE 145437 key_min 3.992A chains 2 RMSD 1.054A severe/close 0/0 status ok
+step 182000 stage 310K_100ps target 310.0K temp 311.836K PE -453783 KE 145642 key_min 3.660A chains 2 RMSD 0.911A severe/close 0/0 status ok
+step 184000 stage 310K_100ps target 310.0K temp 310.879K PE -454251 KE 145195 key_min 3.348A chains 2 RMSD 0.600A severe/close 0/0 status ok
+step 186000 stage 310K_100ps target 310.0K temp 310.937K PE -453726 KE 145223 key_min 3.500A chains 2 RMSD 0.676A severe/close 0/0 status ok
+step 188000 stage 310K_100ps target 310.0K temp 310.570K PE -451530 KE 145051 key_min 3.513A chains 2 RMSD 0.594A severe/close 0/0 status ok
+step 190000 stage 310K_100ps target 310.0K temp 310.430K PE -454386 KE 144986 key_min 4.108A chains 2 RMSD 0.678A severe/close 0/0 status ok
+step 192000 stage 310K_100ps target 310.0K temp 309.908K PE -452573 KE 144742 key_min 3.750A chains 2 RMSD 0.733A severe/close 0/0 status ok
+step 194000 stage 310K_100ps target 310.0K temp 311.337K PE -454421 KE 145409 key_min 3.430A chains 2 RMSD 0.817A severe/close 0/0 status ok
+step 196000 stage 310K_100ps target 310.0K temp 312.202K PE -452439 KE 145813 key_min 4.161A chains 2 RMSD 1.101A severe/close 0/0 status ok
+step 198000 stage 310K_100ps target 310.0K temp 310.868K PE -452820 KE 145190 key_min 3.503A chains 2 RMSD 1.208A severe/close 0/0 status ok
+step 200000 stage 310K_100ps target 310.0K temp 310.952K PE -453165 KE 145230 key_min 3.667A chains 2 RMSD 1.198A severe/close 0/0 status ok
+
+Terminal summary
+completed_100ps: True
+continued_from_checkpoint: True
+start_mode: checkpoint
+fallback_reason: none
+last_step: 200000/200000
+last_time_ps: 100
+last_temperature_K: 310.952
+last_potential_energy_kJ_mol: -453165.298581
+nan_detected: False
+ligand_final_min_distance_to_key_residues_A: 3.6668
+ligand_final_near_chains_count: 2
+ligand_final_RMSD_vs_100ps_input_A: 1.19815
+ligand_final_RMSD_vs_original_R2_input_A: 1.56563
+ligand_max_RMSD_A: 1.52269
+final_severe_close_contacts: 0/0
+recommend_expand_to_14.2_40chol: True
+final PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\outputs\TRKB_20chol_L002_14.2_100ps_R2_final.pdb
+DCD: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\outputs\TRKB_20chol_L002_14.2_100ps_R2.dcd
+state XML: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\outputs\TRKB_20chol_L002_14.2_100ps_R2_state.xml
+checkpoint: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\outputs\TRKB_20chol_L002_14.2_100ps_R2.chk
+monitor CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\reports\md100ps_R2_monitor.csv
+summary report: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\md100ps_R2\reports\md100ps_R2_summary.md

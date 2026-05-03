@@ -1,0 +1,175 @@
+{
+  "branch": "branch_A_no_deletion",
+  "input_psf": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\outputs\\TRKB_20chol_L002_14.2_bound.psf",
+  "input_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\outputs\\TRKB_20chol_L002_14.2_bound.pdb",
+  "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\targeted_clash_cleanup\\outputs\\branch_A_no_deletion\\branch_A_minimized.pdb",
+  "platform": "OpenCL",
+  "max_iterations": 10000,
+  "constraints": "HBonds",
+  "rigid_water": true,
+  "strong_restraint_k_kj_mol_nm2": 5000.0,
+  "ligand_heavy_restraint_k_kj_mol_nm2": 1000.0,
+  "restraint_counts": {
+    "protein_backbone_restrained": 362,
+    "lipid_chol_heavy_restrained": 7080,
+    "ligand_heavy_restrained": 21,
+    "water_ion_unrestrained": 32605,
+    "other_unrestrained": 12337
+  },
+  "initial_input_energy_kj_mol": 19541278132358.875,
+  "initial_energy_kj_mol": 19568667852416.832,
+  "final_energy_kj_mol": 19568667827233.9,
+  "energy_finite": true,
+  "energy_decreased": true,
+  "initial_input_clashes": {
+    "severe_lt_1A": 27,
+    "close_lt_1p5A": 81,
+    "h9_h11_popc_severe_lt_1A": 1,
+    "h9_h11_popc_close_lt_1p5A": 3,
+    "h9_h11_popc_details": [
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C312",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 0.8605103137092538,
+        "severe": true
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "H12Y",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1326292420735038,
+        "severe": false
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C311",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1338275883043238,
+        "severe": false
+      }
+    ]
+  },
+  "initial_constrained_clashes": {
+    "severe_lt_1A": 27,
+    "close_lt_1p5A": 81,
+    "h9_h11_popc_severe_lt_1A": 1,
+    "h9_h11_popc_close_lt_1p5A": 3,
+    "h9_h11_popc_details": [
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C312",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 0.8619872528030983,
+        "severe": true
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C311",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1321392544260025,
+        "severe": false
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "H12Y",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1341980385371415,
+        "severe": false
+      }
+    ]
+  },
+  "final_clashes": {
+    "severe_lt_1A": 27,
+    "close_lt_1p5A": 81,
+    "h9_h11_popc_severe_lt_1A": 1,
+    "h9_h11_popc_close_lt_1p5A": 3,
+    "h9_h11_popc_details": [
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C312",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 0.8619872528030983,
+        "severe": true
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "C311",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1321392544260025,
+        "severe": false
+      },
+      {
+        "ligand_atom": "H9",
+        "other_atom": "H12Y",
+        "other_segid": "MEMB",
+        "other_resid": "94",
+        "distance_a": 1.1341980385371415,
+        "severe": false
+      }
+    ]
+  },
+  "retention": {
+    "key_min_distance_a": 3.022287084751927,
+    "near_chain_count": 2,
+    "ligand_rmsd_a": 0.10969060643534752,
+    "key_rows": [
+      {
+        "label": "TYR13",
+        "segid": "PROA",
+        "resid": "434",
+        "distance_a": 7.517951045308464,
+        "within_6A": false
+      },
+      {
+        "label": "VAL17",
+        "segid": "PROA",
+        "resid": "438",
+        "distance_a": 5.977468777824763,
+        "within_6A": true
+      },
+      {
+        "label": "SER20",
+        "segid": "PROA",
+        "resid": "441",
+        "distance_a": 3.022287084751927,
+        "within_6A": true
+      },
+      {
+        "label": "TYR13",
+        "segid": "PROB",
+        "resid": "434",
+        "distance_a": 3.463949211174944,
+        "within_6A": true
+      },
+      {
+        "label": "VAL17",
+        "segid": "PROB",
+        "resid": "438",
+        "distance_a": 3.26916874020945,
+        "within_6A": true
+      },
+      {
+        "label": "SER20",
+        "segid": "PROB",
+        "resid": "441",
+        "distance_a": 6.659482898354467,
+        "within_6A": false
+      }
+    ],
+    "chain_distances": {
+      "PROA": 3.022287084751927,
+      "PROB": 3.26916874020945
+    },
+    "key_retained": true,
+    "near_two_chains": true
+  }
+}

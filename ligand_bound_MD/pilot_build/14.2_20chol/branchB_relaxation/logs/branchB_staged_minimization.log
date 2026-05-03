@@ -1,0 +1,29 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+Branch B staged deeper minimization
+No velocities are set. No dynamics is run.
+OpenMM platform: OpenCL
+Input PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_cleaned.psf
+Input PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_minimized.pdb
+Max iterations per stage: 10000
+
+Stage 1 starting
+Stage 1 initial restrained energy 8020005310.92 kJ/mol; max force 151663.393616 at C213 POPC MEMB:92 index=11918; restraint atoms 7438
+Stage 1 final physical energy -218465.80151 kJ/mol; physical max force 8497.43511634 at C25 POPC MEMB:36 index=5292; severe/close 0/0; key_min 3.4230 A; chains 2; ligand RMSD 1.5703 A
+
+Stage 2 starting
+Stage 2 initial restrained energy 7998590898.14 kJ/mol; max force 152013.328782 at C33 POPC MEMB:113 index=14617; restraint atoms 7438
+Stage 2 final physical energy -143535.160885 kJ/mol; physical max force 9832.88889798 at C25 POPC MEMB:91 index=11762; severe/close 0/0; key_min 2.9302 A; chains 2; ligand RMSD 1.3167 A
+
+Stage 3 starting
+Stage 3 initial restrained energy 1602603694.21 kJ/mol; max force 32013.1590556 at C214 POPC MEMB:96 index=12323; restraint atoms 7438
+Stage 3 final physical energy -143534.455807 kJ/mol; physical max force 9832.85925369 at C25 POPC MEMB:91 index=11762; severe/close 0/0; key_min 2.9302 A; chains 2; ligand RMSD 1.3167 A
+
+Stage 4 starting
+Stage 4 initial restrained energy 1602476602.78 kJ/mol; max force 32013.0994607 at C214 POPC MEMB:96 index=12323; restraint atoms 7411
+Stage 4 final physical energy -143534.610104 kJ/mol; physical max force 9832.85543741 at C25 POPC MEMB:91 index=11762; severe/close 0/0; key_min 2.9302 A; chains 2; ligand RMSD 1.3167 A
+
+Summary CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\staged_minimization_summary.csv
+Summary JSON: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\staged_minimization_summary.json

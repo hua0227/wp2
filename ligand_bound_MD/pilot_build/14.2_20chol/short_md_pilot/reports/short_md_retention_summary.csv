@@ -1,0 +1,3 @@
+﻿stage,step,temperature_K,potential_energy_kJ_mol,total_energy_kJ_mol,ligand_min_distance_to_key_residues_A,ligand_near_chains,ligand_rmsd_A,status
+initial_50K,0,542.556,405833854.56,406087976.216,2.55092,2,0.0579944,temperature_above_500K
+50K_2ps,1,1797.49,416528929.339,417370832.902,2.78641,2,0.137304,temperature_above_500K

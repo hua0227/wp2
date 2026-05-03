@@ -1,0 +1,11 @@
+﻿force_group,force_index,force_class,force_label,energy_kJ_mol,force_nan,global_max_force_atom,global_max_force_kJ_mol_nm,MEMB49_max_force_atom,MEMB49_max_force_kJ_mol_nm,ligand_max_force_atom,ligand_max_force_kJ_mol_nm,ligand_MEMB49_min_distance_A,restraint_atom_count
+0,0,HarmonicBondForce,HarmonicBondForce,108621.243256,0,CG LEU PROA:447 index=386,30544.3227995,C32 POPC MEMB:49 index=7025,3061.73460106,C7 L002 LIG:1 index=52229,1427.90885197,25.9557,
+1,1,HarmonicAngleForce,HarmonicAngleForce,109919.373047,0,O VAL PROA:437 index=252,11131.2006635,C37 POPC MEMB:49 index=7087,4797.37415152,N L002 LIG:1 index=52230,1442.34207577,25.9557,
+2,2,HarmonicBondForce,HarmonicBondForce,57778.7581329,0,CG LEU PROA:447 index=386,7595.53944676,P POPC MEMB:49 index=7003,1205.11791305,C7 L002 LIG:1 index=52229,850.317746264,25.9557,
+3,3,PeriodicTorsionForce,PeriodicTorsionForce,50152.2507935,0,C210 POPC MEMB:64 index=9058,2088.84677259,O21 POPC MEMB:49 index=7013,492.485052168,C10 L002 LIG:1 index=52233,1028.88577553,25.9557,
+4,4,CustomTorsionForce,Other Force,806.932312012,0,O VAL PROA:437 index=252,31707.7442227,C21 POPC MEMB:49 index=7014,1102.63430068,C17 L002 LIG:1 index=52240,223.440483368,25.9557,
+5,5,CMAPTorsionForce,CMAPTorsionForce,-451.588989258,0,N LYS PROB:425 index=771,828.927127263,N POPC MEMB:49 index=6984,0,C1 L002 LIG:1 index=52223,0,25.9557,
+6,6,NonbondedForce,NonbondedForce/CustomNonbondedForce,-671525.637448,0,C12 CHL1 MEMB:1 index=1482,6352.02941898,C31 POPC MEMB:49 index=7023,1227.57764245,N L002 LIG:1 index=52230,1395.41797303,25.9557,
+7,7,CustomNonbondedForce,NonbondedForce/CustomNonbondedForce,201178.134521,0,C211 POPC MEMB:33 index=4906,31554.5576261,C32 POPC MEMB:49 index=7025,3662.96580149,N L002 LIG:1 index=52230,548.747514694,25.9557,
+8,8,CMMotionRemover,Other Force,0,0,N MET PROA:422 index=0,0,N POPC MEMB:49 index=6984,0,C1 L002 LIG:1 index=52223,0,25.9557,
+9,9,CustomExternalForce,CustomExternalForce/restraints,14377342848,0,C3 CHL1 MEMB:78 index=10750,89592.9245619,N POPC MEMB:49 index=6984,43018.2617188,C1 L002 LIG:1 index=52223,10.9617395401,25.9557,7411

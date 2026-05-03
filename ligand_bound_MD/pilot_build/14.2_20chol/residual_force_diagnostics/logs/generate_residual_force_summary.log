@@ -1,0 +1,9 @@
+Terminal summary
+MEMB49 max force with restraints: 43018.2617188 kJ/mol/nm
+MEMB49 max force without restraints: 2751.0359106 kJ/mol/nm
+dominant force group: CustomExternalForce/restraints (CustomExternalForce)
+MEMB49 abnormal bonds: 0
+MEMB49 ligand min distance: 25.9557 A
+no-restraint top force atom: O VAL PROA:437 index=252 force=35006.4856312 kJ/mol/nm
+recommendation: adjust restraint/reference-coordinate handling; do not delete MEMB49 and do not restart short MD yet.
+summary report: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\residual_force_diagnostics\reports\residual_force_diagnostics_summary.md

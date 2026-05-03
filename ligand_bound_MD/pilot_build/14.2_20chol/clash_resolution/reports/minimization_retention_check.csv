@@ -1,0 +1,10 @@
+﻿key_residue,segid,resid,min_distance_A,within_6A
+TYR13,PROA,434,7.690,0
+VAL17,PROA,438,7.055,0
+SER20,PROA,441,2.573,1
+TYR13,PROB,434,3.365,1
+VAL17,PROB,438,3.570,1
+SER20,PROB,441,6.576,0
+nearest_protein_chain,PROA,,2.573,1
+nearest_protein_chain,PROB,,3.365,1
+ligand_heavy_rmsd_before_after,LIG,1,1.985,

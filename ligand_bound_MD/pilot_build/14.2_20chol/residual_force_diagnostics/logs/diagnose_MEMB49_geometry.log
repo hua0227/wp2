@@ -1,0 +1,7 @@
+MEMB49_abnormal_bonds: 0
+MEMB49_ligand_min_distance_A: 25.9557
+MEMB49_apo_heavy_RMSD_A: nan
+MEMB49_min_box_boundary_margin_A: 5.74105
+MEMB49_near_box_boundary: False
+Geometry CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\residual_force_diagnostics\reports\MEMB49_geometry_diagnostics.csv
+Contacts CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\residual_force_diagnostics\reports\MEMB49_contacts.csv

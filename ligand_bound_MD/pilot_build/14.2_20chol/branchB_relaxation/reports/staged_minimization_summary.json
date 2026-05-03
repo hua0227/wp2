@@ -1,0 +1,467 @@
+{
+  "platform": "OpenCL",
+  "max_iterations_per_stage": 10000,
+  "tolerance_kJ_mol_nm": 1.0,
+  "stages": [
+    {
+      "stage": 1,
+      "restraint_atom_count": 7438,
+      "initial_restrained_energy_kJ_mol": "8020005310.92",
+      "final_restrained_energy_kJ_mol": "489587.254154",
+      "physical_energy_kJ_mol": "-218465.80151",
+      "energy_finite": 1,
+      "restrained_max_force_atom": "C3 POPC MEMB:127 index=16437",
+      "restrained_max_force_kJ_mol_nm": "6883.9162927",
+      "physical_max_force_atom": "C25 POPC MEMB:36 index=5292",
+      "physical_max_force_kJ_mol_nm": "8497.43511634",
+      "force_nan": 0,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "h9_h11_popc_severe_lt_1A": 0,
+      "h9_h11_popc_close_lt_1p5A": 0,
+      "ligand_key_min_distance_A": "3.42301",
+      "ligand_near_chains_count": 2,
+      "ligand_rmsd_vs_branchB_start_A": "1.57033",
+      "ligand_retained_near_key_residues": 1,
+      "ligand_retained_near_two_chains": 1,
+      "ligand_image_translation_A": "0.0000,0.0000,109.6174",
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\branchB_relaxation\\outputs\\branchB_stage1_minimized.pdb",
+      "retention": {
+        "key_min_distance_a": 3.423007336714168,
+        "near_chain_count": 2,
+        "ligand_rmsd_a": 1.570334190945391,
+        "key_rows": [
+          {
+            "label": "TYR13",
+            "segid": "PROA",
+            "resid": "434",
+            "distance_a": 10.43366834939139,
+            "within_6A": false
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROA",
+            "resid": "438",
+            "distance_a": 7.2973094198751145,
+            "within_6A": false
+          },
+          {
+            "label": "SER20",
+            "segid": "PROA",
+            "resid": "441",
+            "distance_a": 3.93225877909243,
+            "within_6A": true
+          },
+          {
+            "label": "TYR13",
+            "segid": "PROB",
+            "resid": "434",
+            "distance_a": 4.1415650001663025,
+            "within_6A": true
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROB",
+            "resid": "438",
+            "distance_a": 3.423007336714168,
+            "within_6A": true
+          },
+          {
+            "label": "SER20",
+            "segid": "PROB",
+            "resid": "441",
+            "distance_a": 8.149904074483056,
+            "within_6A": false
+          }
+        ],
+        "chain_distances": {
+          "PROA": 2.8479920462680015,
+          "PROB": 3.423007336714168
+        },
+        "key_retained": true,
+        "near_two_chains": true
+      },
+      "clashes": {
+        "severe_lt_1A": 0,
+        "close_lt_1p5A": 0,
+        "h9_h11_popc_severe_lt_1A": 0,
+        "h9_h11_popc_close_lt_1p5A": 0
+      },
+      "physical_max_force": {
+        "index": 5292,
+        "serial": 5293,
+        "atom_name": "C25",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "36",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": -5935.046875,
+        "force_y_kJ_mol_nm": -5283.96875,
+        "force_z_kJ_mol_nm": -3010.19873046875,
+        "force_magnitude_kJ_mol_nm": 8497.435116335959,
+        "is_ligand_H": 0
+      },
+      "restrained_max_force": {
+        "index": 16437,
+        "serial": 16438,
+        "atom_name": "C3",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "127",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": -1392.931884765625,
+        "force_y_kJ_mol_nm": -6454.33837890625,
+        "force_z_kJ_mol_nm": 1946.6793212890625,
+        "force_magnitude_kJ_mol_nm": 6883.916292703836,
+        "is_ligand_H": 0
+      }
+    },
+    {
+      "stage": 2,
+      "restraint_atom_count": 7438,
+      "initial_restrained_energy_kJ_mol": "7998590898.14",
+      "final_restrained_energy_kJ_mol": "623309.305912",
+      "physical_energy_kJ_mol": "-143535.160885",
+      "energy_finite": 1,
+      "restrained_max_force_atom": "C25 POPC MEMB:91 index=11762",
+      "restrained_max_force_kJ_mol_nm": "9351.10302163",
+      "physical_max_force_atom": "C25 POPC MEMB:91 index=11762",
+      "physical_max_force_kJ_mol_nm": "9832.88889798",
+      "force_nan": 0,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "h9_h11_popc_severe_lt_1A": 0,
+      "h9_h11_popc_close_lt_1p5A": 0,
+      "ligand_key_min_distance_A": "2.93018",
+      "ligand_near_chains_count": 2,
+      "ligand_rmsd_vs_branchB_start_A": "1.31672",
+      "ligand_retained_near_key_residues": 1,
+      "ligand_retained_near_two_chains": 1,
+      "ligand_image_translation_A": "0.0000,0.0000,109.6174",
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\branchB_relaxation\\outputs\\branchB_stage2_minimized.pdb",
+      "retention": {
+        "key_min_distance_a": 2.9301824647696386,
+        "near_chain_count": 2,
+        "ligand_rmsd_a": 1.3167194967175067,
+        "key_rows": [
+          {
+            "label": "TYR13",
+            "segid": "PROA",
+            "resid": "434",
+            "distance_a": 8.329891851805337,
+            "within_6A": false
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROA",
+            "resid": "438",
+            "distance_a": 7.808139864194388,
+            "within_6A": false
+          },
+          {
+            "label": "SER20",
+            "segid": "PROA",
+            "resid": "441",
+            "distance_a": 2.9301824647696386,
+            "within_6A": true
+          },
+          {
+            "label": "TYR13",
+            "segid": "PROB",
+            "resid": "434",
+            "distance_a": 5.855294874743466,
+            "within_6A": true
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROB",
+            "resid": "438",
+            "distance_a": 3.415757605511243,
+            "within_6A": true
+          },
+          {
+            "label": "SER20",
+            "segid": "PROB",
+            "resid": "441",
+            "distance_a": 7.797422103228757,
+            "within_6A": false
+          }
+        ],
+        "chain_distances": {
+          "PROA": 2.9301824647696386,
+          "PROB": 3.415757605511243
+        },
+        "key_retained": true,
+        "near_two_chains": true
+      },
+      "clashes": {
+        "severe_lt_1A": 0,
+        "close_lt_1p5A": 0,
+        "h9_h11_popc_severe_lt_1A": 0,
+        "h9_h11_popc_close_lt_1p5A": 0
+      },
+      "physical_max_force": {
+        "index": 11762,
+        "serial": 11763,
+        "atom_name": "C25",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "91",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": 2836.72265625,
+        "force_y_kJ_mol_nm": 9372.515625,
+        "force_z_kJ_mol_nm": 891.436767578125,
+        "force_magnitude_kJ_mol_nm": 9832.888897976085,
+        "is_ligand_H": 0
+      },
+      "restrained_max_force": {
+        "index": 11762,
+        "serial": 11763,
+        "atom_name": "C25",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "91",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": 5132.62158203125,
+        "force_y_kJ_mol_nm": 7772.02001953125,
+        "force_z_kJ_mol_nm": -833.6835327148438,
+        "force_magnitude_kJ_mol_nm": 9351.103021625171,
+        "is_ligand_H": 0
+      }
+    },
+    {
+      "stage": 3,
+      "restraint_atom_count": 7438,
+      "initial_restrained_energy_kJ_mol": "1602603694.21",
+      "final_restrained_energy_kJ_mol": "1602603683.62",
+      "physical_energy_kJ_mol": "-143534.455807",
+      "energy_finite": 1,
+      "restrained_max_force_atom": "C214 POPC MEMB:96 index=12323",
+      "restrained_max_force_kJ_mol_nm": "32013.4109437",
+      "physical_max_force_atom": "C25 POPC MEMB:91 index=11762",
+      "physical_max_force_kJ_mol_nm": "9832.85925369",
+      "force_nan": 0,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "h9_h11_popc_severe_lt_1A": 0,
+      "h9_h11_popc_close_lt_1p5A": 0,
+      "ligand_key_min_distance_A": "2.93018",
+      "ligand_near_chains_count": 2,
+      "ligand_rmsd_vs_branchB_start_A": "1.31672",
+      "ligand_retained_near_key_residues": 1,
+      "ligand_retained_near_two_chains": 1,
+      "ligand_image_translation_A": "0.0000,0.0000,0.0000",
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\branchB_relaxation\\outputs\\branchB_stage3_minimized.pdb",
+      "retention": {
+        "key_min_distance_a": 2.9301833264529433,
+        "near_chain_count": 2,
+        "ligand_rmsd_a": 1.3167191582755062,
+        "key_rows": [
+          {
+            "label": "TYR13",
+            "segid": "PROA",
+            "resid": "434",
+            "distance_a": 8.329891119517542,
+            "within_6A": false
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROA",
+            "resid": "438",
+            "distance_a": 7.808139984757287,
+            "within_6A": false
+          },
+          {
+            "label": "SER20",
+            "segid": "PROA",
+            "resid": "441",
+            "distance_a": 2.9301833264529433,
+            "within_6A": true
+          },
+          {
+            "label": "TYR13",
+            "segid": "PROB",
+            "resid": "434",
+            "distance_a": 5.855298325242347,
+            "within_6A": true
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROB",
+            "resid": "438",
+            "distance_a": 3.4157552139471883,
+            "within_6A": true
+          },
+          {
+            "label": "SER20",
+            "segid": "PROB",
+            "resid": "441",
+            "distance_a": 7.797418443203756,
+            "within_6A": false
+          }
+        ],
+        "chain_distances": {
+          "PROA": 2.9301833264529433,
+          "PROB": 3.4157552139471883
+        },
+        "key_retained": true,
+        "near_two_chains": true
+      },
+      "clashes": {
+        "severe_lt_1A": 0,
+        "close_lt_1p5A": 0,
+        "h9_h11_popc_severe_lt_1A": 0,
+        "h9_h11_popc_close_lt_1p5A": 0
+      },
+      "physical_max_force": {
+        "index": 11762,
+        "serial": 11763,
+        "atom_name": "C25",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "91",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": 2836.862548828125,
+        "force_y_kJ_mol_nm": 9372.4404296875,
+        "force_z_kJ_mol_nm": 891.4552001953125,
+        "force_magnitude_kJ_mol_nm": 9832.859253693185,
+        "is_ligand_H": 0
+      },
+      "restrained_max_force": {
+        "index": 12323,
+        "serial": 12324,
+        "atom_name": "C214",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "96",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": -12172.9638671875,
+        "force_y_kJ_mol_nm": -18331.876953125,
+        "force_z_kJ_mol_nm": -23251.23046875,
+        "force_magnitude_kJ_mol_nm": 32013.41094365448,
+        "is_ligand_H": 0
+      }
+    },
+    {
+      "stage": 4,
+      "restraint_atom_count": 7411,
+      "initial_restrained_energy_kJ_mol": "1602476602.78",
+      "final_restrained_energy_kJ_mol": "1602476568.2",
+      "physical_energy_kJ_mol": "-143534.610104",
+      "energy_finite": 1,
+      "restrained_max_force_atom": "C214 POPC MEMB:96 index=12323",
+      "restrained_max_force_kJ_mol_nm": "32013.3168874",
+      "physical_max_force_atom": "C25 POPC MEMB:91 index=11762",
+      "physical_max_force_kJ_mol_nm": "9832.85543741",
+      "force_nan": 0,
+      "severe_lt_1A": 0,
+      "close_lt_1p5A": 0,
+      "h9_h11_popc_severe_lt_1A": 0,
+      "h9_h11_popc_close_lt_1p5A": 0,
+      "ligand_key_min_distance_A": "2.93018",
+      "ligand_near_chains_count": 2,
+      "ligand_rmsd_vs_branchB_start_A": "1.31672",
+      "ligand_retained_near_key_residues": 1,
+      "ligand_retained_near_two_chains": 1,
+      "ligand_image_translation_A": "0.0000,0.0000,0.0000",
+      "output_pdb": "C:\\TRKB_WP2\\ligand_bound_MD\\pilot_build\\14.2_20chol\\branchB_relaxation\\outputs\\branchB_stage4_minimized.pdb",
+      "retention": {
+        "key_min_distance_a": 2.9301833264529433,
+        "near_chain_count": 2,
+        "ligand_rmsd_a": 1.3167206554333357,
+        "key_rows": [
+          {
+            "label": "TYR13",
+            "segid": "PROA",
+            "resid": "434",
+            "distance_a": 8.329892325447778,
+            "within_6A": false
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROA",
+            "resid": "438",
+            "distance_a": 7.808139984757287,
+            "within_6A": false
+          },
+          {
+            "label": "SER20",
+            "segid": "PROA",
+            "resid": "441",
+            "distance_a": 2.9301833264529433,
+            "within_6A": true
+          },
+          {
+            "label": "TYR13",
+            "segid": "PROB",
+            "resid": "434",
+            "distance_a": 5.8552984661777945,
+            "within_6A": true
+          },
+          {
+            "label": "VAL17",
+            "segid": "PROB",
+            "resid": "438",
+            "distance_a": 3.4157552949415706,
+            "within_6A": true
+          },
+          {
+            "label": "SER20",
+            "segid": "PROB",
+            "resid": "441",
+            "distance_a": 7.797418602765589,
+            "within_6A": false
+          }
+        ],
+        "chain_distances": {
+          "PROA": 2.9301833264529433,
+          "PROB": 3.4157552949415706
+        },
+        "key_retained": true,
+        "near_two_chains": true
+      },
+      "clashes": {
+        "severe_lt_1A": 0,
+        "close_lt_1p5A": 0,
+        "h9_h11_popc_severe_lt_1A": 0,
+        "h9_h11_popc_close_lt_1p5A": 0
+      },
+      "physical_max_force": {
+        "index": 11762,
+        "serial": 11763,
+        "atom_name": "C25",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "91",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": 2836.991455078125,
+        "force_y_kJ_mol_nm": 9372.396484375,
+        "force_z_kJ_mol_nm": 891.4649047851562,
+        "force_magnitude_kJ_mol_nm": 9832.855437408543,
+        "is_ligand_H": 0
+      },
+      "restrained_max_force": {
+        "index": 12323,
+        "serial": 12324,
+        "atom_name": "C214",
+        "resname": "POPC",
+        "segid": "MEMB",
+        "resid": "96",
+        "element": "C",
+        "category": "lipid",
+        "force_x_kJ_mol_nm": -12172.9130859375,
+        "force_y_kJ_mol_nm": -18331.892578125,
+        "force_z_kJ_mol_nm": -23251.115234375,
+        "force_magnitude_kJ_mol_nm": 32013.316887443703,
+        "is_ligand_H": 0
+      }
+    }
+  ]
+}

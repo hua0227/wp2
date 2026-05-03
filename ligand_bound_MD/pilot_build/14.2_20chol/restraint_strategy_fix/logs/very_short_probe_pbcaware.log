@@ -1,0 +1,49 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+step 0 temp 50.684 PE -605229 maxF 2426.6 chains 2 status ok
+step 100 temp 35.492 PE -597813 maxF 2502.84 chains 2 status ok
+step 200 temp 29.860 PE -594356 maxF 2451.38 chains 2 status ok
+step 300 temp 29.681 PE -593323 maxF 2498.66 chains 2 status ok
+step 400 temp 29.004 PE -592062 maxF 2501.22 chains 2 status ok
+step 500 temp 31.815 PE -592448 maxF 2513.09 chains 2 status ok
+step 600 temp 31.382 PE -591371 maxF 2503.37 chains 2 status ok
+step 700 temp 33.311 PE -591442 maxF 2507.61 chains 2 status ok
+step 800 temp 32.718 PE -590370 maxF 2471.1 chains 2 status ok
+step 900 temp 34.270 PE -590351 maxF 2489.94 chains 2 status ok
+step 1000 temp 34.132 PE -589584 maxF 2504.99 chains 2 status ok
+step 1100 temp 34.982 PE -589264 maxF 2533.54 chains 2 status ok
+step 1200 temp 36.654 PE -589403 maxF 2574.12 chains 2 status ok
+step 1300 temp 36.808 PE -588872 maxF 2517.05 chains 2 status ok
+step 1400 temp 37.755 PE -588712 maxF 2452.32 chains 2 status ok
+step 1500 temp 37.408 PE -588014 maxF 2506.15 chains 2 status ok
+step 1600 temp 38.440 PE -587930 maxF 2507.84 chains 2 status ok
+step 1700 temp 38.494 PE -587427 maxF 2519.72 chains 2 status ok
+step 1800 temp 39.214 PE -587251 maxF 2518.04 chains 2 status ok
+step 1900 temp 39.863 PE -587078 maxF 2474.02 chains 2 status ok
+step 2000 temp 40.050 PE -586715 maxF 2454.27 chains 2 status ok
+step 2100 temp 40.993 PE -586697 maxF 2462.23 chains 2 status ok
+step 2200 temp 40.949 PE -586260 maxF 2456.62 chains 2 status ok
+step 2300 temp 41.705 PE -586322 maxF 2435.45 chains 2 status ok
+step 2400 temp 41.504 PE -585804 maxF 2499.86 chains 2 status ok
+step 2500 temp 42.211 PE -585777 maxF 2531.25 chains 2 status ok
+step 2600 temp 42.703 PE -585636 maxF 2520.39 chains 2 status ok
+step 2700 temp 42.917 PE -585426 maxF 2518.19 chains 2 status ok
+step 2800 temp 43.613 PE -585431 maxF 2489.86 chains 2 status ok
+step 2900 temp 43.323 PE -585036 maxF 2457.38 chains 2 status ok
+step 3000 temp 44.090 PE -585113 maxF 2458.77 chains 2 status ok
+step 3100 temp 44.180 PE -584810 maxF 2465.54 chains 2 status ok
+step 3200 temp 44.706 PE -584794 maxF 2542.6 chains 2 status ok
+step 3300 temp 45.057 PE -584691 maxF 2574.2 chains 2 status ok
+step 3400 temp 45.055 PE -584463 maxF 2540.87 chains 2 status ok
+step 3500 temp 45.705 PE -584531 maxF 2598.37 chains 2 status ok
+step 3600 temp 45.435 PE -584143 maxF 2727.08 chains 2 status ok
+step 3700 temp 46.141 PE -584251 maxF 2701.96 chains 2 status ok
+step 3800 temp 46.149 PE -584048 maxF 2523.2 chains 2 status ok
+step 3900 temp 46.293 PE -583918 maxF 2598.47 chains 2 status ok
+step 4000 temp 46.528 PE -583887 maxF 2569.58 chains 2 status ok
+very_short_probe_executed: True
+very_short_probe_passed: True
+last_step: 4000/4000
+stop_reason: none

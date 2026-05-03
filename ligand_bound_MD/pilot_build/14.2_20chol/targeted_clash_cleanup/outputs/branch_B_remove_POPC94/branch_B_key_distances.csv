@@ -1,0 +1,9 @@
+﻿branch,target,segid,resid,min_distance_A,within_6A
+branch_B_remove_POPC94,TYR13,PROA,434,7.7675,0
+branch_B_remove_POPC94,VAL17,PROA,438,6.2540,0
+branch_B_remove_POPC94,SER20,PROA,441,3.7450,1
+branch_B_remove_POPC94,TYR13,PROB,434,5.2958,1
+branch_B_remove_POPC94,VAL17,PROB,438,3.2468,1
+branch_B_remove_POPC94,SER20,PROB,441,5.8827,1
+branch_B_remove_POPC94,nearest_protein_chain,PROA,,2.9638,1
+branch_B_remove_POPC94,nearest_protein_chain,PROB,,3.2468,1

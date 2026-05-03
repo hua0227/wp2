@@ -1,0 +1,36 @@
+# Branch B Coordinate Handoff Check
+
+No dynamics was run. The minimized coordinates were loaded into an OpenMM Context and immediately written back out.
+
+- Cleaned PSF atoms: 52271
+- Cleaned PDB atoms: 52271
+- Minimized PDB atoms: 52271
+- Roundtrip PDB: `C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\outputs\branchB_minimized_roundtrip.pdb`
+- Heavy-atom roundtrip RMSD: 0 A
+- Ligand heavy-atom roundtrip RMSD: 0 A
+- NaN coordinates in input/roundtrip: False / False
+- Periodic box max delta vs GRO: 0 A
+- Coordinate handoff pass: YES
+- Water/ion residue-number warnings: 20 cleaned, 20 minimized. These do not affect atom order because name/resname/segid order is consistent.
+
+| Check | Value | Pass |
+|---|---|---:|
+| psf_atom_count | 52271 | 1 |
+| cleaned_pdb_atom_count | 52271 | 1 |
+| minimized_pdb_atom_count | 52271 | 1 |
+| roundtrip_pdb_atom_count | 52271 | 1 |
+| cleaned_psf_pdb_order_consistent | yes | 1 |
+| minimized_psf_pdb_order_consistent | yes | 1 |
+| cleaned_water_ion_resid_warnings | index 49615: water/ion resid differs psf=10000 pdb=2710 | 1 |
+| minimized_water_ion_resid_warnings | index 49615: water/ion resid differs psf=10000 pdb=2710 | 1 |
+| cleaned_ligand_atom_names_consistent | C1,C2,C3,C4,C5,C6,C7,N,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,O,C18,C19,H1,H2,H3,H4,H5,H6,H7,H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18,H19,H20,H21,H22,H23,H24,H25,H26,H27;C1,C2,C3,C4,C5,C6,C7,N,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,O,C18,C19,H1,H2,H3,H4,H5,H6,H7,H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18,H19,H20,H21,H22,H23,H24,H25,H26,H27 | 1 |
+| minimized_ligand_atom_names_consistent | C1,C2,C3,C4,C5,C6,C7,N,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,O,C18,C19,H1,H2,H3,H4,H5,H6,H7,H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18,H19,H20,H21,H22,H23,H24,H25,H26,H27;C1,C2,C3,C4,C5,C6,C7,N,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,O,C18,C19,H1,H2,H3,H4,H5,H6,H7,H8,H9,H10,H11,H12,H13,H14,H15,H16,H17,H18,H19,H20,H21,H22,H23,H24,H25,H26,H27 | 1 |
+| input_minimized_has_nan_coords | False | 1 |
+| roundtrip_has_nan_coords | False | 1 |
+| roundtrip_heavy_atom_rmsd_A | 0 | 1 |
+| roundtrip_ligand_heavy_atom_rmsd_A | 0 | 1 |
+| periodic_box_expected_A | (71.6971, 71.6971, 109.6174) | 1 |
+| periodic_box_observed_A | (71.6971, 71.6971, 109.6174) | 1 |
+| periodic_box_max_delta_A | 0 | 1 |
+| openmm_platform | OpenCL | 1 |
+| coordinate_handoff_pass | True | 1 |

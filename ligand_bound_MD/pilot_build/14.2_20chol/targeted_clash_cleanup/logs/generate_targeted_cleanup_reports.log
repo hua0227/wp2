@@ -1,0 +1,14 @@
+
+Terminal summary
+detailed bound severe/close clash counts: 27 / 81
+detailed previous-minimized severe/close clash counts: 0 / 1
+MEMB:94 POPC dominant severe source in bound start: True
+Branch A initial/final energy and remaining clashes: 1.95686678524e+13 -> 1.95686678272e+13 kJ/mol; severe/close 27/81
+Branch B initial/final energy and remaining clashes: 2805010204.39 -> 212021.732669 kJ/mol; severe/close 0/0
+POPC94 deleted in Branch B: True
+Branch A ligand retention: key_min=3.02229 A, near_chains=2, RMSD=0.109691 A
+Branch B ligand retention: key_min=3.24676 A, near_chains=2, RMSD=1.31314 A
+Branch B 1 ps 50 K check: completed=False, last_step=10/10000, stop=temperature_above_200K
+recommendation: Branch B is the structural cleanup branch; do not run longer/production MD yet because the 1 ps safety check stopped on temperature.
+branch comparison CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\reports\branch_comparison.csv
+summary report: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\reports\targeted_clash_cleanup_summary.md

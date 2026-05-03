@@ -1,0 +1,9 @@
+﻿branch,target,segid,resid,min_distance_A,within_6A
+branch_A_no_deletion,TYR13,PROA,434,7.5180,0
+branch_A_no_deletion,VAL17,PROA,438,5.9775,1
+branch_A_no_deletion,SER20,PROA,441,3.0223,1
+branch_A_no_deletion,TYR13,PROB,434,3.4639,1
+branch_A_no_deletion,VAL17,PROB,438,3.2692,1
+branch_A_no_deletion,SER20,PROB,441,6.6595,0
+branch_A_no_deletion,nearest_protein_chain,PROA,,3.0223,1
+branch_A_no_deletion,nearest_protein_chain,PROB,,3.2692,1

@@ -1,0 +1,151 @@
+Failed to find registry key: 'Software\University of Illinois\VMD2'.
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 32 CPUs, ISA dispatch enabled.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 AVX512F AVX512CD HT 
+Info)   Detected VM or hypervisor execution environment
+Info) Free system memory: 13GB (41%)
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) No joysticks found.  Joystick interface disabled.
+Info) Dynamically loaded 76 plugins in directory:
+Info) D:/software/VMD2/plugins/WIN64/molfile
+ERROR) Duplicate resname "4YS"
+ERROR) Duplicate resname "YGA"
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.pdb
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.pdb
+Info) Using plugin psf for structure file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.psf
+Info) Analyzing structure ...
+Info)    Atoms: 52405
+Info)    Bonds: 52323
+Info)    Angles: 49031  Dihedrals: 54468  Impropers: 459  Cross-terms: 86
+Info)    Bondtypes: 0  Angletypes: 0  Dihedraltypes: 0  Impropertypes: 0
+Info)    Residues: 11152
+Info)    Waters: 10847
+Info)    Segments: 6
+Info)    Fragments: 11064   Protein: 2   Nucleic: 0
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "CHL1" not found in glycan file.
+ERROR) Residue name "L002" not found in glycan file.
+ERROR) Residue name "L002" not found in glycan file.
+0
+Info) Using plugin pdb for coordinates from file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.pdb
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/outputs/TRKB_20chol_L002_14.2_bound.pdb.
+0
+atomselect0
+134
+Selected MEMB:94 POPC atoms for deletion: 134
+atomselect1
+Deleted residue atom listing:
+{12114 12115 N POPC MEMB 94} {12115 12116 C12 POPC MEMB 94} {12116 12117 H12A POPC MEMB 94} {12117 12118 H12B POPC MEMB 94} {12118 12119 C13 POPC MEMB 94} {12119 12120 H13A POPC MEMB 94} {12120 12121 H13B POPC MEMB 94} {12121 12122 H13C POPC MEMB 94} {12122 12123 C14 POPC MEMB 94} {12123 12124 H14A POPC MEMB 94} {12124 12125 H14B POPC MEMB 94} {12125 12126 H14C POPC MEMB 94} {12126 12127 C15 POPC MEMB 94} {12127 12128 H15A POPC MEMB 94} {12128 12129 H15B POPC MEMB 94} {12129 12130 H15C POPC MEMB 94} {12130 12131 C11 POPC MEMB 94} {12131 12132 H11A POPC MEMB 94} {12132 12133 H11B POPC MEMB 94} {12133 12134 P POPC MEMB 94} {12134 12135 O13 POPC MEMB 94} {12135 12136 O14 POPC MEMB 94} {12136 12137 O12 POPC MEMB 94} {12137 12138 O11 POPC MEMB 94} {12138 12139 C1 POPC MEMB 94} {12139 12140 HA POPC MEMB 94} {12140 12141 HB POPC MEMB 94} {12141 12142 C2 POPC MEMB 94} {12142 12143 HS POPC MEMB 94} {12143 12144 O21 POPC MEMB 94} {12144 12145 C21 POPC MEMB 94} {12145 12146 O22 POPC MEMB 94} {12146 12147 C22 POPC MEMB 94} {12147 12148 H2R POPC MEMB 94} {12148 12149 H2S POPC MEMB 94} {12149 12150 C3 POPC MEMB 94} {12150 12151 HX POPC MEMB 94} {12151 12152 HY POPC MEMB 94} {12152 12153 O31 POPC MEMB 94} {12153 12154 C31 POPC MEMB 94} {12154 12155 O32 POPC MEMB 94} {12155 12156 C32 POPC MEMB 94} {12156 12157 H2X POPC MEMB 94} {12157 12158 H2Y POPC MEMB 94} {12158 12159 C23 POPC MEMB 94} {12159 12160 H3R POPC MEMB 94} {12160 12161 H3S POPC MEMB 94} {12161 12162 C24 POPC MEMB 94} {12162 12163 H4R POPC MEMB 94} {12163 12164 H4S POPC MEMB 94} {12164 12165 C25 POPC MEMB 94} {12165 12166 H5R POPC MEMB 94} {12166 12167 H5S POPC MEMB 94} {12167 12168 C26 POPC MEMB 94} {12168 12169 H6R POPC MEMB 94} {12169 12170 H6S POPC MEMB 94} {12170 12171 C27 POPC MEMB 94} {12171 12172 H7R POPC MEMB 94} {12172 12173 H7S POPC MEMB 94} {12173 12174 C28 POPC MEMB 94} {12174 12175 H8R POPC MEMB 94} {12175 12176 H8S POPC MEMB 94} {12176 12177 C29 POPC MEMB 94} {12177 12178 H91 POPC MEMB 94} {12178 12179 C210 POPC MEMB 94} {12179 12180 H101 POPC MEMB 94} {12180 12181 C211 POPC MEMB 94} {12181 12182 H11R POPC MEMB 94} {12182 12183 H11S POPC MEMB 94} {12183 12184 C212 POPC MEMB 94} {12184 12185 H12R POPC MEMB 94} {12185 12186 H12S POPC MEMB 94} {12186 12187 C213 POPC MEMB 94} {12187 12188 H13R POPC MEMB 94} {12188 12189 H13S POPC MEMB 94} {12189 12190 C214 POPC MEMB 94} {12190 12191 H14R POPC MEMB 94} {12191 12192 H14S POPC MEMB 94} {12192 12193 C215 POPC MEMB 94} {12193 12194 H15R POPC MEMB 94} {12194 12195 H15S POPC MEMB 94} {12195 12196 C216 POPC MEMB 94} {12196 12197 H16R POPC MEMB 94} {12197 12198 H16S POPC MEMB 94} {12198 12199 C217 POPC MEMB 94} {12199 12200 H17R POPC MEMB 94} {12200 12201 H17S POPC MEMB 94} {12201 12202 C218 POPC MEMB 94} {12202 12203 H18R POPC MEMB 94} {12203 12204 H18S POPC MEMB 94} {12204 12205 H18T POPC MEMB 94} {12205 12206 C33 POPC MEMB 94} {12206 12207 H3X POPC MEMB 94} {12207 12208 H3Y POPC MEMB 94} {12208 12209 C34 POPC MEMB 94} {12209 12210 H4X POPC MEMB 94} {12210 12211 H4Y POPC MEMB 94} {12211 12212 C35 POPC MEMB 94} {12212 12213 H5X POPC MEMB 94} {12213 12214 H5Y POPC MEMB 94} {12214 12215 C36 POPC MEMB 94} {12215 12216 H6X POPC MEMB 94} {12216 12217 H6Y POPC MEMB 94} {12217 12218 C37 POPC MEMB 94} {12218 12219 H7X POPC MEMB 94} {12219 12220 H7Y POPC MEMB 94} {12220 12221 C38 POPC MEMB 94} {12221 12222 H8X POPC MEMB 94} {12222 12223 H8Y POPC MEMB 94} {12223 12224 C39 POPC MEMB 94} {12224 12225 H9X POPC MEMB 94} {12225 12226 H9Y POPC MEMB 94} {12226 12227 C310 POPC MEMB 94} {12227 12228 H10X POPC MEMB 94} {12228 12229 H10Y POPC MEMB 94} {12229 12230 C311 POPC MEMB 94} {12230 12231 H11X POPC MEMB 94} {12231 12232 H11Y POPC MEMB 94} {12232 12233 C312 POPC MEMB 94} {12233 12234 H12X POPC MEMB 94} {12234 12235 H12Y POPC MEMB 94} {12235 12236 C313 POPC MEMB 94} {12236 12237 H13X POPC MEMB 94} {12237 12238 H13Y POPC MEMB 94} {12238 12239 C314 POPC MEMB 94} {12239 12240 H14X POPC MEMB 94} {12240 12241 H14Y POPC MEMB 94} {12241 12242 C315 POPC MEMB 94} {12242 12243 H15X POPC MEMB 94} {12243 12244 H15Y POPC MEMB 94} {12244 12245 C316 POPC MEMB 94} {12245 12246 H16X POPC MEMB 94} {12246 12247 H16Y POPC MEMB 94} {12247 12248 H16Z POPC MEMB 94}
+atomselect2
+Atoms retained: 52271
+Info) Opened coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.psf for writing.
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.psf.
+Info) Opened coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.pdb for writing.
+Info) Finished with coordinate file C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.pdb.
+Wrote Branch B cleaned PSF: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.psf
+Wrote Branch B cleaned PDB: C:/TRKB_WP2/ligand_bound_MD/pilot_build/14.2_20chol/targeted_clash_cleanup/outputs/branch_B_remove_POPC94/branch_B_cleaned.pdb
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) Exiting normally.
+vmd > psfplugin) Detected a Charmm PSF file
+psfplugin) Detected a Charmm PSF EXTEnded file
+psfplugin) Structure requires EXTended PSF format
+psfplugin) Writing angles/dihedrals/impropers...

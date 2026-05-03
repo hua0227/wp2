@@ -1,0 +1,10 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+initial_branchB_energy_kJ_mol: -332119.090573
+initial_max_force_atom: C36 POPC MEMB:49 index=7084 force=11003.2118392
+force_nan: False
+ligand_H_concentrated: False
+CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\branchB_force_diagnostics.csv
+Markdown: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\branchB_relaxation\reports\branchB_force_diagnostics.md

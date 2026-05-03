@@ -1,0 +1,9 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+R1 initial restrained energy: -143520.547116 kJ/mol; restraints=383
+R1 final energy -604351.86694; max force 2438.54048764 at OH2 TIP3 TIP3:7718 index=42769; MEMB49 279.790370882; PROA437/438 363.473054469; severe/close 0/0; chains 1
+R2 initial restrained energy: -143520.576413 kJ/mol; restraints=7411
+R2 final energy -601401.197018; max force 2438.89312781 at OH2 TIP3 TIP3:4391 index=32788; MEMB49 368.749201497; PROA437/438 237.200192171; severe/close 0/0; chains 2
+Comparison CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\restraint_strategy_fix\reports\pbcaware_minimization_comparison.csv

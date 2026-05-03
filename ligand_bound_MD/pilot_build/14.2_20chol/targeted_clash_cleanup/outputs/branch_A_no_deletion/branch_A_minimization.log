@@ -1,0 +1,42 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+Deeper restrained minimization branch: branch_A_no_deletion
+No MD will be run.
+Input PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\outputs\TRKB_20chol_L002_14.2_bound.psf
+Input PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\outputs\TRKB_20chol_L002_14.2_bound.pdb
+Output PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_A_no_deletion\branch_A_minimized.pdb
+Max iterations: 10000
+Strong restraints protein backbone/lipid/cholesterol heavy atoms: 5000.0 kJ/mol/nm^2
+Moderate ligand heavy restraints: 1000.0 kJ/mol/nm^2
+Water/ion restraints: none
+OpenMM constraints: HBonds, rigidWater=True
+Available OpenMM platforms:
+- Reference
+- CPU
+- OpenCL
+Selected OpenMM platform: OpenCL
+OpenMM version: 8.5.1.dev-f7fa0c2
+Restraint counts:
+- protein_backbone_restrained: 362
+- lipid_chol_heavy_restrained: 7080
+- ligand_heavy_restrained: 21
+- water_ion_unrestrained: 32605
+- other_unrestrained: 12337
+Initial input potential energy before constraint projection (kJ/mol): 1.95412781324e+13
+Initial potential energy after constraint projection (kJ/mol): 1.95686678524e+13
+Initial clashes from input coords: severe_lt_1A=27 close_lt_1p5A=81 H9/H11-POPC severe=1 close=3
+Initial clashes after constraints: severe_lt_1A=27 close_lt_1p5A=81 H9/H11-POPC severe=1 close=3
+Final potential energy (kJ/mol): 1.95686678272e+13
+Energy finite: True
+Energy decreased vs constrained initial: True
+Final clashes: severe_lt_1A=27 close_lt_1p5A=81 H9/H11-POPC severe=1 close=3
+Ligand min distance to TYR13/VAL17/SER20 (A): 3.0223
+Ligand near chains count: 2
+Ligand RMSD relative to pre-minimized pose (A): 0.1097
+Ligand retained near key residues: True
+Ligand retained near two chains: True
+Summary JSON: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_A_no_deletion\branch_A_summary.json
+Key-distance CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_A_no_deletion\branch_A_key_distances.csv
+Minimized PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_A_no_deletion\branch_A_minimized.pdb

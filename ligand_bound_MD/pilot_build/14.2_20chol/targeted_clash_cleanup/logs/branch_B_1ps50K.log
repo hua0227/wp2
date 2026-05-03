@@ -1,0 +1,35 @@
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=3> with <DihedralType: k=0.195; phase=0.0; per=3>
+  warnings.warn('Replacing dihedral %r with %r' %
+C:\Users\14566\miniconda3\envs\trkb_openmm\lib\site-packages\openmm\app\charmmparameterset.py:389: UserWarning: Replacing dihedral <DihedralType: k=0.2; phase=0.0; per=1> with <DihedralType: k=0.195; phase=0.0; per=1>
+  warnings.warn('Replacing dihedral %r with %r' %
+Ultra-conservative 1 ps stability check for Branch B only
+This is not production MD.
+Input PSF: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_cleaned.psf
+Input PDB: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_minimized.pdb
+OpenMM platform required: OpenCL
+Timestep: 0.100 fs
+Temperature: 50.0 K
+Temperature safety stop: > 200.0 K
+No DCD trajectory will be written.
+protein_backbone_restrained: 362
+lipid_chol_heavy_restrained: 7028
+ligand_heavy_restrained: 21
+water_ion_unrestrained: 32605
+other_unrestrained: 12255
+Available OpenMM platforms:
+- Reference
+- CPU
+- OpenCL
+Selected OpenMM platform: OpenCL
+OpenMM version: 8.5.1.dev-f7fa0c2
+step 0 PE 8.00685e+09 KE 31177.6 Temp 66.754 K key_min 3.246 A chains 2 RMSD 0.000 severe 0 close 0 status ok
+step 10 PE 8.0042e+09 KE 2.32096e+06 Temp 4969.415 K key_min 3.248 A chains 2 RMSD 0.005 severe 0 close 0 status temperature_above_200K
+1 ps check completed: False
+last finite step: 10
+nonfinite detected: False
+stop reason: temperature_above_200K
+final severe clashes: 0
+final close contacts: 0
+final ligand near chains: 2
+final ligand key min distance (A): 3.2478
+summary JSON: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\outputs\branch_B_remove_POPC94\branch_B_1ps50K_summary.json

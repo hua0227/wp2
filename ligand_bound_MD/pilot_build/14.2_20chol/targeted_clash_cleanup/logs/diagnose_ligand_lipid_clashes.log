@@ -1,0 +1,11 @@
+Detailed ligand-lipid clash diagnosis
+bound_initial: severe_lt_1.0A=27 close_lt_1.5A=81
+bound_initial: MEMB94_POPC severe=22 close=63
+bound_initial: LIG_H9_H11 severe_with_MEMB94_POPC=1
+bound_initial: MEMB94_POPC_dominant=True
+previous_minimized: severe_lt_1.0A=0 close_lt_1.5A=1
+previous_minimized: MEMB94_POPC severe=0 close=0
+previous_minimized: LIG_H9_H11 severe_with_MEMB94_POPC=0
+previous_minimized: MEMB94_POPC_dominant=False
+CSV: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\reports\detailed_ligand_lipid_clashes.csv
+Markdown: C:\TRKB_WP2\ligand_bound_MD\pilot_build\14.2_20chol\targeted_clash_cleanup\reports\detailed_ligand_lipid_clashes.md
