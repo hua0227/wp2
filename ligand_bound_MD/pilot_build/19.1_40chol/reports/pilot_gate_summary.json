@@ -1,0 +1,40 @@
+{
+  "system": "40chol",
+  "psf_pdb_generated": true,
+  "read_test_succeeded": true,
+  "initial_energy_kJ_mol": 387738448564374.6,
+  "severe_before_cleanup": 5,
+  "close_before_cleanup": 18,
+  "cleanup_executed": true,
+  "deleted_molecules": [
+    {
+      "category": "lipid",
+      "segid": "MEMB",
+      "resid": "121",
+      "resname": "POPC"
+    }
+  ],
+  "minimization_succeeded": true,
+  "very_short_probe_passed": true,
+  "completed_10ps": true,
+  "recommend_50ps": true,
+  "error": "",
+  "cleanup_reason": "deleted dominant severe-clashing lipid molecule POPC MEMB:121",
+  "minimization_final_energy_kJ_mol": -616016.3909275872,
+  "minimization_final_severe_lt_1A": 0,
+  "minimization_final_close_lt_1p5A": 0,
+  "last_step": 20000,
+  "stop_reason": "none",
+  "final_temperature_K": 310.145,
+  "final_potential_energy_kJ_mol": -444282.646787,
+  "ligand_distance_TYR13_A": 4.7227,
+  "ligand_distance_VAL17_A": 3.86554,
+  "ligand_distance_SER20_A": 3.72687,
+  "ligand_key_min_distance_A": 3.72687,
+  "ligand_near_chains_count": 2,
+  "ligand_rmsd_A": 0.783116,
+  "severe_lt_1A": 0,
+  "close_lt_1p5A": 0,
+  "has_nan": false,
+  "platform": "OpenCL"
+}
