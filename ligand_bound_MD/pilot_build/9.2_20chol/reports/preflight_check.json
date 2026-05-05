@@ -1,0 +1,39 @@
+{
+  "ligand_id": "9.2",
+  "resname": "L004",
+  "system": "20chol",
+  "ligand_str_exists": true,
+  "ligand_pose_exists": true,
+  "ligand_pose_atom_count": 44,
+  "ligand_str_atom_count": 44,
+  "ligand_pose_resnames": [
+    "L004"
+  ],
+  "ligand_pose_first10_atom_names": [
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "N",
+    "C",
+    "C"
+  ],
+  "ligand_str_first10_atom_names": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "N",
+    "C8",
+    "C9"
+  ],
+  "atom_count_matches": true,
+  "parameter_load_ok": true,
+  "parameter_load_message": "CharmmParameterSet loaded successfully"
+}

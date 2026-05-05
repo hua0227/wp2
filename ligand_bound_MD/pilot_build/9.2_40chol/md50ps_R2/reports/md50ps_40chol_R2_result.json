@@ -1,0 +1,30 @@
+{
+  "completed_50ps": true,
+  "continued_from_checkpoint": true,
+  "fallback_used": false,
+  "fallback_reason": "",
+  "last_step": 100000,
+  "stop_reason": "none",
+  "has_nan": false,
+  "platform": "OpenCL",
+  "final_row": {
+    "step": 100000,
+    "time_ps": "50",
+    "temperature_K": "309.114",
+    "potential_energy_kJ_mol": "-447030.062985",
+    "kinetic_energy_kJ_mol": "140436.125",
+    "total_energy_kJ_mol": "-306593.937985",
+    "ligand_distance_TYR13_A": "3.09142",
+    "ligand_distance_VAL17_A": "4.37571",
+    "ligand_distance_SER20_A": "4.63644",
+    "ligand_min_distance_to_key_residues_A": "3.09142",
+    "ligand_near_chains_count": 2,
+    "ligand_heavy_rmsd_vs_50ps_input_A": "0.627492",
+    "severe_lt_1A": 0,
+    "close_lt_1p5A": 0,
+    "status": "ok"
+  },
+  "ligand_rmsd_final_A": 0.627492,
+  "ligand_rmsd_max_A": 2.04181,
+  "recommend_100ps": true
+}

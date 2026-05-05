@@ -1,0 +1,11 @@
+For 9.2 / L004 / 40chol:
+- completed 100 ps: YES
+- continued from checkpoint: YES
+- final temperature: 311.039
+- final potential energy: -446521.780758
+- NaN: NO
+- final TYR13 / VAL17 / SER20 distances: 3.3584 / 6.19057 / 6.19966
+- near chains count: 2
+- ligand RMSD final/max: 1.11044 / 1.57828
+- final severe/close contacts: 0/0
+- recommend comparison analysis: YES

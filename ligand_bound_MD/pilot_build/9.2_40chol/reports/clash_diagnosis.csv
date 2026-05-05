@@ -1,0 +1,15 @@
+﻿contact_type,distance_A,category,ligand_atom_name,ligand_serial,other_atom_name,other_serial,other_resname,other_segid,other_resid
+severe_clash,0.453,lipid,N,50987,C27,12677,POPC,MEMB,113
+severe_clash,0.542,lipid,C16,50997,C210,12685,POPC,MEMB,113
+severe_clash,0.783,lipid,C1,50980,C214,12696,POPC,MEMB,113
+severe_clash,0.865,lipid,C17,50998,C211,12687,POPC,MEMB,113
+close_contact,1.065,lipid,C17,50998,C212,12690,POPC,MEMB,113
+close_contact,1.112,lipid,C16,50997,C211,12687,POPC,MEMB,113
+close_contact,1.197,lipid,C12,50992,C25,12671,POPC,MEMB,113
+close_contact,1.212,lipid,C1,50980,C213,12693,POPC,MEMB,113
+close_contact,1.281,lipid,N,50987,C28,12680,POPC,MEMB,113
+close_contact,1.350,lipid,C3,50982,C211,12687,POPC,MEMB,113
+close_contact,1.399,lipid,C7,50986,C27,12677,POPC,MEMB,113
+close_contact,1.456,lipid,C6,50985,C210,12685,POPC,MEMB,113
+close_contact,1.461,lipid,N,50987,C26,12674,POPC,MEMB,113
+close_contact,1.481,lipid,C6,50985,C29,12683,POPC,MEMB,113

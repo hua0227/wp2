@@ -1,0 +1,9 @@
+For 9.2 / L004 / 20chol:
+- preflight ok: YES
+- PSF/PDB generated: YES
+- read test succeeded: YES
+- cleanup executed: YES
+- minimization succeeded: YES
+- very-short probe passed: YES
+- 10 ps completed: YES
+- recommend 50 ps: YES

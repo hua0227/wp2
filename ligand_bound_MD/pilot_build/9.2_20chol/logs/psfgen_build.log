@@ -1,0 +1,1997 @@
+Failed to find registry key: 'Software\University of Illinois\VMD2'.
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) http://www.ks.uiuc.edu/Research/vmd/                         
+Info) Email questions and bug reports to vmd@ks.uiuc.edu           
+Info) Please include this reference in published work using VMD:   
+Info)    Humphrey, W., Dalke, A. and Schulten, K., `VMD - Visual   
+Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
+Info) -------------------------------------------------------------
+Info) Multithreading available, 32 CPUs, ISA dispatch enabled.
+Info)   CPU features: SSE2 SSE4.1 AVX AVX2 FMA F16 AVX512F AVX512CD HT 
+Info)   Detected VM or hypervisor execution environment
+Info) Free system memory: 15GB (47%)
+Warning) Detected a mismatch between CUDA runtime and GPU driver
+Warning) Check to make sure that GPU drivers are up to date.
+Info) No CUDA accelerator devices available.
+Info) No joysticks found.  Joystick interface disabled.
+Info) Dynamically loaded 76 plugins in directory:
+Info) D:/software/VMD2/plugins/WIN64/molfile
+ERROR) Duplicate resname "4YS"
+ERROR) Duplicate resname "YGA"
+2.0
+psfgen) clearing structure, preserving topology and aliases
+C:/TRKB_WP2/TRKB_20CHOL/toppar
+C:/TRKB_WP2/ligand_bound_MD/cgenff_parameterization/returned_str/L004_9.2.str
+C:/TRKB_WP2/TRKB_20CHOL/step5_assembly.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_psfgen_ready_apo.pdb
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/L004_9.2_20chol_psfgen_ready.pdb
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.psf
+C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.pdb
+psfgen) reading topology file C:/TRKB_WP2/TRKB_20CHOL/toppar/top_all36_prot.rtf
+
+psfgen) >>>>>>>>CHARMM36 All-Hydrogen Topology File for Proteins <<<<<<
+psfgen) >>>>> Includes phi, psi cross term map (CMAP) correction <<<<<<<
+psfgen) >>>>>>>>>>>>>>>>>>>>>>>>>> May 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+psfgen)  All comments to the CHARMM web site: www.charmm.org
+psfgen)              parameter set discussion forum
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) cross-term entries present in topology definitions
+psfgen) reading topology file C:/TRKB_WP2/TRKB_20CHOL/toppar/top_all36_lipid.rtf
+
+psfgen)   \\\\\\\ CHARMM36 All-Hydrogen Lipid Topology File ///////
+psfgen)   All comments and questions should be submitted to the 
+psfgen)   parameter forum at the CHARMM website: www.charmm.org
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) reading topology file C:/TRKB_WP2/TRKB_20CHOL/toppar/top_all36_cgenff.rtf
+
+psfgen)   --------------------------------------------------------------------------  *
+psfgen)           CGenFF: Topology for the Charmm General Force Field v. 5.0          *
+psfgen)                     for Small Molecule Drug Design                            *
+psfgen)   --------------------------------------------------------------------------  *
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) reading topology file C:/TRKB_WP2/TRKB_20CHOL/toppar/toppar_water_ions.str
+
+psfgen)  Toplogy and parameter information for water and ions.
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 35: set nat ?NATC
+
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 36: set app
+
+psfgen) ERROR!  FAILED TO RECOGNIZE IF.  Line 40: if "@NAT" ne "?NATC" if @nat ne 0 set app append
+
+psfgen) reading topology from stream file
+psfgen)  Topology for water and ions
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters for water and ions
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 321: set para
+
+psfgen) ERROR!  FAILED TO RECOGNIZE IF.  Line 322: if ?NUMNODE gt 1 set para node 0
+
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 324: set wrn ?WRNLEV
+
+psfgen) ERROR!  FAILED TO RECOGNIZE IF.  Line 326: if "@WRN" eq "?WRNLEV" set wrn 5
+
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 327: set bom ?bomlev
+
+psfgen) ERROR!  FAILED TO RECOGNIZE WRNLEV.  Line 328: WRNLEV -1 @PARA
+
+psfgen) ERROR!  FAILED TO RECOGNIZE BOMLEV.  Line 329: BOMLEV -1 @PARA
+
+psfgen) skipping parameters in stream file
+psfgen)  NBFix between carboxylate and sodium
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE BOMLEV.  Line 385: BOMLEV @bom @PARA
+
+psfgen) ERROR!  FAILED TO RECOGNIZE WRNLEV.  Line 386: WRNLEV @wrn @PARA
+
+psfgen) reading topology file C:/TRKB_WP2/TRKB_20CHOL/toppar/toppar_all36_lipid_cholesterol.str
+
+psfgen)  Toppar stream file for cholesterol.  Stream following reading of
+psfgen)  top_all36_lipid.rtf
+psfgen)  par_all36_lipid.rtf
+psfgen)  top_all36_cgenff.rtf
+psfgen)  and par_all36_cgenff.prm
+psfgen) 
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 13: set chol_model 1 !2 for original Suits et al. model
+
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 34: set nat ?NATC
+
+psfgen) ERROR!  FAILED TO RECOGNIZE SET.  Line 35: set app
+
+psfgen) ERROR!  FAILED TO RECOGNIZE IF.  Line 39: if "@NAT" ne "?NATC" if @nat ne 0 set app append
+
+psfgen) ERROR!  FAILED TO RECOGNIZE IF.  Line 41: if chol_model eq 1 then
+
+psfgen) reading topology from stream file
+psfgen)  Topology for cholesterol   
+psfgen) 
+psfgen) Created by CHARMM version 31 1
+psfgen) ERROR!  Failed to parse atom statement.  Line 2102: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2103: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2104: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2105: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2106: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2107: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2111: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2112: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2113: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2114: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2116: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2117: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2118: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2119: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2121: ATOM 2C4   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2122: ATOM 2H4   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2123: ATOM 2O4   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2124: ATOM 2HO4  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2126: ATOM 2C6   CC321     0.050  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2127: ATOM 2H61  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2128: ATOM 2H62  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2129: ATOM 2O6   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2130: ATOM 2HO6  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2234: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2234: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2235: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2235: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2236: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2236: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2236: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2236: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2237: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2237: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2237: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2237: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2238: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2238: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2238: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2238: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2239: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2239: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2239: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2240: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2240: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2240: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2240: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2242: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2279: IC 2C1   2O5   2C5   2C4    1.4340  111.80   64.09  108.93   1.5218
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2280: IC 2C1   2C2   2C3   2O3    1.5152  109.74 -179.72  111.54   1.4263
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2281: IC 2O1   2C1   2C2   2O2    1.4082  106.55  -55.53  112.03   1.4316
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2282: IC 2C5   2O5   2C1   2O1    1.4400  111.80  177.44  111.67   1.4082
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2283: IC 2C5   2C4   2C3   2C2    1.5218  110.21   53.07  110.00   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2284: IC 2O5   2O1   *2C1  2C2    1.4340  111.67 -116.77  106.55   1.5152
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2285: IC 2O5   2O1   *2C1  2H1    1.4340  111.67  124.34  110.80   1.1124
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2286: IC 2O5   2C4   *2C5  2C6    1.4400  108.93 -120.32  113.09   1.5138
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2287: IC 2O5   2C4   *2C5  2H5    1.4400  108.93  119.51  109.00   1.1172
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2289: IC C3    2O1   2C1   2O5    1.4253  113.78  -61.54  111.67   1.4340
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2290: IC 2C2   2C1   2O1   C3     1.5152  106.55 -178.31  113.78   1.4253
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2291: IC 2C2   2C3   2C4   2O4    1.5153  110.00  175.89  110.99   1.4206
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2292: IC 2C2   2C1   2O5   2C5    1.5152  107.22  -66.20  111.80   1.4400
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2293: IC 2O2   2C1   *2C2  2C3    1.4316  112.03 -123.93  109.74   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2294: IC 2O2   2C1   *2C2  2H2    1.4316  112.03  118.22  107.85   1.1176
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2295: IC 2HO2  2O2   2C2   2C1    0.9659  108.29   60.11  112.03   1.5152
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2296: IC 2C3   2C2   2C1   2O1    1.5153  109.74 -179.46  106.55   1.4082
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2297: IC 2C3   2C4   2C5   2O5    1.5134  110.21  -55.98  108.93   1.4400
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2298: IC 2O3   2C2   *2C3  2C4    1.4263  111.54  123.92  110.00   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2299: IC 2O3   2C2   *2C3  2H3    1.4263  111.54 -117.96  108.15   1.1182
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2300: IC 2HO3  2O3   2C3   2C2    0.9670  106.80  -46.33  111.54   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2301: IC 2C4   2C3   2C2   2C1    1.5134  110.00  -55.80  109.74   1.5152
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2302: IC 2O4   2C3   *2C4  2C5    1.4206  110.99 -122.82  110.21   1.5218
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2303: IC 2O4   2C3   *2C4  2H4    1.4206  110.99  118.78  108.58   1.1173
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2304: IC 2HO4  2O4   2C4   2C3    0.9668  106.95   47.37  110.99   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2305: IC 2C6   2C5   2C4   2C3    1.5138  113.09 -176.30  110.21   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2306: IC 2O6   2C6   2C5   2C4    1.4280  111.28 -178.92  113.09   1.5218
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2307: IC 2O6   2C5   *2C6  2H61   1.4280  111.28  120.21  109.93   1.1143
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2308: IC 2O6   2C5   *2C6  2H62   1.4280  111.28 -121.27  110.07   1.1133
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2309: IC 2HO6  2O6   2C6   2C5    0.9633  108.65  -61.50  111.28   1.5138
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2311: IC C5    C4    C3    2O1    1.5020  112.53 -174.80  110.80   1.4253
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2366: IC C1    C2    C3    2O1    1.5371  111.22  177.12  108.04   1.4253
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2369: IC C2    C3    2O1   2C1    1.5350  108.04  165.38  113.78   1.4082
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2370: IC C2    2O1   *C3   C4     1.5350  108.04  119.79  110.80   1.5455
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2371: IC C2    2O1   *C3   H3     1.5350  108.04 -118.30  110.33   1.1147
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2406: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2407: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2408: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2409: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2410: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2411: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2415: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2416: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2417: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2418: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2420: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2421: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2422: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2423: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2425: ATOM 2C4   CC3161    0.140
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2426: ATOM 2H4   HCA1      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2427: ATOM 2O4   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2428: ATOM 2HO4  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2430: ATOM 2C6   CC321     0.050
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2431: ATOM 2H61  HCA2      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2432: ATOM 2H62  HCA2      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2433: ATOM 2O6   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2434: ATOM 2HO6  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2541: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2541: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2542: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2542: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2543: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2543: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2543: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2543: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2544: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2544: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2544: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2544: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2545: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2545: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2545: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2545: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2546: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2546: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2546: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2547: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2547: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2547: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2547: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2549: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2586: IC 2C1   2O5   2C5   2C4    1.4337  111.89   65.04  108.47   1.5203
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2587: IC 2C1   2C2   2C3   2O3    1.5145  109.91 -179.09  111.39   1.4264
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2588: IC 2O1   2C1   2C2   2O2    1.4086  106.57  -56.61  111.83   1.4309
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2589: IC 2C5   2O5   2C1   2O1    1.4393  111.89  177.37  111.50   1.4086
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2590: IC 2C5   2C4   2C3   2C2    1.5203  110.01   53.20  110.24   1.5160
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2591: IC 2O5   2O1   *2C1  2C2    1.4337  111.50 -116.72  106.57   1.5145
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2592: IC 2O5   2O1   *2C1  2H1    1.4337  111.50  124.10  110.61   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2593: IC 2O5   2C4   *2C5  2C6    1.4393  108.47 -120.27  113.45   1.5136
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2594: IC 2O5   2C4   *2C5  2H5    1.4393  108.47  119.46  109.09   1.1170
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2595: IC C3    2O1   2C1   2O5    1.4242  113.21  -61.10  111.50   1.4337
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2597: IC 2C2   2C1   2O1   C3     1.5145  106.57 -177.82  113.21   1.4242
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2598: IC 2C2   2C1   2O5   2C5    1.5145  107.24  -66.32  111.89   1.4393
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2599: IC 2C2   2C3   2C4   2O4    1.5160  110.24  175.97  111.09   1.4206
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2600: IC 2O2   2C1   *2C2  2C3    1.4309  111.83 -123.96  109.91   1.5160
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2601: IC 2O2   2C1   *2C2  2H2    1.4309  111.83  118.23  107.83   1.1178
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2602: IC 2HO2  2O2   2C2   2C1    0.9664  108.21   57.17  111.83   1.5145
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2603: IC 2C3   2C2   2C1   2O1    1.5160  109.91  179.43  106.57   1.4086
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2604: IC 2C3   2C4   2C5   2O5    1.5140  110.01  -56.75  108.47   1.4393
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2605: IC 2O3   2C2   *2C3  2C4    1.4264  111.39  124.02  110.24   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2606: IC 2O3   2C2   *2C3  2H3    1.4264  111.39 -117.83  108.05   1.1180
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2607: IC 2HO3  2O3   2C3   2C2    0.9668  106.75  -46.46  111.39   1.5160
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2608: IC 2C4   2C3   2C2   2C1    1.5140  110.24  -55.07  109.91   1.5145
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2609: IC 2O4   2C3   *2C4  2C5    1.4206  111.09 -122.77  110.01   1.5203
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2610: IC 2O4   2C3   *2C4  2H4    1.4206  111.09  118.81  108.67   1.1169
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2611: IC 2HO4  2O4   2C4   2C3    0.9668  106.84   48.02  111.09   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2612: IC 2C6   2C5   2C4   2C3    1.5136  113.45 -177.02  110.01   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2613: IC 2O6   2C5   *2C6  2H61   1.4279  111.19  119.96  109.92   1.1144
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2614: IC 2O6   2C5   *2C6  2H62   1.4279  111.19 -121.35  110.14   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2615: IC 2O6   2C6   2C5   2C4    1.4279  111.19 -179.58  113.45   1.5203
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2616: IC 2HO6  2O6   2C6   2C5    0.9641  108.59  -61.09  111.19   1.5136
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2620: IC C5    C4    C3    2O1    1.5020  111.47 -177.34  110.73   1.4242
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2668: IC C1    C2    C3    2O1    1.5370  110.69  178.87  108.43   1.4242
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2676: IC C2    C3    2O1   2C1    1.5346  108.43  161.05  113.21   1.4086
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2677: IC C2    2O1   *C3   C4     1.5346  108.43  119.99  110.73   1.5438
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2678: IC C2    2O1   *C3   H3     1.5346  108.43 -118.16  110.39   1.1150
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2713: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2714: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2715: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2716: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2717: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2718: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2722: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2723: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2724: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2725: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2727: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2728: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2729: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2730: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2732: ATOM 2C4   CC3161    0.140
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2733: ATOM 2H4   HCA1      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2734: ATOM 2O4   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2735: ATOM 2HO4  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2737: ATOM 2C6   CC321     0.050
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2738: ATOM 2H61  HCA2      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2739: ATOM 2H62  HCA2      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2740: ATOM 2O6   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 2741: ATOM 2HO6  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2843: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2843: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2844: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2844: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2845: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2845: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2845: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2845: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2846: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2846: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2846: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2846: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2847: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2847: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2847: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2847: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2848: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2848: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2848: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2849: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2849: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2849: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2849: BOND 2C6   2H61       2C6   2H62       2C6   2O6        2O6   2HO6       
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 2851: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2887: IC 2C1   2O5   2C5   2C4    1.4333  111.89   64.59  108.72   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2888: IC 2C1   2C2   2C3   2O3    1.5153  110.09 -178.95  111.37   1.4265
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2889: IC 2O1   2C1   2C2   2O2    1.4081  105.94  -56.76  111.92   1.4311
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2890: IC 2C5   2O5   2C1   2O1    1.4397  111.89  178.50  111.59   1.4081
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2891: IC 2C5   2C4   2C3   2C2    1.5215  110.07   53.14  110.13   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2892: IC 2O5   2O1   *2C1  2H1    1.4333  111.59  124.44  110.85   1.1126
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2893: IC 2O5   2C4   *2C5  2C6    1.4397  108.72 -120.21  113.26   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2894: IC 2O5   2O1   *2C1  2C2    1.4333  111.59 -116.62  105.94   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2895: IC 2O5   2C4   *2C5  2H5    1.4397  108.72  119.57  109.05   1.1170
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2896: IC C3    2O1   2C1   2O5    1.4244  113.84  -61.25  111.59   1.4333
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2898: IC 2C2   2C1   2O1   C3     1.5153  105.94 -177.87  113.84   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2899: IC 2C2   2C1   2O5   2C5    1.5153  107.43  -65.79  111.89   1.4397
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2900: IC 2C2   2C3   2C4   2O4    1.5154  110.13  175.99  111.06   1.4207
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2901: IC 2O2   2C1   *2C2  2C3    1.4311  111.92 -124.07  110.09   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2902: IC 2O2   2C1   *2C2  2H2    1.4311  111.92  118.14  107.73   1.1180
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2903: IC 2HO2  2O2   2C2   2C1    0.9665  108.23   58.40  111.92   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2904: IC 2C3   2C2   2C1   2O1    1.5154  110.09  179.17  105.94   1.4081
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2905: IC 2C3   2C4   2C5   2O5    1.5134  110.07  -56.65  108.72   1.4397
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2906: IC 2O3   2C2   *2C3  2C4    1.4265  111.37  123.92  110.13   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2907: IC 2O3   2C2   *2C3  2H3    1.4265  111.37 -117.88  108.11   1.1180
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2908: IC 2HO3  2O3   2C3   2C2    0.9671  106.80  -45.84  111.37   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2909: IC 2C4   2C3   2C2   2C1    1.5134  110.13  -55.03  110.09   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2910: IC 2O4   2C3   *2C4  2C5    1.4207  111.06 -122.85  110.07   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2911: IC 2O4   2C3   *2C4  2H4    1.4207  111.06  118.74  108.65   1.1169
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2912: IC 2HO4  2O4   2C4   2C3    0.9667  106.88   47.66  111.06   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2913: IC 2C6   2C5   2C4   2C3    1.5134  113.26 -176.86  110.07   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2914: IC 2O6   2C6   2C5   2C4    1.4290  111.28 -179.49  113.26   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2915: IC 2O6   2C5   *2C6  2H61   1.4290  111.28  119.99  109.90   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2916: IC 2O6   2C5   *2C6  2H62   1.4290  111.28 -121.36  110.08   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2917: IC 2HO6  2O6   2C6   2C5    0.9628  108.71  -61.57  111.28   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2919: IC C5    C4    C3    2O1    1.5020  112.54 -174.15  110.69   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2968: IC C1    C2    C3    2O1    1.5364  111.21  176.64  107.90   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2976: IC C2    C3    2O1   2C1    1.5352  107.90  164.19  113.84   1.4081
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2977: IC C2    2O1   *C3   C4     1.5352  107.90  119.98  110.69   1.5453
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 2978: IC C2    2O1   *C3   H3     1.5352  107.90 -118.16  110.44   1.1147
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3011: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3012: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3013: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3014: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3015: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3016: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3020: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3021: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3022: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3023: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3025: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3026: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3027: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3028: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3030: ATOM 2C4   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3031: ATOM 2H4   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3032: ATOM 2O4   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3033: ATOM 2HO4  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3035: ATOM 2C6   CC321     0.080  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3036: ATOM 2H61  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3037: ATOM 2H62  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3038: ATOM 2O6   OSL      -0.490  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3039: ATOM 3C1   CL        0.90   !           O1=C1
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3040: ATOM 3O1   OBL      -0.63   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3041: ATOM 3C2   CTL2     -0.22   !          H2A-C2-H2B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3042: ATOM 3H2A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3043: ATOM 3H2B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3045: ATOM 3C3   CTL2     -0.18   !          H3A-C3-H3B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3046: ATOM 3H3A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3047: ATOM 3H3B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3049: ATOM 3C4   CTL2     -0.18   !          H4A-C4-H4B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3050: ATOM 3H4A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3051: ATOM 3H4B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3053: ATOM 3C5   CTL2     -0.18   !          H5A-C5-H5B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3054: ATOM 3H5A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3055: ATOM 3H5B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3057: ATOM 3C6   CTL2     -0.18   !          H6A-C6-H6B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3058: ATOM 3H6A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3059: ATOM 3H6B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3061: ATOM 3C7   CTL2     -0.18   !          H7A-C7-H7B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3062: ATOM 3H7A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3063: ATOM 3H7B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3065: ATOM 3C8   CTL2     -0.18   !          H8A-C8-H8B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3066: ATOM 3H8A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3067: ATOM 3H8B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3069: ATOM 3C9   CTL2     -0.18   !          H9A-C9-H9B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3070: ATOM 3H9A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3071: ATOM 3H9B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3073: ATOM 3C10  CTL2     -0.18   !         H10A-C10-H10B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3074: ATOM 3H10A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3075: ATOM 3H10B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3077: ATOM 3C11  CTL2     -0.18   !         H11A-C11-H11B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3078: ATOM 3H11A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3079: ATOM 3H11B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3081: ATOM 3C12  CTL2     -0.18   !         H12A-C12-H12B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3082: ATOM 3H12A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3083: ATOM 3H12B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3085: ATOM 3C13  CTL2     -0.18   !         H13A-C13-H13B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3086: ATOM 3H13A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3087: ATOM 3H13B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3089: ATOM 3C14  CTL2     -0.18   !         H14A-C14-H14B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3090: ATOM 3H14A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3091: ATOM 3H14B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3093: ATOM 3C15  CTL2     -0.18   !         H15A-C15-H15B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3094: ATOM 3H15A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3095: ATOM 3H15B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3097: ATOM 3C16  CTL3     -0.27   !         H16A-C16-H16B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3098: ATOM 3H16A HAL3      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3099: ATOM 3H16B HAL3      0.09   !             H16C
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3100: ATOM 3H16C HAL3      0.09   !
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3204: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3204: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3205: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3205: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3206: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3206: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3206: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3206: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3207: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3207: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3207: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3207: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3208: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3208: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3208: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3208: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3209: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3209: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3209: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3210: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3210: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3210: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3212: BOND 2O6 3C1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3213: DOUBLE  3C1  3O1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3214: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3214: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3214: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3215: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3215: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3215: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3216: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3216: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3216: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3217: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3217: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3217: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3218: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3218: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3218: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3219: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3219: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3219: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3220: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3220: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3220: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3221: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3221: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3221: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3222: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3222: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3222: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3223: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3223: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3223: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3224: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3224: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3224: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3225: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3225: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3225: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3226: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3226: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3226: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3227: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3227: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3227: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3228: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3228: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3228: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3228: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse improper statement.  Line 3229: IMPR 3C1 3O1 2O6 3C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3233: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3270: IC 2C1   2O5   2C5   2C4    1.4341  111.84   64.37  108.48   1.5221
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3271: IC 2C1   2C2   2C3   2O3    1.5151  110.10 -179.09  111.45   1.4260
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3272: IC 2O1   2C1   2C2   2O2    1.4070  105.51  -57.23  111.90   1.4317
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3273: IC 2C5   2O5   2C1   2O1    1.4381  111.84  179.54  111.52   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3274: IC 2C5   2C4   2C3   2C2    1.5221  110.02   54.34  109.66   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3275: IC 2O5   2O1   *2C1  2C2    1.4341  111.52 -116.91  105.51   1.5151
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3276: IC 2O5   2O1   *2C1  2H1    1.4341  111.52  124.29  111.08   1.1123
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3277: IC 2O5   2C4   *2C5  2C6    1.4381  108.48 -120.94  112.28   1.5204
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3278: IC 2O5   2C4   *2C5  2H5    1.4381  108.48  118.70  108.46   1.1149
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3280: IC C3    2O1   2C1   2O5    1.4231  113.82  -66.33  111.52   1.4341
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3281: IC 2C2   2C1   2O1   C3     1.5151  105.51  176.76  113.82   1.4231
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3282: IC 2C2   2C3   2C4   2O4    1.5140  109.66  177.27  111.10   1.4208
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3283: IC 2C2   2C1   2O5   2C5    1.5151  107.92  -65.02  111.84   1.4381
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3284: IC 2O2   2C1   *2C2  2H2    1.4317  111.90  118.14  107.70   1.1179
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3285: IC 2O2   2C1   *2C2  2C3    1.4317  111.90 -124.08  110.10   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3286: IC 2HO2  2O2   2C2   2C1    0.9662  108.03   57.82  111.90   1.5151
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3287: IC 2C3   2C2   2C1   2O1    1.5140  110.10  178.69  105.51   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3288: IC 2C3   2C4   2C5   2O5    1.5122  110.02  -57.76  108.48   1.4381
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3289: IC 2O3   2C2   *2C3  2C4    1.4260  111.45  123.76  109.66   1.5122
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3290: IC 2O3   2C2   *2C3  2H3    1.4260  111.45 -118.10  108.25   1.1181
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3291: IC 2HO3  2O3   2C3   2C2    0.9676  106.67  -45.78  111.45   1.5140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3292: IC 2C4   2C3   2C2   2C1    1.5122  109.66  -55.33  110.10   1.5151
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3293: IC 2O4   2C3   *2C4  2C5    1.4208  111.10 -122.93  110.02   1.5221
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3294: IC 2O4   2C3   *2C4  2H4    1.4208  111.10  118.57  108.62   1.1168
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3295: IC 2HO4  2O4   2C4   2C3    0.9663  106.77   44.70  111.10   1.5122
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3296: IC 2C6   2C5   2C4   2C3    1.5204  112.28 -178.70  110.02   1.5122
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3297: IC 2O6   2C6   2C5   2C4    1.4296  113.19  175.35  112.28   1.5221
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3298: IC 2O6   2C5   *2C6  2H61   1.4296  113.19  125.00  110.26   1.1162
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3299: IC 2O6   2C5   *2C6  2H62   1.4296  113.19 -119.17  107.79   1.1143
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3300: IC 3C1   2O6   2C6   2C5    1.3285  115.99   76.33  113.19   1.5204
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3301: IC 3C2   3C1   2O6   2C6    1.5289  108.74  168.17  115.99   1.4296
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3302: IC 3C2   2O6   *3C1  3O1    1.5289  108.74 -178.93  125.84   1.2161
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3303: IC 3C3   3C2   3C1   2O6    1.5456  112.61 -174.20  108.74   1.3285
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3304: IC 3C3   3C1   *3C2  3H2A   1.5456  112.61 -122.93  108.80   1.1082
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3305: IC 3C3   3C1   *3C2  3H2B   1.5456  112.61  119.99  106.96   1.1108
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3306: IC 3C4   3C3   3C2   3C1    1.5345  112.17  162.24  112.61   1.5289
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3307: IC 3C4   3C2   *3C3  3H3A   1.5345  112.17 -119.22  109.83   1.1157
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3308: IC 3C4   3C2   *3C3  3H3B   1.5345  112.17  122.79  109.97   1.1128
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3309: IC 3C5   3C4   3C3   3C2    1.5351  112.67 -179.25  112.17   1.5456
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3310: IC 3C5   3C3   *3C4  3H4A   1.5351  112.67 -122.27  109.87   1.1125
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3311: IC 3C5   3C3   *3C4  3H4B   1.5351  112.67  120.30  108.48   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3312: IC 3C6   3C5   3C4   3C3    1.5351  112.61  169.13  112.67   1.5345
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3313: IC 3C6   3C4   *3C5  3H5A   1.5351  112.61 -120.43  109.05   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3314: IC 3C6   3C4   *3C5  3H5B   1.5351  112.61  122.12  109.25   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3315: IC 3C7   3C6   3C5   3C4    1.5350  112.78  177.74  112.61   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3316: IC 3C7   3C5   *3C6  3H6A   1.5350  112.78 -121.68  109.50   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3317: IC 3C7   3C5   *3C6  3H6B   1.5350  112.78  120.92  108.70   1.1136
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3318: IC 3C8   3C7   3C6   3C5    1.5350  112.61  173.60  112.78   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3319: IC 3C8   3C6   *3C7  3H7A   1.5350  112.61 -120.95  109.29   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3320: IC 3C8   3C6   *3C7  3H7B   1.5350  112.61  121.61  109.00   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3321: IC 3C9   3C8   3C7   3C6    1.5351  112.78  175.59  112.61   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3322: IC 3C9   3C7   *3C8  3H8A   1.5351  112.78 -121.18  109.23   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3323: IC 3C9   3C7   *3C8  3H8B   1.5351  112.78  121.43  108.90   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3324: IC 3C10  3C8   *3C9  3H9A   1.5350  112.59 -121.18  109.34   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3325: IC 3C10  3C8   *3C9  3H9B   1.5350  112.59  121.33  108.89   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3326: IC 3C10  3C9   3C8   3C7    1.5350  112.59  175.58  112.78   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3327: IC 3C11  3C10  3C9   3C8    1.5349  112.82  174.67  112.59   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3328: IC 3C11  3C9   *3C10 3H10A  1.5349  112.82 -120.94  109.04   1.1130
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3329: IC 3C11  3C9   *3C10 3H10B  1.5349  112.82  121.69  109.07   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3330: IC 3C12  3C11  3C10  3C9    1.5351  112.62  178.04  112.82   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3331: IC 3C12  3C10  *3C11 3H11A  1.5351  112.62 -121.42  109.32   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3332: IC 3C12  3C10  *3C11 3H11B  1.5351  112.62  121.14  108.87   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3333: IC 3C13  3C12  3C11  3C10   1.5351  112.74  175.31  112.62   1.5349
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3334: IC 3C13  3C11  *3C12 3H12A  1.5351  112.74 -121.00  109.01   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3335: IC 3C13  3C11  *3C12 3H12B  1.5351  112.74  121.63  109.08   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3336: IC 3C14  3C13  3C12  3C11   1.5352  112.67  178.87  112.74   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3337: IC 3C14  3C12  *3C13 3H13A  1.5352  112.67 -121.43  109.23   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3338: IC 3C14  3C12  *3C13 3H13B  1.5352  112.67  121.13  108.94   1.1133
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3339: IC 3C15  3C14  3C13  3C12   1.5344  112.73  177.62  112.67   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3340: IC 3C15  3C13  *3C14 3H14A  1.5344  112.73 -121.25  109.16   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3341: IC 3C15  3C13  *3C14 3H14B  1.5344  112.73  121.38  109.06   1.1130
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3342: IC 3C16  3C15  3C14  3C13   1.5311  113.43  178.91  112.73   1.5352
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3343: IC 3C16  3C14  *3C15 3H15A  1.5311  113.43 -121.72  108.80   1.1140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3344: IC 3C16  3C14  *3C15 3H15B  1.5311  113.43  121.62  108.67   1.1140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3345: IC 3H16A 3C16  3C15  3C14   1.1112  110.45  -60.59  113.43   1.5344
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3346: IC 3H16A 3C15  *3C16 3H16B  1.1112  110.45  119.92  110.52   1.1113
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3347: IC 3H16A 3C15  *3C16 3H16C  1.1112  110.45 -120.01  110.58   1.1113
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3351: IC C5    C4    C3    2O1    1.5166  113.26 -171.46  110.24   1.4231
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3405: IC C1    C2    C3    2O1    1.5363  111.64  174.02  107.64   1.4231
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3408: IC C2    C3    2O1   2C1    1.5358  107.64  162.15  113.82   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3409: IC C2    2O1   *C3   C4     1.5358  107.64  119.97  110.24   1.5466
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3410: IC C2    2O1   *C3   H3     1.5358  107.64 -118.31  110.53   1.1152
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3444: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3445: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3446: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3447: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3448: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3449: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3453: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3454: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3455: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3456: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3458: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3459: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3460: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3461: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3463: ATOM 2C4   CC3161    0.140
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3464: ATOM 2H4   HCA1      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3465: ATOM 2O4   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3466: ATOM 2HO4  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3468: ATOM 2C6   CC321     0.080  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3469: ATOM 2H61  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3470: ATOM 2H62  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3471: ATOM 2O6   OSL      -0.490  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3472: ATOM 3C1   CL        0.90   !           O1=C1
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3473: ATOM 3O1   OBL      -0.63   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3474: ATOM 3C2   CTL2     -0.22   !          H2A-C2-H2B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3475: ATOM 3H2A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3476: ATOM 3H2B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3478: ATOM 3C3   CTL2     -0.18   !          H3A-C3-H3B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3479: ATOM 3H3A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3480: ATOM 3H3B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3482: ATOM 3C4   CTL2     -0.18   !          H4A-C4-H4B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3483: ATOM 3H4A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3484: ATOM 3H4B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3486: ATOM 3C5   CTL2     -0.18   !          H5A-C5-H5B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3487: ATOM 3H5A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3488: ATOM 3H5B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3490: ATOM 3C6   CTL2     -0.18   !          H6A-C6-H6B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3491: ATOM 3H6A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3492: ATOM 3H6B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3494: ATOM 3C7   CTL2     -0.18   !          H7A-C7-H7B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3495: ATOM 3H7A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3496: ATOM 3H7B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3498: ATOM 3C8   CTL2     -0.18   !          H8A-C8-H8B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3499: ATOM 3H8A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3500: ATOM 3H8B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3502: ATOM 3C9   CTL2     -0.18   !          H9A-C9-H9B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3503: ATOM 3H9A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3504: ATOM 3H9B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3506: ATOM 3C10  CTL2     -0.18   !         H10A-C10-H10B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3507: ATOM 3H10A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3508: ATOM 3H10B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3510: ATOM 3C11  CTL2     -0.18   !         H11A-C11-H11B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3511: ATOM 3H11A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3512: ATOM 3H11B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3514: ATOM 3C12  CTL2     -0.18   !         H12A-C12-H12B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3515: ATOM 3H12A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3516: ATOM 3H12B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3518: ATOM 3C13  CTL2     -0.18   !         H13A-C13-H13B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3519: ATOM 3H13A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3520: ATOM 3H13B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3522: ATOM 3C14  CTL2     -0.18   !         H14A-C14-H14B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3523: ATOM 3H14A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3524: ATOM 3H14B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3526: ATOM 3C15  CTL2     -0.18   !         H15A-C15-H15B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3527: ATOM 3H15A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3528: ATOM 3H15B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3530: ATOM 3C16  CTL3     -0.27   !         H16A-C16-H16B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3531: ATOM 3H16A HAL3      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3532: ATOM 3H16B HAL3      0.09   !             H16C
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3533: ATOM 3H16C HAL3      0.09   !
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3640: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3640: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3641: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3641: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3642: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3642: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3642: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3642: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3643: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3643: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3643: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3643: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3644: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3644: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3644: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3644: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3645: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3645: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3645: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3646: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3646: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3646: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3648: BOND 2O6 3C1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3649: DOUBLE  3C1  3O1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3650: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3650: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3650: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3651: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3651: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3651: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3652: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3652: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3652: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3653: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3653: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3653: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3654: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3654: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3654: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3655: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3655: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3655: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3656: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3656: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3656: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3657: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3657: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3657: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3658: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3658: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3658: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3659: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3659: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3659: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3660: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3660: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3660: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3661: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3661: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3661: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3662: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3662: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3662: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3663: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3663: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3663: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3664: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3664: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3664: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3664: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse improper statement.  Line 3665: IMPR 3C1 3O1 2O6 3C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 3670: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3707: IC 2C1   2O5   2C5   2C4    1.4333  111.87   64.85  108.37   1.5212
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3708: IC 2C1   2C2   2C3   2O3    1.5154  110.06 -179.07  111.39   1.4264
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3709: IC 2O1   2C1   2C2   2O2    1.4070  105.81  -57.17  111.99   1.4313
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3710: IC 2C5   2O5   2C1   2O1    1.4374  111.87  178.93  111.47   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3711: IC 2C5   2C4   2C3   2C2    1.5212  109.91   54.21  109.78   1.5144
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3712: IC 2O5   2O1   *2C1  2C2    1.4333  111.47 -116.75  105.81   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3713: IC 2O5   2O1   *2C1  2H1    1.4333  111.47  124.44  110.98   1.1125
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3714: IC 2O5   2C4   *2C5  2C6    1.4374  108.37 -120.77  112.58   1.5197
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3715: IC 2O5   2C4   *2C5  2H5    1.4374  108.37  118.74  108.49   1.1151
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3716: IC C3    2O1   2C1   2O5    1.4243  113.84  -63.36  111.47   1.4333
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3718: IC 2C2   2C1   2O1   C3     1.5154  105.81  179.88  113.84   1.4243
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3719: IC 2C2   2C1   2O5   2C5    1.5154  107.66  -65.45  111.87   1.4374
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3720: IC 2C2   2C3   2C4   2O4    1.5144  109.78  177.03  111.14   1.4202
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3721: IC 2O2   2C1   *2C2  2C3    1.4313  111.99 -124.11  110.06   1.5144
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3722: IC 2O2   2C1   *2C2  2H2    1.4313  111.99  118.11  107.68   1.1179
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3723: IC 2HO2  2O2   2C2   2C1    0.9659  108.11   58.58  111.99   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3724: IC 2C3   2C2   2C1   2O1    1.5144  110.06  178.72  105.81   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3725: IC 2C3   2C4   2C5   2O5    1.5129  109.91  -57.76  108.37   1.4374
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3726: IC 2O3   2C2   *2C3  2C4    1.4264  111.39  123.80  109.78   1.5129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3727: IC 2O3   2C2   *2C3  2H3    1.4264  111.39 -118.02  108.26   1.1181
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3728: IC 2HO3  2O3   2C3   2C2    0.9672  106.70  -44.89  111.39   1.5144
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3729: IC 2C4   2C3   2C2   2C1    1.5129  109.78  -55.27  110.06   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3730: IC 2O4   2C3   *2C4  2C5    1.4202  111.14 -122.82  109.91   1.5212
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3731: IC 2O4   2C3   *2C4  2H4    1.4202  111.14  118.69  108.66   1.1168
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3732: IC 2HO4  2O4   2C4   2C3    0.9669  106.68   43.78  111.14   1.5129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3733: IC 2C6   2C5   2C4   2C3    1.5197  112.58 -178.53  109.91   1.5129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3734: IC 2O6   2C6   2C5   2C4    1.4297  112.49  172.99  112.58   1.5212
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3735: IC 2O6   2C5   *2C6  2H61   1.4297  112.49  124.99  110.35   1.1164
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3736: IC 2O6   2C5   *2C6  2H62   1.4297  112.49 -118.91  107.95   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3737: IC 3C1   2O6   2C6   2C5    1.3273  115.94   75.08  112.49   1.5197
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3738: IC 3C2   3C1   2O6   2C6    1.5278  108.93  174.68  115.94   1.4297
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3739: IC 3C2   2O6   *3C1  3O1    1.5278  108.93 -179.43  125.81   1.2167
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3740: IC 3C3   3C2   3C1   2O6    1.5442  111.94 -168.58  108.93   1.3273
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3741: IC 3C3   3C1   *3C2  3H2A   1.5442  111.94 -122.09  108.47   1.1087
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3742: IC 3C3   3C1   *3C2  3H2B   1.5442  111.94  120.39  107.61   1.1104
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3743: IC 3C4   3C3   3C2   3C1    1.5342  112.48  169.88  111.94   1.5278
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3744: IC 3C4   3C2   *3C3  3H3A   1.5342  112.48 -119.79  109.42   1.1156
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3745: IC 3C4   3C2   *3C3  3H3B   1.5342  112.48  122.53  110.02   1.1133
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3746: IC 3C5   3C4   3C3   3C2    1.5344  112.20 -176.10  112.48   1.5442
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3747: IC 3C5   3C3   *3C4  3H4A   1.5344  112.20 -122.07  109.86   1.1126
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3748: IC 3C5   3C3   *3C4  3H4B   1.5344  112.20  120.19  108.79   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3749: IC 3C6   3C5   3C4   3C3    1.5345  113.00  173.24  112.20   1.5342
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3750: IC 3C6   3C4   *3C5  3H5A   1.5345  113.00 -120.45  108.72   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3751: IC 3C6   3C4   *3C5  3H5B   1.5345  113.00  122.31  109.46   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3752: IC 3C7   3C6   3C5   3C4    1.5345  112.13 -177.05  113.00   1.5344
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3753: IC 3C7   3C5   *3C6  3H6A   1.5345  112.13 -121.87  109.57   1.1125
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3754: IC 3C7   3C5   *3C6  3H6B   1.5345  112.13  120.54  108.80   1.1135
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3755: IC 3C8   3C7   3C6   3C5    1.5347  113.20  175.51  112.13   1.5345
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3756: IC 3C8   3C6   *3C7  3H7A   1.5347  113.20 -120.76  108.75   1.1140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3757: IC 3C8   3C6   *3C7  3H7B   1.5347  113.20  122.01  109.27   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3758: IC 3C9   3C8   3C7   3C6    1.5346  111.94 -178.12  113.20   1.5345
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3759: IC 3C9   3C7   *3C8  3H8A   1.5346  111.94 -121.55  109.49   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3760: IC 3C9   3C7   *3C8  3H8B   1.5346  111.94  120.68  109.01   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3761: IC 3C10  3C9   3C8   3C7    1.5348  113.34  177.31  111.94   1.5347
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3762: IC 3C10  3C8   *3C9  3H9A   1.5348  113.34 -121.08  108.79   1.1137
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3763: IC 3C10  3C8   *3C9  3H9B   1.5348  113.34  121.84  109.06   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3764: IC 3C11  3C9   *3C10 3H10A  1.5349  112.02 -121.40  109.40   1.1128
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3765: IC 3C11  3C9   *3C10 3H10B  1.5349  112.02  120.83  109.14   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3766: IC 3C11  3C10  3C9   3C8    1.5349  112.02 -178.87  113.34   1.5346
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3767: IC 3C12  3C11  3C10  3C9    1.5347  113.20  178.47  112.02   1.5348
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3768: IC 3C12  3C10  *3C11 3H11A  1.5347  113.20 -121.18  108.84   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3769: IC 3C12  3C10  *3C11 3H11B  1.5347  113.20  121.70  109.01   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3770: IC 3C13  3C12  3C11  3C10   1.5352  112.25 -178.92  113.20   1.5349
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3771: IC 3C13  3C11  *3C12 3H12A  1.5352  112.25 -121.38  109.25   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3772: IC 3C13  3C11  *3C12 3H12B  1.5352  112.25  120.96  109.08   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3773: IC 3C14  3C13  3C12  3C11   1.5349  112.96  178.84  112.25   1.5347
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3774: IC 3C14  3C12  *3C13 3H13A  1.5349  112.96 -121.19  108.91   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3775: IC 3C14  3C12  *3C13 3H13B  1.5349  112.96  121.56  109.10   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3776: IC 3C15  3C14  3C13  3C12   1.5344  112.53 -178.81  112.96   1.5352
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3777: IC 3C15  3C13  *3C14 3H14A  1.5344  112.53 -121.36  109.23   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3778: IC 3C15  3C13  *3C14 3H14B  1.5344  112.53  121.06  109.09   1.1133
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3779: IC 3C16  3C15  3C14  3C13   1.5310  113.47  179.43  112.53   1.5349
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3780: IC 3C16  3C14  *3C15 3H15A  1.5310  113.47 -121.62  108.63   1.1142
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3781: IC 3C16  3C14  *3C15 3H15B  1.5310  113.47  121.74  108.71   1.1141
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3782: IC 3H16A 3C16  3C15  3C14   1.1113  110.45  -59.78  113.47   1.5344
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3783: IC 3H16A 3C15  *3C16 3H16B  1.1113  110.45  119.91  110.50   1.1112
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3784: IC 3H16A 3C15  *3C16 3H16C  1.1113  110.45 -120.03  110.56   1.1113
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3788: IC C5    C4    C3    2O1    1.5173  113.44 -171.57  109.64   1.4243
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3836: IC C1    C2    C3    2O1    1.5366  111.68  173.89  107.62   1.4243
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3844: IC C2    C3    2O1   2C1    1.5380  107.62  164.09  113.84   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3845: IC C2    2O1   *C3   C4     1.5380  107.62  121.66  109.64   1.5366
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 3846: IC C2    2O1   *C3   H3     1.5380  107.62 -118.15  110.54   1.1151
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3881: ATOM 2C1   CC3162    0.290  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3882: ATOM 2H1   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3883: ATOM 2O1   OC301    -0.360  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3884: ATOM 2C5   CC3163    0.110  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3885: ATOM 2H5   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3886: ATOM 2O5   OC3C61   -0.400  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3890: ATOM 2C2   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3891: ATOM 2H2   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3892: ATOM 2O2   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3893: ATOM 2HO2  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3895: ATOM 2C3   CC3161    0.140  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3896: ATOM 2H3   HCA1      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3897: ATOM 2O3   OC311    -0.650  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3898: ATOM 2HO3  HCP1      0.420  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3900: ATOM 2C4   CC3161    0.140
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3901: ATOM 2H4   HCA1      0.090
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3902: ATOM 2O4   OC311    -0.650
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3903: ATOM 2HO4  HCP1      0.420
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3905: ATOM 2C6   CC321     0.080  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3906: ATOM 2H61  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3907: ATOM 2H62  HCA2      0.090  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3908: ATOM 2O6   OSL      -0.490  !
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3909: ATOM 3C1   CL        0.90   !           O1=C1
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3910: ATOM 3O1   OBL      -0.63   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3911: ATOM 3C2   CTL2     -0.22   !          H2A-C2-H2B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3912: ATOM 3H2A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3913: ATOM 3H2B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3915: ATOM 3C3   CTL2     -0.18   !          H3A-C3-H3B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3916: ATOM 3H3A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3917: ATOM 3H3B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3919: ATOM 3C4   CTL2     -0.18   !          H4A-C4-H4B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3920: ATOM 3H4A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3921: ATOM 3H4B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3923: ATOM 3C5   CTL2     -0.18   !          H5A-C5-H5B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3924: ATOM 3H5A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3925: ATOM 3H5B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3927: ATOM 3C6   CTL2     -0.18   !          H6A-C6-H6B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3928: ATOM 3H6A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3929: ATOM 3H6B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3931: ATOM 3C7   CTL2     -0.18   !          H7A-C7-H7B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3932: ATOM 3H7A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3933: ATOM 3H7B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3935: ATOM 3C8   CTL2     -0.18   !          H8A-C8-H8B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3936: ATOM 3H8A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3937: ATOM 3H8B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3939: ATOM 3C9   CTL2     -0.18   !          H9A-C9-H9B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3940: ATOM 3H9A  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3941: ATOM 3H9B  HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3943: ATOM 3C10  CTL2     -0.18   !         H10A-C10-H10B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3944: ATOM 3H10A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3945: ATOM 3H10B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3947: ATOM 3C11  CTL2     -0.18   !         H11A-C11-H11B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3948: ATOM 3H11A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3949: ATOM 3H11B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3951: ATOM 3C12  CTL2     -0.18   !         H12A-C12-H12B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3952: ATOM 3H12A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3953: ATOM 3H12B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3955: ATOM 3C13  CTL2     -0.18   !         H13A-C13-H13B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3956: ATOM 3H13A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3957: ATOM 3H13B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3959: ATOM 3C14  CTL2     -0.18   !         H14A-C14-H14B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3960: ATOM 3H14A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3961: ATOM 3H14B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3963: ATOM 3C15  CTL2     -0.18   !         H15A-C15-H15B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3964: ATOM 3H15A HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3965: ATOM 3H15B HAL2      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3967: ATOM 3C16  CTL3     -0.27   !         H16A-C16-H16B
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3968: ATOM 3H16A HAL3      0.09   !               |
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3969: ATOM 3H16B HAL3      0.09   !             H16C
+
+psfgen) ERROR!  Failed to parse atom statement.  Line 3970: ATOM 3H16C HAL3      0.09   !
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4073: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4073: BOND 2C1   2O1        2C1   2H1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4074: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4074: BOND 2C1   2O5        2C1   2C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4075: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4075: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4075: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4075: BOND 2C2   2H2        2C2   2O2        2O2   2HO2       2C2   2C3        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4076: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4076: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4076: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4076: BOND 2C3   2H3        2C3   2O3        2O3   2HO3       2C3   2C4        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4077: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4077: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4077: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4077: BOND 2C4   2H4        2C4   2O4        2O4   2HO4       2C4   2C5        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4078: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4078: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4078: BOND 2C5   2H5        2C5   2O5        2C5   2C6        
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4079: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4079: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4079: BOND 2C6   2H61       2C6   2H62       2C6   2O6
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4081: BOND 2O6 3C1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4082: DOUBLE  3C1  3O1
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4083: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4083: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4083: BOND  3C1  3C2  3C2  3H2A  3C2  3H2B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4084: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4084: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4084: BOND  3C2  3C3  3C3  3H3A  3C3  3H3B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4085: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4085: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4085: BOND  3C3  3C4  3C4  3H4A  3C4  3H4B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4086: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4086: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4086: BOND  3C4  3C5  3C5  3H5A  3C5  3H5B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4087: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4087: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4087: BOND  3C5  3C6  3C6  3H6A  3C6  3H6B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4088: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4088: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4088: BOND  3C6  3C7  3C7  3H7A  3C7  3H7B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4089: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4089: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4089: BOND  3C7  3C8  3C8  3H8A  3C8  3H8B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4090: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4090: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4090: BOND  3C8  3C9  3C9  3H9A  3C9  3H9B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4091: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4091: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4091: BOND  3C9  3C10 3C10 3H10A 3C10 3H10B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4092: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4092: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4092: BOND  3C10 3C11 3C11 3H11A 3C11 3H11B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4093: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4093: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4093: BOND  3C11 3C12 3C12 3H12A 3C12 3H12B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4094: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4094: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4094: BOND  3C12 3C13 3C13 3H13A 3C13 3H13B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4095: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4095: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4095: BOND  3C13 3C14 3C14 3H14A 3C14 3H14B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4096: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4096: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4096: BOND  3C14 3C15 3C15 3H15A 3C15 3H15B
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4097: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4097: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4097: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4097: BOND  3C15 3C16 3C16 3H16A 3C16 3H16B 3C16 3H16C
+
+psfgen) ERROR!  Failed to parse improper statement.  Line 4098: IMPR 3C1 3O1 2O6 3C2
+
+psfgen) ERROR!  Failed to parse bond statement.  Line 4102: BOND C3 2O1 C3 H3
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4138: IC 2C1   2O5   2C5   2C4    1.4341  111.89   64.59  108.72   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4139: IC 2C1   2C2   2C3   2O3    1.5153  110.09 -178.96  111.37   1.4265
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4140: IC 2O1   2C1   2C2   2O2    1.4070  105.97  -56.82  111.92   1.4311
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4141: IC 2C5   2O5   2C1   2O1    1.4397  111.89  178.50  111.52   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4142: IC 2C5   2C4   2C3   2C2    1.5215  110.07   53.14  110.13   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4143: IC 2O5   2O1   *2C1  2C2    1.4341  111.52 -116.60  105.97   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4144: IC 2O5   2O1   *2C1  2H1    1.4341  111.52  124.45  110.84   1.1126
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4145: IC 2O5   2C4   *2C5  2C6    1.4397  108.72 -120.21  113.26   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4146: IC 2O5   2C4   *2C5  2H5    1.4397  108.72  119.57  109.05   1.1170
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4147: IC C3    2O1   2C1   2O5    1.4244  114.96  -69.02  111.52   1.4341
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4149: IC 2C2   2C1   2O1   C3     1.5153  105.97  174.38  114.96   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4150: IC 2C2   2C1   2O5   2C5    1.5153  107.43  -65.79  111.89   1.4397
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4151: IC 2C2   2C3   2C4   2O4    1.5154  110.13  175.99  111.06   1.4207
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4152: IC 2O2   2C1   *2C2  2C3    1.4311  111.92 -124.07  110.09   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4153: IC 2O2   2C1   *2C2  2H2    1.4311  111.92  118.14  107.73   1.1180
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4154: IC 2HO2  2O2   2C2   2C1    0.9665  108.23   58.40  111.92   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4155: IC 2C3   2C2   2C1   2O1    1.5154  110.09  179.11  105.97   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4156: IC 2C3   2C4   2C5   2O5    1.5142  110.07  -56.65  108.72   1.4397
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4157: IC 2O3   2C2   *2C3  2C4    1.4265  111.37  123.92  110.13   1.5142
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4158: IC 2O3   2C2   *2C3  2H3    1.4265  111.37 -117.88  108.11   1.1180
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4159: IC 2HO3  2O3   2C3   2C2    0.9671  106.80  -45.84  111.37   1.5154
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4160: IC 2C4   2C3   2C2   2C1    1.5142  110.13  -55.04  110.09   1.5153
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4161: IC 2O4   2C3   *2C4  2C5    1.4207  111.06 -122.85  110.07   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4162: IC 2O4   2C3   *2C4  2H4    1.4207  111.06  118.74  108.65   1.1169
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4163: IC 2HO4  2O4   2C4   2C3    0.9667  106.88   47.66  111.06   1.5142
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4164: IC 2C6   2C5   2C4   2C3    1.5134  113.26 -176.86  110.07   1.5142
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4165: IC 2O6   2C6   2C5   2C4    1.4290  111.28 -179.49  113.26   1.5215
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4166: IC 2O6   2C5   *2C6  2H61   1.4290  111.28  119.99  109.90   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4167: IC 2O6   2C5   *2C6  2H62   1.4290  111.28 -121.36  110.08   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4168: IC 3C1   2O6   2C6   2C5    1.3285  115.99   76.33  111.28   1.5134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4169: IC 3C2   2O6   *3C1  3O1    1.5289  108.74 -178.93  125.84   1.2161
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4170: IC 3C2   3C1   2O6   2C6    1.5289  108.74  168.17  115.99   1.4290
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4171: IC 3C3   3C2   3C1   2O6    1.5456  112.61 -174.20  108.74   1.3285
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4172: IC 3C3   3C1   *3C2  3H2A   1.5456  112.61 -122.93  108.80   1.1082
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4173: IC 3C3   3C1   *3C2  3H2B   1.5456  112.61  119.99  106.96   1.1108
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4174: IC 3C4   3C3   3C2   3C1    1.5345  112.17  162.24  112.61   1.5289
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4175: IC 3C4   3C2   *3C3  3H3A   1.5345  112.17 -119.22  109.83   1.1157
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4176: IC 3C4   3C2   *3C3  3H3B   1.5345  112.17  122.79  109.97   1.1128
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4177: IC 3C5   3C4   3C3   3C2    1.5351  112.67 -179.25  112.17   1.5456
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4178: IC 3C5   3C3   *3C4  3H4A   1.5351  112.67 -122.27  109.87   1.1125
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4179: IC 3C5   3C3   *3C4  3H4B   1.5351  112.67  120.30  108.48   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4180: IC 3C6   3C5   3C4   3C3    1.5351  112.61  169.13  112.67   1.5345
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4181: IC 3C6   3C4   *3C5  3H5A   1.5351  112.61 -120.43  109.05   1.1139
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4182: IC 3C6   3C4   *3C5  3H5B   1.5351  112.61  122.12  109.25   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4183: IC 3C7   3C6   3C5   3C4    1.5350  112.78  177.74  112.61   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4184: IC 3C7   3C5   *3C6  3H6A   1.5350  112.78 -121.68  109.50   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4185: IC 3C7   3C5   *3C6  3H6B   1.5350  112.78  120.92  108.70   1.1136
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4186: IC 3C8   3C6   *3C7  3H7A   1.5350  112.61 -120.95  109.29   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4187: IC 3C8   3C7   3C6   3C5    1.5350  112.61  173.60  112.78   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4188: IC 3C8   3C6   *3C7  3H7B   1.5350  112.61  121.61  109.00   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4189: IC 3C9   3C8   3C7   3C6    1.5351  112.78  175.59  112.61   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4190: IC 3C9   3C7   *3C8  3H8A   1.5351  112.78 -121.18  109.23   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4191: IC 3C9   3C7   *3C8  3H8B   1.5351  112.78  121.43  108.90   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4192: IC 3C10  3C8   *3C9  3H9A   1.5350  112.59 -121.18  109.34   1.1129
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4193: IC 3C10  3C8   *3C9  3H9B   1.5350  112.59  121.33  108.89   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4194: IC 3C10  3C9   3C8   3C7    1.5350  112.59  175.58  112.78   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4195: IC 3C11  3C9   *3C10 3H10A  1.5349  112.82 -120.94  109.04   1.1130
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4196: IC 3C11  3C9   *3C10 3H10B  1.5349  112.82  121.69  109.07   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4197: IC 3C11  3C10  3C9   3C8    1.5349  112.82  174.67  112.59   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4198: IC 3C12  3C11  3C10  3C9    1.5351  112.62  178.04  112.82   1.5350
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4199: IC 3C12  3C10  *3C11 3H11A  1.5351  112.62 -121.42  109.32   1.1127
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4200: IC 3C12  3C10  *3C11 3H11B  1.5351  112.62  121.14  108.87   1.1134
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4201: IC 3C13  3C11  *3C12 3H12A  1.5351  112.74 -121.00  109.01   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4202: IC 3C13  3C12  3C11  3C10   1.5351  112.74  175.31  112.62   1.5349
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4203: IC 3C13  3C11  *3C12 3H12B  1.5351  112.74  121.63  109.08   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4204: IC 3C14  3C12  *3C13 3H13B  1.5352  112.67  121.13  108.94   1.1133
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4205: IC 3C14  3C13  3C12  3C11   1.5352  112.67  178.87  112.74   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4206: IC 3C14  3C12  *3C13 3H13A  1.5352  112.67 -121.43  109.23   1.1131
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4207: IC 3C15  3C13  *3C14 3H14A  1.5344  112.73 -121.25  109.16   1.1132
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4208: IC 3C15  3C13  *3C14 3H14B  1.5344  112.73  121.38  109.06   1.1130
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4209: IC 3C15  3C14  3C13  3C12   1.5344  112.73  177.62  112.67   1.5351
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4210: IC 3C16  3C15  3C14  3C13   1.5311  113.43  178.91  112.73   1.5352
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4211: IC 3C16  3C14  *3C15 3H15A  1.5311  113.43 -121.72  108.80   1.1140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4212: IC 3C16  3C14  *3C15 3H15B  1.5311  113.43  121.62  108.67   1.1140
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4213: IC 3H16A 3C15  *3C16 3H16B  1.1112  110.45  119.92  110.52   1.1113
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4214: IC 3H16A 3C16  3C15  3C14   1.1112  110.45  -60.59  113.43   1.5344
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4215: IC 3H16A 3C15  *3C16 3H16C  1.1112  110.45 -120.01  110.58   1.1113
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4217: IC C5    C4    C3    2O1    1.5177  112.54 -174.15  110.69   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4266: IC C1    C2    C3    2O1    1.5365  111.20  176.65  107.90   1.4244
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4274: IC C2    C3    2O1   2C1    1.5352  107.90  159.76  114.96   1.4070
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4275: IC C2    2O1   *C3   C4     1.5352  107.90  119.98  110.69   1.5453
+
+psfgen) ERROR!  Failed to parse internal coordinate statement.  Line 4276: IC C2    2O1   *C3   H3     1.5352  107.90 -118.16  110.44   1.1147
+
+psfgen) skipping parameters in stream file
+psfgen)  cholesterol parameters
+psfgen) 
+psfgen) skipping statements at end of file due to end or return statement
+psfgen) reading topology file C:/TRKB_WP2/ligand_bound_MD/cgenff_parameterization/returned_str/L004_9.2.str
+
+psfgen)  Toppar stream file generated by
+psfgen)  CHARMM General Force Field (CGenFF) program version 4.0
+psfgen)  For use with CGenFF topology and parameter files version 5.0
+psfgen) 
+psfgen) reading topology from stream file
+psfgen)  Topologies generated by
+psfgen)  CHARMM General Force Field (CGenFF) program version 4.0
+psfgen)  For use with CGenFF topology and parameter files version 5.0
+psfgen) 
+psfgen) Created by CHARMM version 36 1
+psfgen) skipping parameters in stream file
+psfgen)  Parameters generated by analogy by
+psfgen)  CHARMM General Force Field (CGenFF) program version 4.0
+psfgen)  For use with CGenFF topology and parameter files version 5.0
+psfgen) 
+psfgen) reading structure from psf file C:/TRKB_WP2/TRKB_20CHOL/step5_assembly.psf
+psfgen) reading coordinates, insertion codes, and element symbols from pdb file C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_psfgen_ready_apo.pdb
+psfgen) building segment LIG
+psfgen) setting patch for first residue to NONE
+psfgen) setting patch for last residue to NONE
+Info: generating structure...
+segment complete.
+psfgen) reading coordinates from pdb file C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/L004_9.2_20chol_psfgen_ready.pdb for segment LIG
+psfgen) Info: guessing coordinates for 0 atoms (0 non-hydrogen)
+psfgen) Info: writing psf file C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.psf
+psfgen) total of 52401 atoms
+psfgen) total of 52318 bonds
+psfgen) total of 49019 angles
+psfgen) total of 54441 dihedrals
+psfgen) total of 459 impropers
+psfgen) total of 0 explicit exclusions
+psfgen) Structure requires EXTended PSF format
+psfgen) total of 86 cross-terms
+psfgen) Info: psf file complete.
+psfgen) Info: writing pdb file C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.pdb
+psfgen) Info: pdb file complete.
+Wrote ligand-bound PSF: C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.psf
+Wrote ligand-bound PDB: C:/TRKB_WP2/ligand_bound_MD/pilot_build/9.2_20chol/outputs/TRKB_20chol_L004_9.2_bound.pdb
+Info) VMD for WIN64, version 2.0.0a7 (August 1, 2025)
+Info) Exiting normally.
+vmd > 
